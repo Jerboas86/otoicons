@@ -1,0 +1,325 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 811 1437" width="811" height="1437" font-family="Helvetica, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<title>Símbolos audiométricos</title>
+<metadata>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#">
+<cc:Work rdf:about=""><dc:title>Símbolos audiométricos</dc:title><dc:creator>Benoit Delemps</dc:creator><dc:date>2026</dc:date><cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/></cc:Work>
+</rdf:RDF>
+</metadata>
+<rect width="811" height="1437" fill="#ffffff"/>
+<g stroke-width="1.4">
+<text x="20" y="38" font-size="17" font-weight="700" fill="#1f2328">Símbolos audiométricos</text>
+<line x1="20" x2="791" y1="84" y2="84" stroke="#1f2328"/>
+<text x="28" y="72" font-size="12" font-weight="700" fill="#1f2328">MODALIDADE</text>
+<text x="451" y="72" font-size="12" font-weight="700" fill="#396dc7" text-anchor="middle">Esquerdo</text>
+<line x1="383" x2="383" y1="50" y2="84" stroke="#1f2328" stroke-width="0.8"/>
+<text x="587" y="72" font-size="12" font-weight="700" fill="#0a8040" text-anchor="middle">Não especificado</text>
+<line x1="519" x2="519" y1="50" y2="84" stroke="#1f2328" stroke-width="0.8"/>
+<text x="723" y="72" font-size="12" font-weight="700" fill="#c74031" text-anchor="middle">Direito</text>
+<line x1="655" x2="655" y1="50" y2="84" stroke="#1f2328" stroke-width="0.8"/>
+<rect x="20" y="84" width="771" height="40" fill="#eef0f2"/>
+<text x="28" y="109" font-size="13" font-weight="700" fill="#1f2328">ASHA 1990 — resposta</text>
+<line x1="20" x2="791" y1="124" y2="124" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="142" font-size="11.5" font-weight="700" fill="#1f2328">VIA AÉREA — AUSCULTADORES</text>
+<line x1="20" x2="791" y1="150" y2="150" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="172" font-size="12" fill="#1f2328">Sem mascaramento</text>
+<line x1="383" x2="383" y1="150" y2="186" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="150" y2="186" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="150" y2="186" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="150" y2="186" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 166) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/></g></g>
+<line x1="587" x2="587" y1="150" y2="186" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="723" x2="723" y1="150" y2="186" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 166) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/></g></g>
+<line x1="20" x2="791" y1="186" y2="186" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="208" font-size="12" fill="#1f2328">Com mascaramento</text>
+<line x1="383" x2="383" y1="186" y2="222" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="186" y2="222" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="186" y2="222" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="186" y2="222" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 202) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5.5-5.5H5.5V5.5H-5.5Z" fill="#ffffff"/></g></g>
+<line x1="587" x2="587" y1="186" y2="222" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="723" x2="723" y1="186" y2="222" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 202) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-6L6 5H-6Z" fill="#ffffff"/></g></g>
+<line x1="20" x2="791" y1="222" y2="222" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="240" font-size="11.5" font-weight="700" fill="#1f2328">VIA ÓSSEA — MASTOIDE</text>
+<line x1="20" x2="791" y1="248" y2="248" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="270" font-size="12" fill="#1f2328">Sem mascaramento</text>
+<line x1="383" x2="383" y1="248" y2="284" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="248" y2="284" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="248" y2="284" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="248" y2="284" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 264) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-6L9 0L3 6"/></g></g>
+<line x1="587" x2="587" y1="248" y2="284" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 264) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 4L0-4L6 4"/></g></g>
+<line x1="723" x2="723" y1="248" y2="284" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 264) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-6L-9 0L-3 6"/></g></g>
+<line x1="20" x2="791" y1="284" y2="284" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="306" font-size="12" fill="#1f2328">Com mascaramento</text>
+<line x1="383" x2="383" y1="284" y2="320" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="284" y2="320" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="284" y2="320" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="284" y2="320" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 300) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-7H8V7H3"/></g></g>
+<line x1="587" x2="587" y1="284" y2="320" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="723" x2="723" y1="284" y2="320" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 300) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-7H-8V7H-3"/></g></g>
+<line x1="20" x2="791" y1="320" y2="320" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="338" font-size="11.5" font-weight="700" fill="#1f2328">VIA ÓSSEA — FRONTE</text>
+<line x1="20" x2="791" y1="346" y2="346" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="368" font-size="12" fill="#1f2328">Sem mascaramento</text>
+<line x1="383" x2="383" y1="346" y2="382" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="346" y2="382" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="346" y2="382" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="346" y2="382" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="587" x2="587" y1="346" y2="382" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 362) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6-4L0 4L6-4"/></g></g>
+<line x1="723" x2="723" y1="346" y2="382" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="20" x2="791" y1="382" y2="382" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="404" font-size="12" fill="#1f2328">Com mascaramento</text>
+<line x1="383" x2="383" y1="382" y2="418" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="382" y2="418" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="382" y2="418" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="382" y2="418" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 398) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3V-7H9"/></g></g>
+<line x1="587" x2="587" y1="382" y2="418" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="723" x2="723" y1="382" y2="418" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 398) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-9-7H-3V3"/></g></g>
+<line x1="20" x2="791" y1="418" y2="418" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="436" font-size="11.5" font-weight="700" fill="#1f2328">VIA AÉREA — CAMPO LIVRE</text>
+<line x1="20" x2="791" y1="444" y2="444" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="466" font-size="12" fill="#1f2328">Sem aparelho</text>
+<line x1="383" x2="383" y1="444" y2="480" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="444" y2="480" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="444" y2="480" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="444" y2="480" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 460) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/></g></g>
+<line x1="587" x2="587" y1="444" y2="480" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 460) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/></g></g>
+<line x1="723" x2="723" y1="444" y2="480" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 460) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#ffffff"/></g></g>
+<line x1="20" x2="791" y1="480" y2="480" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="498" font-size="11.5" font-weight="700" fill="#1f2328">LIMIAR DO REFLEXO ESTAPÉDICO</text>
+<line x1="20" x2="791" y1="506" y2="506" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="528" font-size="12" fill="#1f2328">Contralateral</text>
+<line x1="383" x2="383" y1="506" y2="542" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="506" y2="542" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="506" y2="542" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="506" y2="542" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 522) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-5A5 5 0 0 1 3 5M8 0H12"/></g></g>
+<line x1="587" x2="587" y1="506" y2="542" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="723" x2="723" y1="506" y2="542" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 522) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-5A5 5 0 0 0-3 5M-8 0H-12"/></g></g>
+<line x1="20" x2="791" y1="542" y2="542" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="564" font-size="12" fill="#1f2328">Ipsilateral</text>
+<line x1="383" x2="383" y1="542" y2="578" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="542" y2="578" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="542" y2="578" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="542" y2="578" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 558) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-5V5M3 0H11"/></g></g>
+<line x1="587" x2="587" y1="542" y2="578" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="723" x2="723" y1="542" y2="578" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 558) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-5V5M-3 0H-11"/></g></g>
+<line x1="20" x2="791" y1="578" y2="578" stroke="#9aa0a6" stroke-width="0.6"/>
+<rect x="20" y="578" width="771" height="56" fill="#eef0f2"/>
+<text x="28" y="603" font-size="13" font-weight="700" fill="#1f2328">Extensão do sistema ASHA 1990</text>
+<text x="28" y="619" font-size="10.5" font-style="italic" fill="#1f2328">Coluna = lado estimulado. Índice: D/E só aparelho direito/esquerdo ou lado do recetor; M transmissor CROS contralateral</text>
+<line x1="20" x2="791" y1="634" y2="634" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="656" font-size="12" fill="#1f2328">Auscultadores, apresentação diótica</text>
+<line x1="383" x2="383" y1="634" y2="670" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="634" y2="670" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="634" y2="670" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="634" y2="670" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="587" x2="587" y1="634" y2="670" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 650) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text></g></g>
+<line x1="723" x2="723" y1="634" y2="670" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="20" x2="791" y1="670" y2="670" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="692" font-size="12" fill="#1f2328">Limiar em campo livre, ambos os aparelhos</text>
+<line x1="383" x2="383" y1="670" y2="706" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="670" y2="706" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="670" y2="706" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="670" y2="706" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 686) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
+<line x1="587" x2="587" y1="670" y2="706" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 686) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
+<line x1="723" x2="723" y1="670" y2="706" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 686) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
+<line x1="20" x2="791" y1="706" y2="706" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="728" font-size="12" fill="#1f2328">Limiar em campo livre, só aparelho direito</text>
+<line x1="383" x2="383" y1="706" y2="742" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="706" y2="742" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="706" y2="742" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="706" y2="742" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 722) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text></g></g>
+<line x1="587" x2="587" y1="706" y2="742" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 722) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text></g></g>
+<line x1="723" x2="723" y1="706" y2="742" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 722) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text></g></g>
+<line x1="20" x2="791" y1="742" y2="742" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="764" font-size="12" fill="#1f2328">Limiar em campo livre, só aparelho esquerdo</text>
+<line x1="383" x2="383" y1="742" y2="778" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="742" y2="778" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="742" y2="778" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="742" y2="778" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 758) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">E</text></g></g>
+<line x1="587" x2="587" y1="742" y2="778" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 758) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">E</text></g></g>
+<line x1="723" x2="723" y1="742" y2="778" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 758) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">E</text></g></g>
+<line x1="20" x2="791" y1="778" y2="778" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="800" font-size="12" fill="#1f2328">Limiar em campo livre, CROS/BiCROS, recetor direito</text>
+<line x1="383" x2="383" y1="778" y2="814" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="778" y2="814" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="778" y2="814" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="778" y2="814" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 794) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text></g></g>
+<line x1="587" x2="587" y1="778" y2="814" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 794) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text></g></g>
+<line x1="723" x2="723" y1="778" y2="814" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 794) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text></g></g>
+<line x1="20" x2="791" y1="814" y2="814" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="836" font-size="12" fill="#1f2328">Limiar em campo livre, CROS/BiCROS, recetor esquerdo</text>
+<line x1="383" x2="383" y1="814" y2="850" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="814" y2="850" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="814" y2="850" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="814" y2="850" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 830) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">EM</text></g></g>
+<line x1="587" x2="587" y1="814" y2="850" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 830) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">EM</text></g></g>
+<line x1="723" x2="723" y1="814" y2="850" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 830) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">EM</text></g></g>
+<line x1="20" x2="791" y1="850" y2="850" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="872" font-size="12" fill="#1f2328">Nível mais confortável (MCL)</text>
+<line x1="383" x2="383" y1="850" y2="886" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="850" y2="886" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="850" y2="886" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="850" y2="886" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 866) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
+<line x1="587" x2="587" y1="850" y2="886" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 866) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
+<line x1="723" x2="723" y1="850" y2="886" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 866) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
+<line x1="20" x2="791" y1="886" y2="886" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="908" font-size="12" fill="#1f2328">MCL com aparelho(s)</text>
+<line x1="383" x2="383" y1="886" y2="922" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="886" y2="922" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="886" y2="922" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="886" y2="922" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 902) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
+<line x1="587" x2="587" y1="886" y2="922" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 902) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
+<line x1="723" x2="723" y1="886" y2="922" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 902) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
+<line x1="20" x2="791" y1="922" y2="922" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="944" font-size="12" fill="#1f2328">Limiar de desconforto (UCL)</text>
+<line x1="383" x2="383" y1="922" y2="958" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="922" y2="958" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="922" y2="958" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="922" y2="958" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 938) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
+<line x1="587" x2="587" y1="922" y2="958" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 938) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
+<line x1="723" x2="723" y1="922" y2="958" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 938) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
+<line x1="20" x2="791" y1="958" y2="958" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="980" font-size="12" fill="#1f2328">UCL com aparelho(s)</text>
+<line x1="383" x2="383" y1="958" y2="994" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="958" y2="994" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="958" y2="994" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="958" y2="994" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 974) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
+<line x1="587" x2="587" y1="958" y2="994" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 974) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
+<line x1="723" x2="723" y1="958" y2="994" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 974) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
+<line x1="20" x2="791" y1="994" y2="994" stroke="#9aa0a6" stroke-width="0.6"/>
+<rect x="20" y="994" width="771" height="56" fill="#eef0f2"/>
+<text x="28" y="1019" font-size="13" font-weight="700" fill="#1f2328">Sem resposta — exemplos</text>
+<text x="28" y="1035" font-size="10.5" font-style="italic" fill="#1f2328">Seta a 45° para fora; vertical se não lateralizado</text>
+<line x1="20" x2="791" y1="1050" y2="1050" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1072" font-size="12" fill="#1f2328">Auscultadores; via óssea mastoide não especificada</text>
+<line x1="383" x2="383" y1="1050" y2="1086" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="1050" y2="1086" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="1050" y2="1086" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="1050" y2="1086" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 1066) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M5 5L12 12M12 7.5V12H7.5"/></g></g>
+<line x1="587" x2="587" y1="1050" y2="1086" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 1066) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 4L0-4L6 4"/><path d="M0 -4V13M-3.5 9.5L0 13L3.5 9.5"/></g></g>
+<line x1="723" x2="723" y1="1050" y2="1086" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 1066) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-4.24 4.24L-11.24 11.24M-11.24 6.74V11.24H-6.74"/></g></g>
+<line x1="20" x2="791" y1="1086" y2="1086" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1108" font-size="12" fill="#1f2328">Campo livre sem aparelho</text>
+<line x1="383" x2="383" y1="1086" y2="1122" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="1086" y2="1122" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="1086" y2="1122" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="1086" y2="1122" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 1102) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/><path d="M5 5L12 12M12 7.5V12H7.5"/></g></g>
+<line x1="587" x2="587" y1="1086" y2="1122" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 1102) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/><path d="M0.75 6.5V15.5M-2.75 12L0.75 15.5L4.25 12"/></g></g>
+<line x1="723" x2="723" y1="1086" y2="1122" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 1102) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#ffffff"/><path d="M-7 7L-14 14M-14 9.5V14H-9.5"/></g></g>
+<line x1="20" x2="791" y1="1122" y2="1122" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1144" font-size="12" fill="#1f2328">Limiar em campo livre, ambos os aparelhos</text>
+<line x1="383" x2="383" y1="1122" y2="1158" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="1122" y2="1158" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="1122" y2="1158" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="1122" y2="1158" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 1138) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M4.32 4.32L11.32 11.32M11.32 6.82V11.32H6.82"/></g></g>
+<line x1="587" x2="587" y1="1122" y2="1158" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 1138) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
+<line x1="723" x2="723" y1="1122" y2="1158" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 1138) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
+<line x1="20" x2="791" y1="1158" y2="1158" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1180" font-size="12" fill="#1f2328">Limiar em campo livre, só aparelho direito</text>
+<line x1="383" x2="383" y1="1158" y2="1194" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="1158" y2="1194" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="1158" y2="1194" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="1158" y2="1194" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 1174) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text><path d="M9.6768 8.16L16.6768 15.16M16.6768 10.66V15.16H12.1768"/></g></g>
+<line x1="587" x2="587" y1="1158" y2="1194" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 1174) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
+<line x1="723" x2="723" y1="1158" y2="1194" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 1174) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
+<line x1="20" x2="791" y1="1194" y2="1194" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1216" font-size="12" fill="#1f2328">Limiar em campo livre, só aparelho esquerdo</text>
+<line x1="383" x2="383" y1="1194" y2="1230" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="1194" y2="1230" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="1194" y2="1230" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="1194" y2="1230" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 1210) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">E</text><path d="M9.6768 8.16L16.6768 15.16M16.6768 10.66V15.16H12.1768"/></g></g>
+<line x1="587" x2="587" y1="1194" y2="1230" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 1210) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">E</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
+<line x1="723" x2="723" y1="1194" y2="1230" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 1210) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">E</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
+<line x1="20" x2="791" y1="1230" y2="1230" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1252" font-size="12" fill="#1f2328">Limiar em campo livre, CROS/BiCROS, recetor direito</text>
+<line x1="383" x2="383" y1="1230" y2="1266" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="1230" y2="1266" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="1230" y2="1266" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="1230" y2="1266" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 1246) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text><path d="M15.0336 8.16L22.0336 15.16M22.0336 10.66V15.16H17.5336"/></g></g>
+<line x1="587" x2="587" y1="1230" y2="1266" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 1246) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
+<line x1="723" x2="723" y1="1230" y2="1266" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 1246) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
+<line x1="20" x2="791" y1="1266" y2="1266" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1288" font-size="12" fill="#1f2328">Limiar em campo livre, CROS/BiCROS, recetor esquerdo</text>
+<line x1="383" x2="383" y1="1266" y2="1302" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="519" x2="519" y1="1266" y2="1302" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="655" x2="655" y1="1266" y2="1302" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="451" x2="451" y1="1266" y2="1302" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(451 1282) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">EM</text><path d="M15.0336 8.16L22.0336 15.16M22.0336 10.66V15.16H17.5336"/></g></g>
+<line x1="587" x2="587" y1="1266" y2="1302" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(587 1282) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">EM</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
+<line x1="723" x2="723" y1="1266" y2="1302" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(723 1282) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">EM</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
+<line x1="20" x2="791" y1="1302" y2="1302" stroke="#9aa0a6" stroke-width="0.6"/>
+<rect x="20" y="50" width="771" height="1252" fill="none" stroke="#1f2328"/>
+<text x="20" y="1327" font-size="10.5" fill="#1f2328">Formas: ASHA, «Guidelines for Audiometric Symbols» (1990), tabela 1.</text>
+<text x="20" y="1342" font-size="10.5" fill="#1f2328">Para as condições com aparelho, a ASHA pede símbolos definidos localmente, distintos</text>
+<text x="20" y="1357" font-size="10.5" fill="#1f2328">dos outros e explicados no audiograma: é esse o papel da extensão acima.</text>
+<text x="20" y="1372" font-size="10.5" fill="#1f2328">Cores: convenção difundida, não normalizada (vermelho direito, azul esquerdo, verde não lateralizado).</text>
+<text x="20" y="1387" font-size="10.5" fill="#1f2328">Tons ajustados para um contraste constante de 5:1 com o fundo (WCAG).</text>
+<text x="20" y="1402" font-size="10.5" fill="#1f2328">Não aprovado pela ASHA. A licença abrange esta tabela e a extensão, não a norma ASHA.</text>
+<text x="20" y="1417" font-size="10.5" fill="#1f2328">© 2026 Benoit Delemps — CC BY 4.0, https://creativecommons.org/licenses/by/4.0/</text>
+</g>
+</svg>

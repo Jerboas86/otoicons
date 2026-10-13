@@ -1,0 +1,67 @@
+{
+  "name": "otocon",
+  "version": "0.1.0",
+  "description": "Audiometric symbols: ASHA 1990 and an extension for aided measurements, MCL, UCL and CROS, in SVG and PNG",
+  "keywords": [
+    "ASHA",
+    "CROS",
+    "audiogram",
+    "audiology",
+    "audiometry",
+    "hearing aid",
+    "svg",
+    "symbols"
+  ],
+  "homepage": "https://github.com/Jerboas86/otocon#readme",
+  "bugs": {
+    "url": "https://github.com/Jerboas86/otocon/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Benoit Delemps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jerboas86/otocon.git"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/otocon.js",
+  "module": "./dist/otocon.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/otocon.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build && tsc -p tsconfig.build.json",
+    "test:unit": "vitest run",
+    "test": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxfmt --check . && oxlint",
+    "format": "oxfmt --write .",
+    "doc": "pnpm build && node scripts/doc.mjs",
+    "bundle": "pnpm doc && node scripts/bundle.mjs",
+    "prepublishOnly": "pnpm build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "@vitest/coverage-v8": "^4.1.10",
+    "oxfmt": "^0.62.0",
+    "oxlint": "^1.77.0",
+    "sharp": "0.35.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.2.0",
+    "vitest": "^4.1.10"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@11.13.0"
+}

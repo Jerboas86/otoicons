@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "ESM + Strictest",
+  "compilerOptions": {
+    "outDir": "package",
+    "lib": ["es2022", "DOM", "ESNext", "dom.iterable"],
+    "module": "ESNext",
+    "target": "ES2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "bundler",
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "verbatimModuleSyntax": true,
+    "checkJs": true,
+    "noErrorTruncation": true
+  },
+  "include": ["lib/**/*", "vite.config.js", "vitest.config.js"],
+  "exclude": ["node_modules", "**/*.test.ts", "**/*.spec.ts"]
+}
