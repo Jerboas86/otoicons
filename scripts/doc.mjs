@@ -557,13 +557,13 @@ const features = (body, t, theme, y, W) => {
   return y + h + 14;
 };
 
-const render = (t, theme, extended) => {
-  const ROWS = rows(t);
-  const COL_W = Math.ceil(
+/** Width of the label column and of the three side columns. */
+const layout = (t, rows, extended) => {
+  const colW = Math.ceil(
     Math.max(70, max(Object.values(t.headers).map((h) => textWidth(h, 12, "bold"))) + 24),
   );
   const labelWidth = max(
-    ROWS.map((row) =>
+    rows.map((row) =>
       row.kind === "group"
         ? 8 + textWidth(row.label, 11.5, "caps")
         : row.kind === "symbols"
@@ -573,7 +573,7 @@ const render = (t, theme, extended) => {
   );
   // Section titles and notes, like the closing notes, span the full width.
   const spanWidth = max([
-    ...ROWS.flatMap((row) =>
+    ...rows.flatMap((row) =>
       row.kind === "section"
         ? [8 + textWidth(row.label, 13, "bold"), 8 + textWidth(row.note ?? "", 10.5, "regular")]
         : [],
@@ -584,21 +584,24 @@ const render = (t, theme, extended) => {
       ? [2 * (FEATURE_INDENT + max(t.features.items.map((i) => textWidth(i, 12, "regular")))) + PAD]
       : []),
   ]);
-  const LABEL_W = Math.ceil(Math.max(labelWidth + PAD, spanWidth + PAD - COL_W * 3));
-  const W = M * 2 + LABEL_W + COL_W * 3;
-  const colX = (i) => M + LABEL_W + COL_W * i + COL_W / 2;
-  const divider = (i, y1, y2) => {
-    const x = M + LABEL_W + COL_W * i;
-    return `<line x1="${x}" x2="${x}" y1="${y1}" y2="${y2}" stroke="${theme.ink}" stroke-width="0.8"/>`;
-  };
+  const labelW = Math.ceil(Math.max(labelWidth + PAD, spanWidth + PAD - colW * 3));
+  return { colW, labelW, W: M * 2 + labelW + colW * 3 };
+};
 
-  const body = [];
-  let y = M;
-  body.push(
-    `<text x="${M}" y="${y + 18}" font-size="17" font-weight="700" fill="${theme.ink}">${esc(t.title)}</text>`,
-  );
-  y += 30;
-  if (extended) y = features(body, t, theme, y, W);
+/** Drawing context of a table: language, theme and column positions. */
+const context = (t, theme, { colW, labelW, W }) => ({
+  t,
+  theme,
+  W,
+  colX: (i) => M + labelW + colW * i + colW / 2,
+  divider: (i, y1, y2) => {
+    const x = M + labelW + colW * i;
+    return `<line x1="${x}" x2="${x}" y1="${y1}" y2="${y2}" stroke="${theme.ink}" stroke-width="0.8"/>`;
+  },
+});
+
+/** Column headers: modality, then the three sides in their colour. */
+const header = (body, { t, theme, W, colX, divider }, y) => {
   body.push(
     `<line x1="${M}" x2="${W - M}" y1="${y + HEADER_H}" y2="${y + HEADER_H}" stroke="${theme.ink}"/>`,
   );
@@ -611,55 +614,73 @@ const render = (t, theme, extended) => {
     );
     body.push(divider(i, y, y + HEADER_H));
   });
-  const tableTop = y;
-  y += HEADER_H;
+  return y + HEADER_H;
+};
 
-  for (const row of ROWS) {
-    const h = HEIGHTS[row.kind] + (row.kind === "section" && row.note ? NOTE_H : 0);
-    if (row.kind === "section") {
+/** One function per row kind, drawing the row at `y`, `h` high. */
+const ROW_RENDERERS = {
+  section: (body, { theme, W }, row, y, h) => {
+    body.push(`<rect x="${M}" y="${y}" width="${W - 2 * M}" height="${h}" fill="${theme.band}"/>`);
+    body.push(
+      `<text x="${M + 8}" y="${y + 25}" font-size="13" font-weight="700" fill="${theme.ink}">${esc(row.label)}</text>`,
+    );
+    if (row.note)
       body.push(
-        `<rect x="${M}" y="${y}" width="${W - 2 * M}" height="${h}" fill="${theme.band}"/>`,
+        `<text x="${M + 8}" y="${y + 25 + NOTE_H}" font-size="10.5" font-style="italic" fill="${theme.ink}">${esc(row.note)}</text>`,
       );
+  },
+  group: (body, { theme }, row, y) => {
+    body.push(
+      `<text x="${M + 8}" y="${y + 18}" font-size="11.5" font-weight="700" fill="${theme.ink}">${esc(row.label.toUpperCase())}</text>`,
+    );
+  },
+  symbols: (body, { t, theme, colX, divider }, row, y, h) => {
+    body.push(
+      `<text x="${M + 22}" y="${y + h / 2 + 4}" font-size="12" fill="${theme.ink}">${esc(row.label)}</text>`,
+    );
+    COLUMNS.forEach((_, i) => body.push(divider(i, y, y + h)));
+    row.cells.forEach((cell, i) => {
+      const x = colX(i);
       body.push(
-        `<text x="${M + 8}" y="${y + 25}" font-size="13" font-weight="700" fill="${theme.ink}">${esc(row.label)}</text>`,
+        `<line x1="${x}" x2="${x}" y1="${y}" y2="${y + h}" stroke="${theme.rule}" stroke-width="0.8"/>`,
       );
-      if (row.note)
-        body.push(
-          `<text x="${M + 8}" y="${y + 25 + NOTE_H}" font-size="10.5" font-style="italic" fill="${theme.ink}">${esc(row.note)}</text>`,
-        );
-    } else if (row.kind === "group") {
-      body.push(
-        `<text x="${M + 8}" y="${y + 18}" font-size="11.5" font-weight="700" fill="${theme.ink}">${esc(row.label.toUpperCase())}</text>`,
-      );
-    } else {
-      body.push(
-        `<text x="${M + 22}" y="${y + h / 2 + 4}" font-size="12" fill="${theme.ink}">${esc(row.label)}</text>`,
-      );
-      COLUMNS.forEach((_, i) => body.push(divider(i, y, y + h)));
-      row.cells.forEach((cell, i) => {
-        const x = colX(i);
-        body.push(
-          `<line x1="${x}" x2="${x}" y1="${y}" y2="${y + h}" stroke="${theme.rule}" stroke-width="0.8"/>`,
-        );
-        if (cell) body.push(mark(t, theme, cell, x, y + h / 2 - 2, COLUMNS[i], !!row.noResponse));
-      });
-    }
+      if (cell) body.push(mark(t, theme, cell, x, y + h / 2 - 2, COLUMNS[i], !!row.noResponse));
+    });
+  },
+};
+
+const rowHeight = (row) => HEIGHTS[row.kind] + (row.kind === "section" && row.note ? NOTE_H : 0);
+
+/** Table rows, each followed by a rule, inside a frame from `top`. */
+const table = (body, ctx, rows, top, y) => {
+  const { theme, W } = ctx;
+  for (const row of rows) {
+    const h = rowHeight(row);
+    ROW_RENDERERS[row.kind](body, ctx, row, y, h);
     y += h;
     body.push(
       `<line x1="${M}" x2="${W - M}" y1="${y}" y2="${y}" stroke="${theme.rule}" stroke-width="0.6"/>`,
     );
   }
   body.push(
-    `<rect x="${M}" y="${tableTop}" width="${W - 2 * M}" height="${y - tableTop}" fill="none" stroke="${theme.ink}"/>`,
+    `<rect x="${M}" y="${top}" width="${W - 2 * M}" height="${y - top}" fill="none" stroke="${theme.ink}"/>`,
   );
+  return y;
+};
+
+/** Closing notes, one per line below the table. */
+const notes = (body, { t, theme }, y) => {
   y += 10;
   for (const note of t.notes) {
     y += 15;
     body.push(`<text x="${M}" y="${y}" font-size="10.5" fill="${theme.ink}">${esc(note)}</text>`);
   }
-  const H = y + M;
+  return y;
+};
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="Helvetica, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+/** SVG document: title, licence metadata and background around the body. */
+const svgDocument = (t, theme, W, H, body) =>
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="Helvetica, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
 <title>${esc(t.title)}</title>
 <metadata>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#">
@@ -672,6 +693,23 @@ ${body.join("\n")}
 </g>
 </svg>
 `;
+
+const render = (t, theme, extended) => {
+  const ROWS = rows(t);
+  const size = layout(t, ROWS, extended);
+  const ctx = context(t, theme, size);
+  const body = [];
+  let y = M;
+  body.push(
+    `<text x="${M}" y="${y + 18}" font-size="17" font-weight="700" fill="${theme.ink}">${esc(t.title)}</text>`,
+  );
+  y += 30;
+  if (extended) y = features(body, t, theme, y, size.W);
+  const top = y;
+  y = header(body, ctx, y);
+  y = table(body, ctx, ROWS, top, y);
+  y = notes(body, ctx, y);
+  return svgDocument(t, theme, size.W, y + M, body);
 };
 
 const LANGUAGES = [FR, EN, DE, ES, IT, PT];

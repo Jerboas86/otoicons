@@ -1,0 +1,5 @@
+{
+  "$schema": "https://fallow.tools/schema.json",
+  // Examples run on their own with `node examples/<name>.ts`.
+  "entry": ["examples/*.ts"]
+}

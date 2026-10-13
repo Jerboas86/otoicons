@@ -49,11 +49,13 @@
     "doc": "pnpm build && node scripts/doc.mjs",
     "bundle": "pnpm doc && node scripts/bundle.mjs",
     "prepublishOnly": "pnpm build",
-    "examples:standalone": "pnpm build && node examples/standalone.mjs"
+    "examples:standalone": "pnpm build && node examples/standalone.mjs",
+    "analyze": "fallow"
   },
   "devDependencies": {
     "@types/node": "^26.1.2",
     "@vitest/coverage-v8": "^4.1.10",
+    "fallow": "^3.33.1",
     "oxfmt": "^0.62.0",
     "oxlint": "^1.77.0",
     "sharp": "0.35.0",
