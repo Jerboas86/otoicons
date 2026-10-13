@@ -4,3 +4,4 @@ package
 coverage
 bundle
 *.tgz
+examples/out

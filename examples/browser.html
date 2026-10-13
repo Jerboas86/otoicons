@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>otoicons in the browser</title>
+    <!--
+      Picks a measurement from a form and draws its symbol live. Serve the
+      repository root (e.g. `python3 -m http.server`) after `pnpm build`, then
+      open http://localhost:8000/examples/browser.html. In an application,
+      `import { … } from "otoicons"` through your bundler instead of the
+      import map.
+    -->
+    <script type="importmap">
+      { "imports": { "otoicons": "../dist/otoicons.js" } }
+    </script>
+    <!-- Loaded first: reports a missing build, which would leave the page blank. -->
+    <script type="module">
+      import("otoicons").catch(() => {
+        if (location.protocol !== "file:")
+          document.getElementById("result").textContent =
+            "dist/otoicons.js not found: run `pnpm build` at the repository root.";
+      });
+    </script>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 40rem;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      form {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 0.5rem 1rem;
+        align-items: center;
+      }
+      svg {
+        display: block;
+        margin: 1.5rem auto;
+        border-radius: 8px;
+      }
+      #snippet {
+        position: relative;
+      }
+      #snippet[hidden] {
+        display: none;
+      }
+      #snippet pre {
+        margin: 0;
+        padding: 1rem;
+        border: 1px solid #9aa0a6;
+        border-radius: 8px;
+        font-size: 0.85rem;
+        overflow-x: auto;
+      }
+      #copy {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>otoicons</h1>
+    <form id="axes">
+      <label for="measure">Measure</label>
+      <select id="measure">
+        <option value="threshold">Threshold</option>
+        <option value="mcl">MCL</option>
+        <option value="ucl">UCL</option>
+      </select>
+      <label for="transducer">Transducer</label>
+      <select id="transducer">
+        <option value="earphones">Earphones</option>
+        <option value="bone_mastoid">Bone, mastoid</option>
+        <option value="bone_forehead">Bone, forehead</option>
+        <option value="sound_field">Sound field</option>
+      </select>
+      <label for="ear">Stimulated side</label>
+      <select id="ear">
+        <option value="right">Right</option>
+        <option value="left">Left</option>
+        <option value="">Not lateralised</option>
+      </select>
+      <label for="right">Right side</label>
+      <select id="right">
+        <option value="">Unaided</option>
+        <option value="hearing_aid">Hearing aid</option>
+        <option value="cros_transmitter">CROS transmitter</option>
+        <option value="cros_receiver">CROS receiver</option>
+      </select>
+      <label for="left">Left side</label>
+      <select id="left">
+        <option value="">Unaided</option>
+        <option value="hearing_aid">Hearing aid</option>
+        <option value="cros_transmitter">CROS transmitter</option>
+        <option value="cros_receiver">CROS receiver</option>
+      </select>
+      <label for="masked">Masked</label>
+      <input id="masked" type="checkbox" />
+      <label for="no_response">No response</label>
+      <input id="no_response" type="checkbox" />
+      <label for="locale">Locale</label>
+      <select id="locale">
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="es">Español</option>
+        <option value="it">Italiano</option>
+        <option value="pt">Português</option>
+      </select>
+      <label for="theme">Theme</label>
+      <select id="theme">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </form>
+    <svg id="preview" viewBox="-30 -24 60 48" width="180" height="144"></svg>
+    <p id="result"></p>
+    <div id="snippet" hidden>
+      <pre><code id="code"></code></pre>
+      <button id="copy" type="button">Copy</button>
+    </div>
+
+    <script>
+      // Browsers refuse ES modules over file://: the page would stay blank.
+      if (location.protocol === "file:")
+        document.getElementById("result").textContent =
+          "This page must be served over HTTP, not opened as a file.\n" +
+          "From the repository root, after `pnpm build`:\n\n" +
+          "  python3 -m http.server\n\n" +
+          "then open http://localhost:8000/examples/browser.html";
+    </script>
+    <script type="module">
+      import { THEME_BACKGROUNDS, audiogramSymbol, symbolSvg } from "otoicons";
+
+      const form = document.getElementById("axes");
+      const value = (id) => document.getElementById(id).value || null;
+      const checked = (id) => document.getElementById(id).checked;
+
+      /** Axes of the measurement chosen in the form. */
+      const axes = () => ({
+        measure: value("measure"),
+        transducer: value("transducer"),
+        ear: value("ear"),
+        masked: checked("masked"),
+        no_response: checked("no_response"),
+        aided: { right: value("right"), left: value("left") },
+      });
+
+      /** Code drawing the chosen symbol, to paste in an application. */
+      const snippet = (m, locale, theme) => {
+        const v = JSON.stringify;
+        return `import { audiogramSymbol, symbolSvg } from "otoicons";
+
+const symbol = audiogramSymbol({
+  measure: ${v(m.measure)},
+  transducer: ${v(m.transducer)},
+  ear: ${v(m.ear)},
+  masked: ${m.masked},
+  no_response: ${m.no_response},
+  aided: { right: ${v(m.aided.right)}, left: ${v(m.aided.left)} },
+});
+
+// <g> centred on the measurement point; place it with a
+// transform, e.g. translate(x y) scale(1.3).
+const svg = symbol && symbolSvg(symbol, { locale: ${v(locale)}, theme: ${v(theme)} });
+`;
+      };
+
+      const render = () => {
+        const m = axes();
+        const symbol = audiogramSymbol(m);
+        const locale = value("locale");
+        const theme = value("theme");
+        const background = THEME_BACKGROUNDS[theme];
+        // Frequency line through the measurement point, hidden by the symbol.
+        const line = `<line x1="0" x2="0" y1="-24" y2="24" stroke="#9aa0a6" stroke-width="0.5"/>`;
+        const drawn = symbol ? symbolSvg(symbol, { locale, theme }) : "";
+        document.getElementById("preview").innerHTML =
+          `<rect x="-30" y="-24" width="60" height="48" fill="${background}"/>${line}${drawn}`;
+        document.getElementById("result").textContent = symbol
+          ? ""
+          : "No symbol: neither ASHA nor the extension covers this measurement.";
+        document.getElementById("snippet").hidden = !symbol;
+        document.getElementById("code").textContent = snippet(m, locale, theme);
+      };
+
+      const copy = document.getElementById("copy");
+      copy.addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(document.getElementById("code").textContent);
+          copy.textContent = "Copied";
+        } catch {
+          copy.textContent = "Copy failed";
+        }
+        setTimeout(() => (copy.textContent = "Copy"), 1500);
+      });
+
+      form.addEventListener("input", render);
+      render();
+    </script>
+  </body>
+</html>

@@ -82,6 +82,9 @@ measurement carrying other data can be passed as is.
 - `symbolSvg`: SVG element of a symbol, centred on the measurement point, in
   the `light` or `dark` theme.
 
+More in [`examples/`](examples/): a complete audiogram, aided and CROS
+subscripts in every locale, and a live symbol picker in the browser.
+
 ## Principles
 
 - **ASHA symbols.** Shapes from table 1 of "Guidelines for Audiometric
