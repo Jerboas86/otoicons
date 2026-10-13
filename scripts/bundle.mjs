@@ -1,5 +1,5 @@
 // Builds bundle/, organised by locale. Run with `pnpm bundle` (builds
-// dist/otocon.js and the docs/ tables first).
+// dist/otoicons.js and the docs/ tables first).
 //
 // - bundle/README.md: how to use the bundle
 // - bundle/manifest.json: description of every file
@@ -15,7 +15,7 @@ import {
   noResponseArrow,
   sideColor,
   symbolSvg,
-} from "../dist/otocon.js";
+} from "../dist/otoicons.js";
 
 const LICENSE = "https://creativecommons.org/licenses/by/4.0/";
 const SIDES = { right: "right", left: "left", unspecified: null };
@@ -189,7 +189,7 @@ const tables = LOCALES.map((locale) => {
 
 writeFileSync(
   new URL("README.md", out),
-  `# otocon — audiometric symbols bundle
+  `# otoicons — audiometric symbols bundle
 
 One file per pure-tone symbol, in SVG and PNG: the ASHA symbols ("Guidelines
 for Audiometric Symbols", 1990) and their extension to the measurements the

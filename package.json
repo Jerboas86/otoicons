@@ -1,5 +1,5 @@
 {
-  "name": "otocon",
+  "name": "otoicons",
   "version": "0.1.0",
   "description": "Audiometric symbols: ASHA 1990 and an extension for aided measurements, MCL, UCL and CROS, in SVG and PNG",
   "keywords": [
@@ -12,15 +12,15 @@
     "svg",
     "symbols"
   ],
-  "homepage": "https://github.com/Jerboas86/otocon#readme",
+  "homepage": "https://github.com/Jerboas86/otoicons#readme",
   "bugs": {
-    "url": "https://github.com/Jerboas86/otocon/issues"
+    "url": "https://github.com/Jerboas86/otoicons/issues"
   },
   "license": "Apache-2.0",
   "author": "Benoit Delemps",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jerboas86/otocon.git"
+    "url": "git+https://github.com/Jerboas86/otoicons.git"
   },
   "files": [
     "dist",
@@ -30,13 +30,13 @@
   ],
   "type": "module",
   "sideEffects": false,
-  "main": "./dist/otocon.js",
-  "module": "./dist/otocon.js",
+  "main": "./dist/otoicons.js",
+  "module": "./dist/otoicons.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/otocon.js"
+      "import": "./dist/otoicons.js"
     }
   },
   "scripts": {

@@ -2,7 +2,7 @@ import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   test: {
-    name: "otocon",
+    name: "otoicons",
     globals: true,
     environment: "node",
     coverage: {

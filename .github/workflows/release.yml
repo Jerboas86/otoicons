@@ -29,10 +29,10 @@ jobs:
       - run: pnpm typecheck
       - run: pnpm test
       - run: pnpm bundle
-      - run: cd bundle && zip -qr "../otocon-bundle-$GITHUB_REF_NAME.zip" .
+      - run: cd bundle && zip -qr "../otoicons-bundle-$GITHUB_REF_NAME.zip" .
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: gh release create "$GITHUB_REF_NAME" "otocon-bundle-$GITHUB_REF_NAME.zip" --generate-notes
+      - run: gh release create "$GITHUB_REF_NAME" "otoicons-bundle-$GITHUB_REF_NAME.zip" --generate-notes
         env:
           GH_TOKEN: ${{ github.token }}

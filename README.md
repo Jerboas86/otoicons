@@ -1,4 +1,4 @@
-# otocon
+# otoicons
 
 Symbols for pure-tone measurements on an audiogram: the ASHA symbols (1990),
 completed by an extension for the measurements the standard does not cover.
@@ -45,18 +45,18 @@ Portuguese, on a light and on a black background:
 ## Installation
 
 ```sh
-npm install otocon
+npm install otoicons
 ```
 
 The symbol files (SVG and PNG, six locales, light and dark themes) and the
 illustrative tables are attached to every
-[GitHub release](https://github.com/Jerboas86/otocon/releases) as
-`otocon-bundle-<version>.zip`.
+[GitHub release](https://github.com/Jerboas86/otoicons/releases) as
+`otoicons-bundle-<version>.zip`.
 
 ## Usage
 
 ```ts
-import { audiogramSymbol } from "otocon";
+import { audiogramSymbol } from "otoicons";
 
 audiogramSymbol({
   measure: "threshold",

@@ -7,8 +7,8 @@ export default defineConfig({
     outDir: "dist",
     lib: {
       entry: resolve(__dirname, "lib/index.ts"),
-      name: "otocon",
-      fileName: "otocon",
+      name: "otoicons",
+      fileName: "otoicons",
       formats: ["es"],
     },
   },

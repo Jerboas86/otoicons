@@ -1,7 +1,7 @@
 // Generates docs/symbols.<locale>[.dark].svg: the ASHA 1990 table of
 // audiometric symbols (response), as vectors, extended with the local
 // extension and the no-response rule. Run with `pnpm doc` (builds
-// dist/otocon.js first).
+// dist/otoicons.js first).
 import { writeFileSync } from "node:fs";
 import {
   SIDE_COLORS,
@@ -9,7 +9,7 @@ import {
   noResponseArrow,
   sideColor,
   symbolSvg,
-} from "../dist/otocon.js";
+} from "../dist/otoicons.js";
 
 /** Light and dark themes: text and frames, secondary lines, section bands. */
 const THEMES = [
