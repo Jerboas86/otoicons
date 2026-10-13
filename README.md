@@ -12,38 +12,38 @@ Portuguese, on a light and on a black background:
 
 ## Features
 
-1. **ASHA compliant.** Every symbol of the ASHA "Guidelines for Audiometric
-   Symbols" (1990): air and bone conduction, masked and unmasked, sound field,
-   acoustic reflexes, with their offset from the frequency line and the
-   no-response arrow.
-2. **Completes ASHA the way ASHA asks.** The standard leaves aided conditions
+1. **ASHA 1990 compliant, pure tone.** Every symbol of the ASHA "Guidelines
+   for Audiometric Symbols" (1990): air and bone conduction, masked and
+   unmasked, sound field, acoustic reflexes, with their offset from the
+   frequency line and the no-response arrow.
+2. **ISO 8253-3:2022 compliant, speech.** Every symbol of the speech
+   audiogram (ISO 8253-3:2022, table C.3): right, left and binaural,
+   contralateral masking, competing noise, sound field and hearing aids.
+   They share their base shapes and colours with the pure-tone symbols.
+3. **Completes ASHA the way ASHA asks.** The standard leaves aided conditions
    to "locally determined symbols", distinct from all others and defined on
    the audiogram. The extension takes them from ISO 8253-3, adds MCL, UCL and
    diotic presentation, and documents them in every table.
-3. **One aided rule.** On the pure-tone and the speech audiogram alike, a
+4. **One aided rule.** On the pure-tone and the speech audiogram alike, a
    diamond around the symbol means aided; from the second device or fitting
    on (another aid, a CROS, a new setting…), its number stands at the right,
    defined in the legend.
-4. **One colour, one rule.** Colour always means the stimulated side — red
+5. **One colour, one rule.** Colour always means the stimulated side — red
    right, blue left, green not lateralised — aided or not, so it reads the
    same everywhere on the audiogram.
-5. **Constant contrast.** Each colour is tuned to the same 5:1 WCAG contrast
+6. **Constant contrast.** Each colour is tuned to the same 5:1 WCAG contrast
    against its background: no side outweighs another, and legibility does
    not depend on the theme. A test guards the ratio.
-6. **Light and dark themes.** Identical shapes, a palette for each background.
-7. **Language-free symbols, translated tables.** No symbol depends on the
+7. **Light and dark themes.** Identical shapes, a palette for each background.
+8. **Language-free symbols, translated tables.** No symbol depends on the
    language; the illustrative tables come in English, French, German,
    Spanish, Italian and Portuguese.
-8. **Vector and raster.** SVG for any size, PNG for tools that need images;
+9. **Vector and raster.** SVG for any size, PNG for tools that need images;
    symbols and tables alike.
-9. **Ready to place.** Each file is centred on the measurement point, on a
-   transparent background; `manifest.json` describes every file for
-   automated use. At runtime, `symbolSvg` draws the same symbols from the
-   measurement itself.
-10. **Speech audiometry.** The speech audiogram symbols of ISO 8253-3:2022
-    (table C.3): right, left and binaural, contralateral masking, competing
-    noise, sound field and hearing aids. They share their base shapes and
-    colours with the pure-tone symbols.
+10. **Ready to place.** Each file is centred on the measurement point, on a
+    transparent background; `manifest.json` describes every file for
+    automated use. At runtime, `symbolSvg` draws the same symbols from the
+    measurement itself.
 11. **Open.** Code under Apache 2.0, symbol files and tables under CC BY 4.0.
 
 ## Installation

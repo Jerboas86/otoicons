@@ -12,34 +12,34 @@
 <text x="28" y="72" font-size="13" font-weight="700" fill="#1f2328">Merkmale des Kits</text>
 <circle cx="37" cy="95" r="9" fill="#0a8040"/>
 <text x="37" y="98.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-<text x="58" y="99" font-size="12" fill="#1f2328">ASHA-1990-konform</text>
+<text x="58" y="99" font-size="12" fill="#1f2328">ASHA-1990-konform (Tonaudiometrie)</text>
 <circle cx="37" cy="117" r="9" fill="#0a8040"/>
 <text x="37" y="120.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
-<text x="58" y="121" font-size="12" fill="#1f2328">Symbole für versorgt, MCL, UCL</text>
+<text x="58" y="121" font-size="12" fill="#1f2328">ISO-8253-3:2022-konform (Sprachaudiometrie)</text>
 <circle cx="37" cy="139" r="9" fill="#0a8040"/>
 <text x="37" y="142.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-<text x="58" y="143" font-size="12" fill="#1f2328">Versorgt: Raute nach ISO 8253-3</text>
+<text x="58" y="143" font-size="12" fill="#1f2328">Symbole für versorgt, MCL, UCL</text>
 <circle cx="37" cy="161" r="9" fill="#0a8040"/>
 <text x="37" y="164.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
-<text x="58" y="165" font-size="12" fill="#1f2328">Farbe = stimulierte Seite</text>
+<text x="58" y="165" font-size="12" fill="#1f2328">Versorgt: Raute nach ISO 8253-3</text>
 <circle cx="37" cy="183" r="9" fill="#0a8040"/>
 <text x="37" y="186.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
-<text x="58" y="187" font-size="12" fill="#1f2328">Konstanter Kontrast 5:1</text>
+<text x="58" y="187" font-size="12" fill="#1f2328">Farbe = stimulierte Seite</text>
 <circle cx="37" cy="205" r="9" fill="#0a8040"/>
 <text x="37" y="208.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
-<text x="58" y="209" font-size="12" fill="#1f2328">Helles und dunkles Design</text>
+<text x="58" y="209" font-size="12" fill="#1f2328">Konstanter Kontrast 5:1</text>
 <circle cx="446.5" cy="95" r="9" fill="#0a8040"/>
 <text x="446.5" y="98.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
-<text x="467.5" y="99" font-size="12" fill="#1f2328">Tabellen in 6 Sprachen</text>
+<text x="467.5" y="99" font-size="12" fill="#1f2328">Helles und dunkles Design</text>
 <circle cx="446.5" cy="117" r="9" fill="#0a8040"/>
 <text x="446.5" y="120.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">8</text>
-<text x="467.5" y="121" font-size="12" fill="#1f2328">SVG und PNG</text>
+<text x="467.5" y="121" font-size="12" fill="#1f2328">Tabellen in 6 Sprachen</text>
 <circle cx="446.5" cy="139" r="9" fill="#0a8040"/>
 <text x="446.5" y="142.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
-<text x="467.5" y="143" font-size="12" fill="#1f2328">Zentriert, transparenter Hintergrund</text>
+<text x="467.5" y="143" font-size="12" fill="#1f2328">SVG und PNG</text>
 <circle cx="446.5" cy="161" r="9" fill="#0a8040"/>
 <text x="446.5" y="164.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">10</text>
-<text x="467.5" y="165" font-size="12" fill="#1f2328">Sprachaudiometrie nach ISO 8253-3</text>
+<text x="467.5" y="165" font-size="12" fill="#1f2328">Zentriert, transparenter Hintergrund</text>
 <circle cx="446.5" cy="183" r="9" fill="#0a8040"/>
 <text x="446.5" y="186.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">11</text>
 <text x="467.5" y="187" font-size="12" fill="#1f2328">Offene Lizenz (CC BY 4.0)</text>

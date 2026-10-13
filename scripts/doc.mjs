@@ -30,7 +30,8 @@ const FR = {
   features: {
     title: "Propriétés du kit",
     items: [
-      "Conforme ASHA 1990",
+      "Conforme ASHA 1990 (tonale)",
+      "Conforme ISO 8253-3:2022 (vocale)",
       "Symboles appareillés, MCL, UCL",
       "Appareillé : losange ISO 8253-3",
       "Couleur = côté stimulé",
@@ -39,7 +40,6 @@ const FR = {
       "Tableaux en 6 langues",
       "SVG et PNG",
       "Centré, fond transparent",
-      "Audiométrie vocale ISO 8253-3",
       "Licence ouverte (CC BY 4.0)",
     ],
   },
@@ -95,7 +95,8 @@ const EN = {
   features: {
     title: "Kit features",
     items: [
-      "ASHA 1990 compliant",
+      "ASHA 1990 compliant (pure tone)",
+      "ISO 8253-3:2022 compliant (speech)",
       "Aided, MCL, UCL symbols",
       "Aided: ISO 8253-3 diamond",
       "Colour = stimulated side",
@@ -104,7 +105,6 @@ const EN = {
       "Tables in 6 languages",
       "SVG and PNG",
       "Centred, transparent background",
-      "ISO 8253-3 speech audiometry",
       "Open license (CC BY 4.0)",
     ],
   },
@@ -160,7 +160,8 @@ const DE = {
   features: {
     title: "Merkmale des Kits",
     items: [
-      "ASHA-1990-konform",
+      "ASHA-1990-konform (Tonaudiometrie)",
+      "ISO-8253-3:2022-konform (Sprachaudiometrie)",
       "Symbole für versorgt, MCL, UCL",
       "Versorgt: Raute nach ISO 8253-3",
       "Farbe = stimulierte Seite",
@@ -169,7 +170,6 @@ const DE = {
       "Tabellen in 6 Sprachen",
       "SVG und PNG",
       "Zentriert, transparenter Hintergrund",
-      "Sprachaudiometrie nach ISO 8253-3",
       "Offene Lizenz (CC BY 4.0)",
     ],
   },
@@ -225,7 +225,8 @@ const ES = {
   features: {
     title: "Características del kit",
     items: [
-      "Conforme a ASHA 1990",
+      "Conforme a ASHA 1990 (tonal)",
+      "Conforme a ISO 8253-3:2022 (logoaudiometría)",
       "Símbolos con audífono, MCL, UCL",
       "Con audífono: rombo ISO 8253-3",
       "Color = lado estimulado",
@@ -234,7 +235,6 @@ const ES = {
       "Tablas en 6 idiomas",
       "SVG y PNG",
       "Centrado, fondo transparente",
-      "Logoaudiometría ISO 8253-3",
       "Licencia abierta (CC BY 4.0)",
     ],
   },
@@ -290,7 +290,8 @@ const IT = {
   features: {
     title: "Caratteristiche del kit",
     items: [
-      "Conforme ASHA 1990",
+      "Conforme ASHA 1990 (tonale)",
+      "Conforme ISO 8253-3:2022 (vocale)",
       "Simboli protesizzati, MCL, UCL",
       "Protesizzato: rombo ISO 8253-3",
       "Colore = lato stimolato",
@@ -299,7 +300,6 @@ const IT = {
       "Tabelle in 6 lingue",
       "SVG e PNG",
       "Centrato, sfondo trasparente",
-      "Audiometria vocale ISO 8253-3",
       "Licenza aperta (CC BY 4.0)",
     ],
   },
@@ -355,7 +355,8 @@ const PT = {
   features: {
     title: "Características do kit",
     items: [
-      "Conforme ASHA 1990",
+      "Conforme ASHA 1990 (tonal)",
+      "Conforme ISO 8253-3:2022 (vocal)",
       "Símbolos com aparelho, MCL, UCL",
       "Com aparelho: losango ISO 8253-3",
       "Cor = lado estimulado",
@@ -364,7 +365,6 @@ const PT = {
       "Tabelas em 6 idiomas",
       "SVG e PNG",
       "Centrado, fundo transparente",
-      "Audiometria vocal ISO 8253-3",
       "Licença aberta (CC BY 4.0)",
     ],
   },
