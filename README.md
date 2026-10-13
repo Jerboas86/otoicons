@@ -1,8 +1,8 @@
 # otoicons
 
 Symbols for pure-tone measurements on an audiogram: the ASHA symbols (1990),
-completed by an extension for the measurements the standard does not cover.
-No dependencies.
+completed by an extension for the measurements the standard does not cover;
+and the speech audiogram symbols of ISO 8253-3:2022. No dependencies.
 
 The table is available in English, French, German, Spanish, Italian and
 Portuguese, on a light and on a black background:
@@ -40,7 +40,11 @@ Portuguese, on a light and on a black background:
     transparent background; `manifest.json` describes every file for
     automated use. At runtime, `symbolSvg` draws the same symbols from the
     measurement itself.
-11. **Open.** Code under Apache 2.0, symbol files and tables under CC BY 4.0.
+11. **Speech audiometry.** The speech audiogram symbols of ISO 8253-3:2022
+    (table C.3): right, left and binaural, contralateral masking, competing
+    noise, sound field and hearing aids. They share their base shapes and
+    colours with the pure-tone symbols.
+12. **Open.** Code under Apache 2.0, symbol files and tables under CC BY 4.0.
 
 ## Installation
 
@@ -79,8 +83,28 @@ measurement carrying other data can be passed as is.
 - `AID_INDEX_LETTERS`: subscript letters per locale, the initial of the side:
   R/L (`en`, `de`), D/G (`fr`), D/I (`es`), D/S (`it`), D/E (`pt`); `M` (the
   CROS transmitter's microphone) is shared by all.
-- `symbolSvg`: SVG element of a symbol, centred on the measurement point, in
-  the `light` or `dark` theme.
+- `speechSymbol`: symbol of a point on the speech audiogram (`SpeechAxes`),
+  `null` for the conditions ISO 8253-3 excludes (binaural masking, aided
+  under earphones).
+- `symbolSvg`: SVG element of a symbol, pure-tone or speech, centred on the
+  measurement point, in the `light` or `dark` theme.
+
+```ts
+import { speechSymbol, symbolSvg } from "otoicons";
+
+symbolSvg(
+  speechSymbol({
+    transducer: "sound_field",
+    ear: "left",
+    masked: false,
+    competing_noise: true,
+    aided: { right: "hearing_aid", left: "hearing_aid" },
+    device: 2,
+    material: "a",
+  })!,
+);
+// → X with lines above and below, in a diamond, "a" at the left, "2" at the right
+```
 
 More in [`examples/`](examples/): a complete audiogram, aided and CROS
 subscripts in every locale, and a live symbol picker in the browser.
@@ -105,13 +129,22 @@ subscripts in every locale, and a live symbol picker in the browser.
   and dark themes alike (`SIDE_COLORS`).
 - **No response.** Arrow attached to the bottom of the symbol, 45° outward;
   straight down when not lateralised.
+- **Speech audiogram.** ISO 8253-3:2022, clause 14 and table C.3: `O` right
+  ear, `X` left ear, `B` binaural under earphones (diotic or dichotic), drawn
+  as the pure-tone `O`, `X` and diotic `B`. Modifiers: filled triangle on top,
+  contralateral masking; line below, competing noise; line above, sound
+  field; diamond, hearing aid, with the device number from the second device
+  at the right; speech material letter at the left. Numbers and letters are
+  defined on the audiogram. Unlike ASHA (△, □), masking is a filled triangle,
+  as the standard requires. Bone-conducted speech, which no standard covers,
+  has no symbol.
 
 ## Limitations
 
 - The shapes were traced from a low-resolution reproduction of the ASHA
   table.
-- Speech audiometry has no symbols yet: those of ISO 8253-3:2022 (clause 14)
-  have not been consulted.
+- The speech symbols were traced from the identical Russian adoption,
+  GOST R ISO 8253-3—2024 (annex C, table C.3), not from the ISO original.
 - The table translations have not been reviewed by native-speaking
   audiologists.
 
@@ -145,7 +178,8 @@ bundle to a GitHub release (`.github/workflows/release.yml`).
 ## Sources
 
 - ASHA, [Guidelines for Audiometric Symbols](https://www.asha.org/policy/gl1990-00006/), 1990.
-- ISO 8253-3:2022, Acoustics — Audiometric test methods — Part 3: Speech audiometry.
+- ISO 8253-3:2022, Acoustics — Audiometric test methods — Part 3: Speech
+  audiometry, clause 14 and annex C (via GOST R ISO 8253-3—2024).
 
 ## License
 
@@ -158,6 +192,7 @@ names its author and license.
 
 These licenses cover the presentation of the tables and the extension
 (letters, subscripts, conventions). They do not cover the symbols nor the
-text of the ASHA guidelines, cited as the source. This work is neither
-published nor endorsed by ASHA, and the license grants no right to use its
-name to present software as approved or certified by it.
+text of the ASHA guidelines or of ISO 8253-3, cited as the sources. This work
+is neither published nor endorsed by ASHA or ISO, and the license grants no
+right to use their names to present software as approved or certified by
+them.

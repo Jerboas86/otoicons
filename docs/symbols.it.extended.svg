@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 815 1625" width="815" height="1625" font-family="Helvetica, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 834 2476" width="834" height="2476" font-family="Helvetica, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
 <title>Simboli audiometrici</title>
 <metadata>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#">
 <cc:Work rdf:about=""><dc:title>Simboli audiometrici</dc:title><dc:creator>Benoit Delemps</dc:creator><dc:date>2026</dc:date><cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/></cc:Work>
 </rdf:RDF>
 </metadata>
-<rect width="815" height="1625" fill="#ffffff"/>
+<rect width="834" height="2476" fill="#ffffff"/>
 <g stroke-width="1.4">
 <text x="20" y="38" font-size="17" font-weight="700" fill="#1f2328">Simboli audiometrici</text>
-<rect x="20" y="50" width="775" height="174" fill="#eef0f2" stroke="#1f2328"/>
+<rect x="20" y="50" width="794" height="174" fill="#eef0f2" stroke="#1f2328"/>
 <text x="28" y="72" font-size="13" font-weight="700" fill="#1f2328">Caratteristiche del kit</text>
 <circle cx="37" cy="95" r="9" fill="#0a8040"/>
 <text x="37" y="98.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
@@ -28,333 +28,446 @@
 <circle cx="37" cy="205" r="9" fill="#0a8040"/>
 <text x="37" y="208.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
 <text x="58" y="209" font-size="12" fill="#1f2328">Contrasto costante 5:1</text>
-<circle cx="424.5" cy="95" r="9" fill="#0a8040"/>
-<text x="424.5" y="98.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
-<text x="445.5" y="99" font-size="12" fill="#1f2328">Temi chiaro e scuro</text>
-<circle cx="424.5" cy="117" r="9" fill="#0a8040"/>
-<text x="424.5" y="120.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">8</text>
-<text x="445.5" y="121" font-size="12" fill="#1f2328">6 lingue</text>
-<circle cx="424.5" cy="139" r="9" fill="#0a8040"/>
-<text x="424.5" y="142.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
-<text x="445.5" y="143" font-size="12" fill="#1f2328">SVG e PNG</text>
-<circle cx="424.5" cy="161" r="9" fill="#0a8040"/>
-<text x="424.5" y="164.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">10</text>
-<text x="445.5" y="165" font-size="12" fill="#1f2328">Centrato, sfondo trasparente</text>
-<circle cx="424.5" cy="183" r="9" fill="#0a8040"/>
-<text x="424.5" y="186.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">11</text>
-<text x="445.5" y="187" font-size="12" fill="#1f2328">Licenza aperta (CC BY 4.0)</text>
-<line x1="20" x2="795" y1="272" y2="272" stroke="#1f2328"/>
+<circle cx="434" cy="95" r="9" fill="#0a8040"/>
+<text x="434" y="98.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
+<text x="455" y="99" font-size="12" fill="#1f2328">Temi chiaro e scuro</text>
+<circle cx="434" cy="117" r="9" fill="#0a8040"/>
+<text x="434" y="120.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">8</text>
+<text x="455" y="121" font-size="12" fill="#1f2328">6 lingue</text>
+<circle cx="434" cy="139" r="9" fill="#0a8040"/>
+<text x="434" y="142.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
+<text x="455" y="143" font-size="12" fill="#1f2328">SVG e PNG</text>
+<circle cx="434" cy="161" r="9" fill="#0a8040"/>
+<text x="434" y="164.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">10</text>
+<text x="455" y="165" font-size="12" fill="#1f2328">Centrato, sfondo trasparente</text>
+<circle cx="434" cy="183" r="9" fill="#0a8040"/>
+<text x="434" y="186.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">11</text>
+<text x="455" y="187" font-size="12" fill="#1f2328">Audiometria vocale ISO 8253-3</text>
+<circle cx="434" cy="205" r="9" fill="#0a8040"/>
+<text x="434" y="208.8" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">12</text>
+<text x="455" y="209" font-size="12" fill="#1f2328">Licenza aperta (CC BY 4.0)</text>
+<line x1="20" x2="814" y1="272" y2="272" stroke="#1f2328"/>
 <text x="28" y="260" font-size="12" font-weight="700" fill="#1f2328">MODALITÀ</text>
-<text x="472.5" y="260" font-size="12" font-weight="700" fill="#396dc7" text-anchor="middle">Sinistro</text>
-<line x1="408" x2="408" y1="238" y2="272" stroke="#1f2328" stroke-width="0.8"/>
-<text x="601.5" y="260" font-size="12" font-weight="700" fill="#0a8040" text-anchor="middle">Non specificato</text>
-<line x1="537" x2="537" y1="238" y2="272" stroke="#1f2328" stroke-width="0.8"/>
-<text x="730.5" y="260" font-size="12" font-weight="700" fill="#c74031" text-anchor="middle">Destro</text>
-<line x1="666" x2="666" y1="238" y2="272" stroke="#1f2328" stroke-width="0.8"/>
-<rect x="20" y="272" width="775" height="40" fill="#eef0f2"/>
+<text x="491.5" y="260" font-size="12" font-weight="700" fill="#396dc7" text-anchor="middle">Sinistro</text>
+<line x1="427" x2="427" y1="238" y2="272" stroke="#1f2328" stroke-width="0.8"/>
+<text x="620.5" y="260" font-size="12" font-weight="700" fill="#0a8040" text-anchor="middle">Non specificato</text>
+<line x1="556" x2="556" y1="238" y2="272" stroke="#1f2328" stroke-width="0.8"/>
+<text x="749.5" y="260" font-size="12" font-weight="700" fill="#c74031" text-anchor="middle">Destro</text>
+<line x1="685" x2="685" y1="238" y2="272" stroke="#1f2328" stroke-width="0.8"/>
+<rect x="20" y="272" width="794" height="40" fill="#eef0f2"/>
 <text x="28" y="297" font-size="13" font-weight="700" fill="#1f2328">ASHA 1990 — risposta</text>
-<line x1="20" x2="795" y1="312" y2="312" stroke="#9aa0a6" stroke-width="0.6"/>
+<line x1="20" x2="814" y1="312" y2="312" stroke="#9aa0a6" stroke-width="0.6"/>
 <text x="28" y="330" font-size="11.5" font-weight="700" fill="#1f2328">VIA AEREA — CUFFIE</text>
-<line x1="20" x2="795" y1="338" y2="338" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="360" font-size="12" fill="#1f2328">Senza mascheramento</text>
-<line x1="408" x2="408" y1="338" y2="374" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="338" y2="374" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="338" y2="374" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="338" y2="374" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 354) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/></g></g>
-<line x1="601.5" x2="601.5" y1="338" y2="374" stroke="#9aa0a6" stroke-width="0.8"/>
-<line x1="730.5" x2="730.5" y1="338" y2="374" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 354) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/></g></g>
-<line x1="20" x2="795" y1="374" y2="374" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="396" font-size="12" fill="#1f2328">Con mascheramento</text>
-<line x1="408" x2="408" y1="374" y2="410" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="374" y2="410" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="374" y2="410" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="374" y2="410" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 390) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5.5-5.5H5.5V5.5H-5.5Z" fill="#ffffff"/></g></g>
-<line x1="601.5" x2="601.5" y1="374" y2="410" stroke="#9aa0a6" stroke-width="0.8"/>
-<line x1="730.5" x2="730.5" y1="374" y2="410" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 390) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-6L6 5H-6Z" fill="#ffffff"/></g></g>
-<line x1="20" x2="795" y1="410" y2="410" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="28" y="428" font-size="11.5" font-weight="700" fill="#1f2328">VIA OSSEA — MASTOIDE</text>
-<line x1="20" x2="795" y1="436" y2="436" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="458" font-size="12" fill="#1f2328">Senza mascheramento</text>
-<line x1="408" x2="408" y1="436" y2="472" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="436" y2="472" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="436" y2="472" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="436" y2="472" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 452) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-6L9 0L3 6"/></g></g>
-<line x1="601.5" x2="601.5" y1="436" y2="472" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 452) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 4L0-4L6 4"/></g></g>
-<line x1="730.5" x2="730.5" y1="436" y2="472" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 452) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-6L-9 0L-3 6"/></g></g>
-<line x1="20" x2="795" y1="472" y2="472" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="494" font-size="12" fill="#1f2328">Con mascheramento</text>
-<line x1="408" x2="408" y1="472" y2="508" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="472" y2="508" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="472" y2="508" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="472" y2="508" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 488) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-7H8V7H3"/></g></g>
-<line x1="601.5" x2="601.5" y1="472" y2="508" stroke="#9aa0a6" stroke-width="0.8"/>
-<line x1="730.5" x2="730.5" y1="472" y2="508" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 488) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-7H-8V7H-3"/></g></g>
-<line x1="20" x2="795" y1="508" y2="508" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="28" y="526" font-size="11.5" font-weight="700" fill="#1f2328">VIA OSSEA — FRONTE</text>
-<line x1="20" x2="795" y1="534" y2="534" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="556" font-size="12" fill="#1f2328">Senza mascheramento</text>
-<line x1="408" x2="408" y1="534" y2="570" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="534" y2="570" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="534" y2="570" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="534" y2="570" stroke="#9aa0a6" stroke-width="0.8"/>
-<line x1="601.5" x2="601.5" y1="534" y2="570" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 550) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6-4L0 4L6-4"/></g></g>
-<line x1="730.5" x2="730.5" y1="534" y2="570" stroke="#9aa0a6" stroke-width="0.8"/>
-<line x1="20" x2="795" y1="570" y2="570" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="592" font-size="12" fill="#1f2328">Con mascheramento</text>
-<line x1="408" x2="408" y1="570" y2="606" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="570" y2="606" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="570" y2="606" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="570" y2="606" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 586) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3V-7H9"/></g></g>
-<line x1="601.5" x2="601.5" y1="570" y2="606" stroke="#9aa0a6" stroke-width="0.8"/>
-<line x1="730.5" x2="730.5" y1="570" y2="606" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 586) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-9-7H-3V3"/></g></g>
-<line x1="20" x2="795" y1="606" y2="606" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="28" y="624" font-size="11.5" font-weight="700" fill="#1f2328">VIA AEREA — CAMPO LIBERO</text>
-<line x1="20" x2="795" y1="632" y2="632" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="654" font-size="12" fill="#1f2328">Senza apparecchio</text>
-<line x1="408" x2="408" y1="632" y2="668" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="632" y2="668" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="632" y2="668" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="632" y2="668" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 648) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/></g></g>
-<line x1="601.5" x2="601.5" y1="632" y2="668" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 648) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/></g></g>
-<line x1="730.5" x2="730.5" y1="632" y2="668" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 648) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#ffffff"/></g></g>
-<line x1="20" x2="795" y1="668" y2="668" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="28" y="686" font-size="11.5" font-weight="700" fill="#1f2328">SOGLIA DEL RIFLESSO STAPEDIALE</text>
-<line x1="20" x2="795" y1="694" y2="694" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="716" font-size="12" fill="#1f2328">Controlaterale</text>
-<line x1="408" x2="408" y1="694" y2="730" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="694" y2="730" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="694" y2="730" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="694" y2="730" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 710) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-5A5 5 0 0 1 3 5M8 0H12"/></g></g>
-<line x1="601.5" x2="601.5" y1="694" y2="730" stroke="#9aa0a6" stroke-width="0.8"/>
-<line x1="730.5" x2="730.5" y1="694" y2="730" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 710) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-5A5 5 0 0 0-3 5M-8 0H-12"/></g></g>
-<line x1="20" x2="795" y1="730" y2="730" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="752" font-size="12" fill="#1f2328">Ipsilaterale</text>
-<line x1="408" x2="408" y1="730" y2="766" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="730" y2="766" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="730" y2="766" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="730" y2="766" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 746) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-5V5M3 0H11"/></g></g>
-<line x1="601.5" x2="601.5" y1="730" y2="766" stroke="#9aa0a6" stroke-width="0.8"/>
-<line x1="730.5" x2="730.5" y1="730" y2="766" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 746) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-5V5M-3 0H-11"/></g></g>
-<line x1="20" x2="795" y1="766" y2="766" stroke="#9aa0a6" stroke-width="0.6"/>
-<rect x="20" y="766" width="775" height="56" fill="#eef0f2"/>
-<text x="28" y="791" font-size="13" font-weight="700" fill="#1f2328">Estensione del sistema ASHA 1990</text>
-<text x="28" y="807" font-size="10.5" font-style="italic" fill="#1f2328">Colonna = lato stimolato. Pedice: D/S solo apparecchio destro/sinistro o lato ricevitore; M trasmettitore CROS controlaterale</text>
-<line x1="20" x2="795" y1="822" y2="822" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="844" font-size="12" fill="#1f2328">Cuffie, presentazione diotica</text>
-<line x1="408" x2="408" y1="822" y2="858" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="822" y2="858" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="822" y2="858" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="822" y2="858" stroke="#9aa0a6" stroke-width="0.8"/>
-<line x1="601.5" x2="601.5" y1="822" y2="858" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 838) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text></g></g>
-<line x1="730.5" x2="730.5" y1="822" y2="858" stroke="#9aa0a6" stroke-width="0.8"/>
-<line x1="20" x2="795" y1="858" y2="858" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="880" font-size="12" fill="#1f2328">Soglia in campo libero, entrambi gli apparecchi</text>
-<line x1="408" x2="408" y1="858" y2="894" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="858" y2="894" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="858" y2="894" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="858" y2="894" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 874) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
-<line x1="601.5" x2="601.5" y1="858" y2="894" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 874) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
-<line x1="730.5" x2="730.5" y1="858" y2="894" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 874) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
-<line x1="20" x2="795" y1="894" y2="894" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="916" font-size="12" fill="#1f2328">Soglia in campo libero, solo apparecchio destro</text>
-<line x1="408" x2="408" y1="894" y2="930" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="894" y2="930" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="894" y2="930" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="894" y2="930" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 910) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text></g></g>
-<line x1="601.5" x2="601.5" y1="894" y2="930" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 910) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text></g></g>
-<line x1="730.5" x2="730.5" y1="894" y2="930" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 910) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text></g></g>
-<line x1="20" x2="795" y1="930" y2="930" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="952" font-size="12" fill="#1f2328">Soglia in campo libero, solo apparecchio sinistro</text>
-<line x1="408" x2="408" y1="930" y2="966" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="930" y2="966" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="930" y2="966" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="930" y2="966" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 946) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text></g></g>
-<line x1="601.5" x2="601.5" y1="930" y2="966" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 946) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text></g></g>
-<line x1="730.5" x2="730.5" y1="930" y2="966" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 946) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text></g></g>
-<line x1="20" x2="795" y1="966" y2="966" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="988" font-size="12" fill="#1f2328">Soglia in campo libero, CROS/BiCROS, ricevitore destro</text>
-<line x1="408" x2="408" y1="966" y2="1002" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="966" y2="1002" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="966" y2="1002" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="966" y2="1002" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 982) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text></g></g>
-<line x1="601.5" x2="601.5" y1="966" y2="1002" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 982) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text></g></g>
-<line x1="730.5" x2="730.5" y1="966" y2="1002" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 982) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text></g></g>
-<line x1="20" x2="795" y1="1002" y2="1002" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1024" font-size="12" fill="#1f2328">Soglia in campo libero, CROS/BiCROS, ricevitore sinistro</text>
-<line x1="408" x2="408" y1="1002" y2="1038" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1002" y2="1038" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1002" y2="1038" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1002" y2="1038" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1018) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text></g></g>
-<line x1="601.5" x2="601.5" y1="1002" y2="1038" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1018) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text></g></g>
-<line x1="730.5" x2="730.5" y1="1002" y2="1038" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1018) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text></g></g>
-<line x1="20" x2="795" y1="1038" y2="1038" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1060" font-size="12" fill="#1f2328">Livello più confortevole (MCL)</text>
-<line x1="408" x2="408" y1="1038" y2="1074" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1038" y2="1074" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1038" y2="1074" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1038" y2="1074" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1054) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
-<line x1="601.5" x2="601.5" y1="1038" y2="1074" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1054) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
-<line x1="730.5" x2="730.5" y1="1038" y2="1074" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1054) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
-<line x1="20" x2="795" y1="1074" y2="1074" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1096" font-size="12" fill="#1f2328">MCL con apparecchio/i</text>
-<line x1="408" x2="408" y1="1074" y2="1110" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1074" y2="1110" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1074" y2="1110" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1074" y2="1110" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1090) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
-<line x1="601.5" x2="601.5" y1="1074" y2="1110" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1090) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
-<line x1="730.5" x2="730.5" y1="1074" y2="1110" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1090) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
-<line x1="20" x2="795" y1="1110" y2="1110" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1132" font-size="12" fill="#1f2328">Soglia di fastidio (UCL)</text>
-<line x1="408" x2="408" y1="1110" y2="1146" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1110" y2="1146" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1110" y2="1146" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1110" y2="1146" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1126) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
-<line x1="601.5" x2="601.5" y1="1110" y2="1146" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1126) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
-<line x1="730.5" x2="730.5" y1="1110" y2="1146" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1126) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
-<line x1="20" x2="795" y1="1146" y2="1146" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1168" font-size="12" fill="#1f2328">UCL con apparecchio/i</text>
-<line x1="408" x2="408" y1="1146" y2="1182" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1146" y2="1182" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1146" y2="1182" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1146" y2="1182" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1162) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
-<line x1="601.5" x2="601.5" y1="1146" y2="1182" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1162) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
-<line x1="730.5" x2="730.5" y1="1146" y2="1182" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1162) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
-<line x1="20" x2="795" y1="1182" y2="1182" stroke="#9aa0a6" stroke-width="0.6"/>
-<rect x="20" y="1182" width="775" height="56" fill="#eef0f2"/>
-<text x="28" y="1207" font-size="13" font-weight="700" fill="#1f2328">Nessuna risposta — esempi</text>
-<text x="28" y="1223" font-size="10.5" font-style="italic" fill="#1f2328">Freccia a 45° verso l’esterno; verticale se non lateralizzato</text>
-<line x1="20" x2="795" y1="1238" y2="1238" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1260" font-size="12" fill="#1f2328">Cuffie; via ossea mastoidea non specificata</text>
-<line x1="408" x2="408" y1="1238" y2="1274" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1238" y2="1274" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1238" y2="1274" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1238" y2="1274" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1254) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M5 5L12 12M12 7.5V12H7.5"/></g></g>
-<line x1="601.5" x2="601.5" y1="1238" y2="1274" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1254) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 4L0-4L6 4"/><path d="M0 -4V13M-3.5 9.5L0 13L3.5 9.5"/></g></g>
-<line x1="730.5" x2="730.5" y1="1238" y2="1274" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1254) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-4.24 4.24L-11.24 11.24M-11.24 6.74V11.24H-6.74"/></g></g>
-<line x1="20" x2="795" y1="1274" y2="1274" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1296" font-size="12" fill="#1f2328">Campo libero senza apparecchio</text>
-<line x1="408" x2="408" y1="1274" y2="1310" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1274" y2="1310" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1274" y2="1310" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1274" y2="1310" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1290) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/><path d="M5 5L12 12M12 7.5V12H7.5"/></g></g>
-<line x1="601.5" x2="601.5" y1="1274" y2="1310" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1290) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/><path d="M0.75 6.5V15.5M-2.75 12L0.75 15.5L4.25 12"/></g></g>
-<line x1="730.5" x2="730.5" y1="1274" y2="1310" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1290) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#ffffff"/><path d="M-7 7L-14 14M-14 9.5V14H-9.5"/></g></g>
-<line x1="20" x2="795" y1="1310" y2="1310" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1332" font-size="12" fill="#1f2328">Soglia in campo libero, entrambi gli apparecchi</text>
-<line x1="408" x2="408" y1="1310" y2="1346" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1310" y2="1346" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1310" y2="1346" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1310" y2="1346" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1326) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M4.32 4.32L11.32 11.32M11.32 6.82V11.32H6.82"/></g></g>
-<line x1="601.5" x2="601.5" y1="1310" y2="1346" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1326) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
-<line x1="730.5" x2="730.5" y1="1310" y2="1346" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1326) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
-<line x1="20" x2="795" y1="1346" y2="1346" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1368" font-size="12" fill="#1f2328">Soglia in campo libero, solo apparecchio destro</text>
-<line x1="408" x2="408" y1="1346" y2="1382" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1346" y2="1382" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1346" y2="1382" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1346" y2="1382" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1362) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text><path d="M9.6768 8.16L16.6768 15.16M16.6768 10.66V15.16H12.1768"/></g></g>
-<line x1="601.5" x2="601.5" y1="1346" y2="1382" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1362) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
-<line x1="730.5" x2="730.5" y1="1346" y2="1382" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1362) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
-<line x1="20" x2="795" y1="1382" y2="1382" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1404" font-size="12" fill="#1f2328">Soglia in campo libero, solo apparecchio sinistro</text>
-<line x1="408" x2="408" y1="1382" y2="1418" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1382" y2="1418" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1382" y2="1418" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1382" y2="1418" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1398) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text><path d="M9.6768 8.16L16.6768 15.16M16.6768 10.66V15.16H12.1768"/></g></g>
-<line x1="601.5" x2="601.5" y1="1382" y2="1418" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1398) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
-<line x1="730.5" x2="730.5" y1="1382" y2="1418" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1398) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
-<line x1="20" x2="795" y1="1418" y2="1418" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1440" font-size="12" fill="#1f2328">Soglia in campo libero, CROS/BiCROS, ricevitore destro</text>
-<line x1="408" x2="408" y1="1418" y2="1454" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1418" y2="1454" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1418" y2="1454" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1418" y2="1454" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1434) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text><path d="M15.0336 8.16L22.0336 15.16M22.0336 10.66V15.16H17.5336"/></g></g>
-<line x1="601.5" x2="601.5" y1="1418" y2="1454" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1434) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
-<line x1="730.5" x2="730.5" y1="1418" y2="1454" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1434) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
-<line x1="20" x2="795" y1="1454" y2="1454" stroke="#9aa0a6" stroke-width="0.6"/>
-<text x="42" y="1476" font-size="12" fill="#1f2328">Soglia in campo libero, CROS/BiCROS, ricevitore sinistro</text>
-<line x1="408" x2="408" y1="1454" y2="1490" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="537" x2="537" y1="1454" y2="1490" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="666" x2="666" y1="1454" y2="1490" stroke="#1f2328" stroke-width="0.8"/>
-<line x1="472.5" x2="472.5" y1="1454" y2="1490" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(472.5 1470) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text><path d="M15.0336 8.16L22.0336 15.16M22.0336 10.66V15.16H17.5336"/></g></g>
-<line x1="601.5" x2="601.5" y1="1454" y2="1490" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(601.5 1470) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
-<line x1="730.5" x2="730.5" y1="1454" y2="1490" stroke="#9aa0a6" stroke-width="0.8"/>
-<g transform="translate(730.5 1470) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
-<line x1="20" x2="795" y1="1490" y2="1490" stroke="#9aa0a6" stroke-width="0.6"/>
-<rect x="20" y="238" width="775" height="1252" fill="none" stroke="#1f2328"/>
-<text x="20" y="1515" font-size="10.5" fill="#1f2328">Forme: ASHA, «Guidelines for Audiometric Symbols» (1990), tabella 1.</text>
-<text x="20" y="1530" font-size="10.5" fill="#1f2328">Per le condizioni protesizzate, ASHA chiede simboli definiti localmente, distinti</text>
-<text x="20" y="1545" font-size="10.5" fill="#1f2328">dagli altri e spiegati sull’audiogramma: è il ruolo dell’estensione qui sopra.</text>
-<text x="20" y="1560" font-size="10.5" fill="#1f2328">Colori: convenzione diffusa, non normata (rosso destro, blu sinistro, verde non lateralizzato).</text>
-<text x="20" y="1575" font-size="10.5" fill="#1f2328">Tonalità regolate per un contrasto costante di 5:1 con lo sfondo (WCAG).</text>
-<text x="20" y="1590" font-size="10.5" fill="#1f2328">Non approvato dall’ASHA. La licenza copre questa tabella e l’estensione, non la norma ASHA.</text>
-<text x="20" y="1605" font-size="10.5" fill="#1f2328">© 2026 Benoit Delemps — CC BY 4.0, https://creativecommons.org/licenses/by/4.0/</text>
+<line x1="20" x2="814" y1="342" y2="342" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="368" font-size="12" fill="#1f2328">Senza mascheramento</text>
+<line x1="427" x2="427" y1="342" y2="386" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="342" y2="386" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="342" y2="386" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="342" y2="386" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 362) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/></g></g>
+<line x1="620.5" x2="620.5" y1="342" y2="386" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="749.5" x2="749.5" y1="342" y2="386" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 362) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/></g></g>
+<line x1="20" x2="814" y1="386" y2="386" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="412" font-size="12" fill="#1f2328">Con mascheramento</text>
+<line x1="427" x2="427" y1="386" y2="430" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="386" y2="430" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="386" y2="430" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="386" y2="430" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 406) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5.5-5.5H5.5V5.5H-5.5Z" fill="#ffffff"/></g></g>
+<line x1="620.5" x2="620.5" y1="386" y2="430" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="749.5" x2="749.5" y1="386" y2="430" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 406) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-6L6 5H-6Z" fill="#ffffff"/></g></g>
+<line x1="20" x2="814" y1="430" y2="430" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="448" font-size="11.5" font-weight="700" fill="#1f2328">VIA OSSEA — MASTOIDE</text>
+<line x1="20" x2="814" y1="460" y2="460" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="486" font-size="12" fill="#1f2328">Senza mascheramento</text>
+<line x1="427" x2="427" y1="460" y2="504" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="460" y2="504" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="460" y2="504" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="460" y2="504" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 480) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-6L9 0L3 6"/></g></g>
+<line x1="620.5" x2="620.5" y1="460" y2="504" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 480) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 4L0-4L6 4"/></g></g>
+<line x1="749.5" x2="749.5" y1="460" y2="504" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 480) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-6L-9 0L-3 6"/></g></g>
+<line x1="20" x2="814" y1="504" y2="504" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="530" font-size="12" fill="#1f2328">Con mascheramento</text>
+<line x1="427" x2="427" y1="504" y2="548" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="504" y2="548" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="504" y2="548" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="504" y2="548" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 524) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-7H8V7H3"/></g></g>
+<line x1="620.5" x2="620.5" y1="504" y2="548" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="749.5" x2="749.5" y1="504" y2="548" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 524) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-7H-8V7H-3"/></g></g>
+<line x1="20" x2="814" y1="548" y2="548" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="566" font-size="11.5" font-weight="700" fill="#1f2328">VIA OSSEA — FRONTE</text>
+<line x1="20" x2="814" y1="578" y2="578" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="604" font-size="12" fill="#1f2328">Senza mascheramento</text>
+<line x1="427" x2="427" y1="578" y2="622" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="578" y2="622" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="578" y2="622" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="578" y2="622" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="620.5" x2="620.5" y1="578" y2="622" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 598) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6-4L0 4L6-4"/></g></g>
+<line x1="749.5" x2="749.5" y1="578" y2="622" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="20" x2="814" y1="622" y2="622" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="648" font-size="12" fill="#1f2328">Con mascheramento</text>
+<line x1="427" x2="427" y1="622" y2="666" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="622" y2="666" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="622" y2="666" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="622" y2="666" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 642) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3V-7H9"/></g></g>
+<line x1="620.5" x2="620.5" y1="622" y2="666" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="749.5" x2="749.5" y1="622" y2="666" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 642) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-9-7H-3V3"/></g></g>
+<line x1="20" x2="814" y1="666" y2="666" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="684" font-size="11.5" font-weight="700" fill="#1f2328">VIA AEREA — CAMPO LIBERO</text>
+<line x1="20" x2="814" y1="696" y2="696" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="722" font-size="12" fill="#1f2328">Senza apparecchio</text>
+<line x1="427" x2="427" y1="696" y2="740" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="696" y2="740" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="696" y2="740" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="696" y2="740" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 716) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/></g></g>
+<line x1="620.5" x2="620.5" y1="696" y2="740" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 716) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/></g></g>
+<line x1="749.5" x2="749.5" y1="696" y2="740" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 716) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#ffffff"/></g></g>
+<line x1="20" x2="814" y1="740" y2="740" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="758" font-size="11.5" font-weight="700" fill="#1f2328">SOGLIA DEL RIFLESSO STAPEDIALE</text>
+<line x1="20" x2="814" y1="770" y2="770" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="796" font-size="12" fill="#1f2328">Controlaterale</text>
+<line x1="427" x2="427" y1="770" y2="814" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="770" y2="814" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="770" y2="814" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="770" y2="814" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 790) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-5A5 5 0 0 1 3 5M8 0H12"/></g></g>
+<line x1="620.5" x2="620.5" y1="770" y2="814" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="749.5" x2="749.5" y1="770" y2="814" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 790) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-5A5 5 0 0 0-3 5M-8 0H-12"/></g></g>
+<line x1="20" x2="814" y1="814" y2="814" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="840" font-size="12" fill="#1f2328">Ipsilaterale</text>
+<line x1="427" x2="427" y1="814" y2="858" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="814" y2="858" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="814" y2="858" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="814" y2="858" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 834) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3-5V5M3 0H11"/></g></g>
+<line x1="620.5" x2="620.5" y1="814" y2="858" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="749.5" x2="749.5" y1="814" y2="858" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 834) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-3-5V5M-3 0H-11"/></g></g>
+<line x1="20" x2="814" y1="858" y2="858" stroke="#9aa0a6" stroke-width="0.6"/>
+<rect x="20" y="858" width="794" height="56" fill="#eef0f2"/>
+<text x="28" y="883" font-size="13" font-weight="700" fill="#1f2328">Estensione del sistema ASHA 1990</text>
+<text x="28" y="899" font-size="10.5" font-style="italic" fill="#1f2328">Colonna = lato stimolato. Pedice: D/S solo apparecchio destro/sinistro o lato ricevitore; M trasmettitore CROS controlaterale</text>
+<line x1="20" x2="814" y1="914" y2="914" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="940" font-size="12" fill="#1f2328">Cuffie, presentazione diotica</text>
+<line x1="427" x2="427" y1="914" y2="958" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="914" y2="958" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="914" y2="958" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="914" y2="958" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="620.5" x2="620.5" y1="914" y2="958" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 934) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text></g></g>
+<line x1="749.5" x2="749.5" y1="914" y2="958" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="20" x2="814" y1="958" y2="958" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="984" font-size="12" fill="#1f2328">Soglia in campo libero, entrambi gli apparecchi</text>
+<line x1="427" x2="427" y1="958" y2="1002" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="958" y2="1002" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="958" y2="1002" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="958" y2="1002" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 978) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
+<line x1="620.5" x2="620.5" y1="958" y2="1002" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 978) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
+<line x1="749.5" x2="749.5" y1="958" y2="1002" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 978) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
+<line x1="20" x2="814" y1="1002" y2="1002" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1028" font-size="12" fill="#1f2328">Soglia in campo libero, solo apparecchio destro</text>
+<line x1="427" x2="427" y1="1002" y2="1046" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1002" y2="1046" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1002" y2="1046" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1002" y2="1046" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1022) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text></g></g>
+<line x1="620.5" x2="620.5" y1="1002" y2="1046" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1022) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text></g></g>
+<line x1="749.5" x2="749.5" y1="1002" y2="1046" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1022) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text></g></g>
+<line x1="20" x2="814" y1="1046" y2="1046" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1072" font-size="12" fill="#1f2328">Soglia in campo libero, solo apparecchio sinistro</text>
+<line x1="427" x2="427" y1="1046" y2="1090" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1046" y2="1090" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1046" y2="1090" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1046" y2="1090" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1066) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text></g></g>
+<line x1="620.5" x2="620.5" y1="1046" y2="1090" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1066) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text></g></g>
+<line x1="749.5" x2="749.5" y1="1046" y2="1090" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1066) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text></g></g>
+<line x1="20" x2="814" y1="1090" y2="1090" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1116" font-size="12" fill="#1f2328">Soglia in campo libero, CROS/BiCROS, ricevitore destro</text>
+<line x1="427" x2="427" y1="1090" y2="1134" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1090" y2="1134" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1090" y2="1134" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1090" y2="1134" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1110) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text></g></g>
+<line x1="620.5" x2="620.5" y1="1090" y2="1134" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1110) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text></g></g>
+<line x1="749.5" x2="749.5" y1="1090" y2="1134" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1110) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text></g></g>
+<line x1="20" x2="814" y1="1134" y2="1134" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1160" font-size="12" fill="#1f2328">Soglia in campo libero, CROS/BiCROS, ricevitore sinistro</text>
+<line x1="427" x2="427" y1="1134" y2="1178" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1134" y2="1178" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1134" y2="1178" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1134" y2="1178" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1154) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text></g></g>
+<line x1="620.5" x2="620.5" y1="1134" y2="1178" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1154) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text></g></g>
+<line x1="749.5" x2="749.5" y1="1134" y2="1178" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1154) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text></g></g>
+<line x1="20" x2="814" y1="1178" y2="1178" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1204" font-size="12" fill="#1f2328">Livello più confortevole (MCL)</text>
+<line x1="427" x2="427" y1="1178" y2="1222" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1178" y2="1222" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1178" y2="1222" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1178" y2="1222" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1198) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
+<line x1="620.5" x2="620.5" y1="1178" y2="1222" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1198) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
+<line x1="749.5" x2="749.5" y1="1178" y2="1222" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1198) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
+<line x1="20" x2="814" y1="1222" y2="1222" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1248" font-size="12" fill="#1f2328">MCL con apparecchio/i</text>
+<line x1="427" x2="427" y1="1222" y2="1266" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1222" y2="1266" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1222" y2="1266" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1222" y2="1266" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1242) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
+<line x1="620.5" x2="620.5" y1="1222" y2="1266" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1242) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
+<line x1="749.5" x2="749.5" y1="1222" y2="1266" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1242) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
+<line x1="20" x2="814" y1="1266" y2="1266" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1292" font-size="12" fill="#1f2328">Soglia di fastidio (UCL)</text>
+<line x1="427" x2="427" y1="1266" y2="1310" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1266" y2="1310" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1266" y2="1310" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1266" y2="1310" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1286) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
+<line x1="620.5" x2="620.5" y1="1266" y2="1310" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1286) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
+<line x1="749.5" x2="749.5" y1="1266" y2="1310" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1286) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
+<line x1="20" x2="814" y1="1310" y2="1310" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1336" font-size="12" fill="#1f2328">UCL con apparecchio/i</text>
+<line x1="427" x2="427" y1="1310" y2="1354" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1310" y2="1354" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1310" y2="1354" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1310" y2="1354" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1330) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
+<line x1="620.5" x2="620.5" y1="1310" y2="1354" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1330) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
+<line x1="749.5" x2="749.5" y1="1310" y2="1354" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1330) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
+<line x1="20" x2="814" y1="1354" y2="1354" stroke="#9aa0a6" stroke-width="0.6"/>
+<rect x="20" y="1354" width="794" height="56" fill="#eef0f2"/>
+<text x="28" y="1379" font-size="13" font-weight="700" fill="#1f2328">Nessuna risposta — esempi</text>
+<text x="28" y="1395" font-size="10.5" font-style="italic" fill="#1f2328">Freccia a 45° verso l’esterno; verticale se non lateralizzato</text>
+<line x1="20" x2="814" y1="1410" y2="1410" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1436" font-size="12" fill="#1f2328">Cuffie; via ossea mastoidea non specificata</text>
+<line x1="427" x2="427" y1="1410" y2="1454" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1410" y2="1454" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1410" y2="1454" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1410" y2="1454" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1430) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M5 5L12 12M12 7.5V12H7.5"/></g></g>
+<line x1="620.5" x2="620.5" y1="1410" y2="1454" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1430) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 4L0-4L6 4"/><path d="M0 -4V13M-3.5 9.5L0 13L3.5 9.5"/></g></g>
+<line x1="749.5" x2="749.5" y1="1410" y2="1454" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1430) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-4.24 4.24L-11.24 11.24M-11.24 6.74V11.24H-6.74"/></g></g>
+<line x1="20" x2="814" y1="1454" y2="1454" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1480" font-size="12" fill="#1f2328">Campo libero senza apparecchio</text>
+<line x1="427" x2="427" y1="1454" y2="1498" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1454" y2="1498" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1454" y2="1498" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1454" y2="1498" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1474) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/><path d="M5 5L12 12M12 7.5V12H7.5"/></g></g>
+<line x1="620.5" x2="620.5" y1="1454" y2="1498" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1474) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/><path d="M0.75 6.5V15.5M-2.75 12L0.75 15.5L4.25 12"/></g></g>
+<line x1="749.5" x2="749.5" y1="1454" y2="1498" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1474) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#ffffff"/><path d="M-7 7L-14 14M-14 9.5V14H-9.5"/></g></g>
+<line x1="20" x2="814" y1="1498" y2="1498" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1524" font-size="12" fill="#1f2328">Soglia in campo libero, entrambi gli apparecchi</text>
+<line x1="427" x2="427" y1="1498" y2="1542" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1498" y2="1542" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1498" y2="1542" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1498" y2="1542" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1518) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M4.32 4.32L11.32 11.32M11.32 6.82V11.32H6.82"/></g></g>
+<line x1="620.5" x2="620.5" y1="1498" y2="1542" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1518) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
+<line x1="749.5" x2="749.5" y1="1498" y2="1542" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1518) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
+<line x1="20" x2="814" y1="1542" y2="1542" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1568" font-size="12" fill="#1f2328">Soglia in campo libero, solo apparecchio destro</text>
+<line x1="427" x2="427" y1="1542" y2="1586" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1542" y2="1586" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1542" y2="1586" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1542" y2="1586" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1562) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text><path d="M9.6768 8.16L16.6768 15.16M16.6768 10.66V15.16H12.1768"/></g></g>
+<line x1="620.5" x2="620.5" y1="1542" y2="1586" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1562) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
+<line x1="749.5" x2="749.5" y1="1542" y2="1586" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1562) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">D</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
+<line x1="20" x2="814" y1="1586" y2="1586" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1612" font-size="12" fill="#1f2328">Soglia in campo libero, solo apparecchio sinistro</text>
+<line x1="427" x2="427" y1="1586" y2="1630" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1586" y2="1630" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1586" y2="1630" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1586" y2="1630" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1606) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text><path d="M9.6768 8.16L16.6768 15.16M16.6768 10.66V15.16H12.1768"/></g></g>
+<line x1="620.5" x2="620.5" y1="1586" y2="1630" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1606) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
+<line x1="749.5" x2="749.5" y1="1586" y2="1630" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1606) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">S</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
+<line x1="20" x2="814" y1="1630" y2="1630" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1656" font-size="12" fill="#1f2328">Soglia in campo libero, CROS/BiCROS, ricevitore destro</text>
+<line x1="427" x2="427" y1="1630" y2="1674" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1630" y2="1674" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1630" y2="1674" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1630" y2="1674" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1650) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text><path d="M15.0336 8.16L22.0336 15.16M22.0336 10.66V15.16H17.5336"/></g></g>
+<line x1="620.5" x2="620.5" y1="1630" y2="1674" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1650) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
+<line x1="749.5" x2="749.5" y1="1630" y2="1674" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1650) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">DM</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
+<line x1="20" x2="814" y1="1674" y2="1674" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1700" font-size="12" fill="#1f2328">Soglia in campo libero, CROS/BiCROS, ricevitore sinistro</text>
+<line x1="427" x2="427" y1="1674" y2="1718" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1674" y2="1718" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1674" y2="1718" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1674" y2="1718" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1694) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text><path d="M15.0336 8.16L22.0336 15.16M22.0336 10.66V15.16H17.5336"/></g></g>
+<line x1="620.5" x2="620.5" y1="1674" y2="1718" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1694) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
+<line x1="749.5" x2="749.5" y1="1674" y2="1718" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1694) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="#ffffff" stroke-width="3" paint-order="stroke">SM</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
+<line x1="20" x2="814" y1="1718" y2="1718" stroke="#9aa0a6" stroke-width="0.6"/>
+<rect x="20" y="1718" width="794" height="56" fill="#eef0f2"/>
+<text x="28" y="1743" font-size="13" font-weight="700" fill="#1f2328">ISO 8253-3:2022 — audiogramma vocale</text>
+<text x="28" y="1759" font-size="10.5" font-style="italic" fill="#1f2328">Colonna = orecchio in esame; Non specificato = B, ascolto binaurale in cuffia (diotico o dicotico)</text>
+<line x1="20" x2="814" y1="1774" y2="1774" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="1792" font-size="11.5" font-weight="700" fill="#1f2328">CUFFIE</text>
+<line x1="20" x2="814" y1="1804" y2="1804" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1830" font-size="12" fill="#1f2328">Senza rumore competitivo</text>
+<line x1="427" x2="427" y1="1804" y2="1848" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1804" y2="1848" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1804" y2="1848" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1804" y2="1848" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1824) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/></g></g>
+<line x1="620.5" x2="620.5" y1="1804" y2="1848" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1824) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text></g></g>
+<line x1="749.5" x2="749.5" y1="1804" y2="1848" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1824) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/></g></g>
+<line x1="20" x2="814" y1="1848" y2="1848" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1874" font-size="12" fill="#1f2328">Mascheramento controlaterale</text>
+<line x1="427" x2="427" y1="1848" y2="1892" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1848" y2="1892" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1848" y2="1892" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1848" y2="1892" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1868) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5L0 0Z" fill="#396dc7"/></g></g>
+<line x1="620.5" x2="620.5" y1="1848" y2="1892" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="749.5" x2="749.5" y1="1848" y2="1892" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1868) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-4.24-4.24A6 6 0 0 1 4.24-4.24L0 0Z" fill="#c74031"/></g></g>
+<line x1="20" x2="814" y1="1892" y2="1892" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1918" font-size="12" fill="#1f2328">Rumore competitivo</text>
+<line x1="427" x2="427" y1="1892" y2="1936" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1892" y2="1936" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1892" y2="1936" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1892" y2="1936" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1912) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5 5H5"/></g></g>
+<line x1="620.5" x2="620.5" y1="1892" y2="1936" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 1912) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5 6.5H5"/></g></g>
+<line x1="749.5" x2="749.5" y1="1892" y2="1936" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1912) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-6 6H6"/></g></g>
+<line x1="20" x2="814" y1="1936" y2="1936" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="1962" font-size="12" fill="#1f2328">Rumore competitivo e mascheramento controlaterale</text>
+<line x1="427" x2="427" y1="1936" y2="1980" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="1936" y2="1980" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="1936" y2="1980" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="1936" y2="1980" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 1956) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5L0 0Z" fill="#396dc7"/><path d="M-5 5H5"/></g></g>
+<line x1="620.5" x2="620.5" y1="1936" y2="1980" stroke="#9aa0a6" stroke-width="0.8"/>
+<line x1="749.5" x2="749.5" y1="1936" y2="1980" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 1956) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-4.24-4.24A6 6 0 0 1 4.24-4.24L0 0Z" fill="#c74031"/><path d="M-6 6H6"/></g></g>
+<line x1="20" x2="814" y1="1980" y2="1980" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="28" y="1998" font-size="11.5" font-weight="700" fill="#1f2328">CAMPO LIBERO</text>
+<line x1="20" x2="814" y1="2010" y2="2010" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="2036" font-size="12" fill="#1f2328">Senza apparecchio</text>
+<line x1="427" x2="427" y1="2010" y2="2054" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="2010" y2="2054" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="2010" y2="2054" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="2010" y2="2054" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 2030) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/></g></g>
+<line x1="620.5" x2="620.5" y1="2010" y2="2054" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 2030) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/></g></g>
+<line x1="749.5" x2="749.5" y1="2010" y2="2054" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 2030) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-6-6H6"/></g></g>
+<line x1="20" x2="814" y1="2054" y2="2054" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="2080" font-size="12" fill="#1f2328">Senza apparecchio, rumore competitivo</text>
+<line x1="427" x2="427" y1="2054" y2="2098" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="2054" y2="2098" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="2054" y2="2098" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="2054" y2="2098" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 2074) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/></g></g>
+<line x1="620.5" x2="620.5" y1="2054" y2="2098" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 2074) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/></g></g>
+<line x1="749.5" x2="749.5" y1="2054" y2="2098" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 2074) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-6-6H6"/><path d="M-6 6H6"/></g></g>
+<line x1="20" x2="814" y1="2098" y2="2098" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="2130" font-size="12" fill="#1f2328">Dispositivo 1, rumore competitivo</text>
+<line x1="427" x2="427" y1="2098" y2="2154" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="2098" y2="2154" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="2098" y2="2154" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="2098" y2="2154" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 2126) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#ffffff"/><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/></g></g>
+<line x1="620.5" x2="620.5" y1="2098" y2="2154" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 2126) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#ffffff"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/></g></g>
+<line x1="749.5" x2="749.5" y1="2098" y2="2154" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 2126) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#ffffff"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-6-6H6"/><path d="M-6 6H6"/></g></g>
+<line x1="20" x2="814" y1="2154" y2="2154" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="2186" font-size="12" fill="#1f2328">Dispositivo 2, rumore competitivo</text>
+<line x1="427" x2="427" y1="2154" y2="2210" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="2154" y2="2210" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="2154" y2="2210" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="2154" y2="2210" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 2182) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#ffffff"/><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/><text x="7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="620.5" x2="620.5" y1="2154" y2="2210" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 2182) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#ffffff"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/><text x="7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="749.5" x2="749.5" y1="2154" y2="2210" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 2182) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#ffffff"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-6-6H6"/><path d="M-6 6H6"/><text x="8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="20" x2="814" y1="2210" y2="2210" stroke="#9aa0a6" stroke-width="0.6"/>
+<text x="42" y="2242" font-size="12" fill="#1f2328">Dispositivo 2, rumore competitivo, materiale vocale a, b, c</text>
+<line x1="427" x2="427" y1="2210" y2="2266" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="556" x2="556" y1="2210" y2="2266" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="685" x2="685" y1="2210" y2="2266" stroke="#1f2328" stroke-width="0.8"/>
+<line x1="491.5" x2="491.5" y1="2210" y2="2266" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(491.5 2238) scale(1.15)"><g stroke="#396dc7" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#ffffff"/><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/><text x="-7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="none" text-anchor="end">c</text><text x="7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#396dc7" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="620.5" x2="620.5" y1="2210" y2="2266" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(620.5 2238) scale(1.15)"><g stroke="#0a8040" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#ffffff"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="#ffffff" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/><text x="-7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="none" text-anchor="end">b</text><text x="7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#0a8040" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="749.5" x2="749.5" y1="2210" y2="2266" stroke="#9aa0a6" stroke-width="0.8"/>
+<g transform="translate(749.5 2238) scale(1.15)"><g stroke="#c74031" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#ffffff"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#ffffff"/><path d="M-6-6H6"/><path d="M-6 6H6"/><text x="-8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="none" text-anchor="end">a</text><text x="8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#c74031" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="20" x2="814" y1="2266" y2="2266" stroke="#9aa0a6" stroke-width="0.6"/>
+<rect x="20" y="238" width="794" height="2028" fill="none" stroke="#1f2328"/>
+<text x="20" y="2291" font-size="10.5" fill="#1f2328">Forme: ASHA, «Guidelines for Audiometric Symbols» (1990), tabella 1.</text>
+<text x="20" y="2306" font-size="10.5" fill="#1f2328">Per le condizioni protesizzate, ASHA chiede simboli definiti localmente, distinti</text>
+<text x="20" y="2321" font-size="10.5" fill="#1f2328">dagli altri e spiegati sull’audiogramma: è il ruolo dell’estensione qui sopra.</text>
+<text x="20" y="2336" font-size="10.5" fill="#1f2328">Colori: convenzione diffusa, non normata (rosso destro, blu sinistro, verde non lateralizzato).</text>
+<text x="20" y="2351" font-size="10.5" fill="#1f2328">Tonalità regolate per un contrasto costante di 5:1 con lo sfondo (WCAG).</text>
+<text x="20" y="2366" font-size="10.5" fill="#1f2328">Non approvato dall’ASHA. La licenza copre questa tabella e l’estensione, non la norma ASHA.</text>
+<text x="20" y="2381" font-size="10.5" fill="#1f2328">Simboli: ISO 8253-3:2022, tabella C.3 (secondo la ISO 8253-2).</text>
+<text x="20" y="2396" font-size="10.5" fill="#1f2328">Triangolo pieno: mascheramento controlaterale; linea sotto: rumore competitivo; linea sopra: campo libero.</text>
+<text x="20" y="2411" font-size="10.5" fill="#1f2328">Rombo: apparecchio acustico; a destra, numero del dispositivo dal 2° in poi; a sinistra, lettera del materiale vocale.</text>
+<text x="20" y="2426" font-size="10.5" fill="#1f2328">Numeri e lettere sono definiti sull’audiogramma.</text>
+<text x="20" y="2441" font-size="10.5" fill="#1f2328">Non approvato dall’ISO. La licenza copre questa tabella, non la norma ISO.</text>
+<text x="20" y="2456" font-size="10.5" fill="#1f2328">© 2026 Benoit Delemps — CC BY 4.0, https://creativecommons.org/licenses/by/4.0/</text>
 </g>
 </svg>

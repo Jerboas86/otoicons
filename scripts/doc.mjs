@@ -1,6 +1,7 @@
 // Generates docs/symbols.<locale>[.dark].svg: the ASHA 1990 table of
 // audiometric symbols (response), as vectors, extended with the local
-// extension and the no-response rule. Run with `pnpm doc` (builds
+// extension and the no-response rule, followed by the speech audiogram
+// symbols of ISO 8253-3:2022. Run with `pnpm doc` (builds
 // dist/otoicons.js first).
 import { writeFileSync } from "node:fs";
 import {
@@ -8,6 +9,7 @@ import {
   THEME_BACKGROUNDS,
   noResponseArrow,
   sideColor,
+  speechSymbol,
   symbolSvg,
 } from "../dist/otoicons.js";
 
@@ -38,6 +40,7 @@ const FR = {
       "6 langues",
       "SVG et PNG",
       "Centré, fond transparent",
+      "Audiométrie vocale ISO 8253-3",
       "Licence ouverte (CC BY 4.0)",
     ],
   },
@@ -105,6 +108,7 @@ const EN = {
       "6 languages",
       "SVG and PNG",
       "Centred, transparent background",
+      "ISO 8253-3 speech audiometry",
       "Open license (CC BY 4.0)",
     ],
   },
@@ -172,6 +176,7 @@ const DE = {
       "6 Sprachen",
       "SVG und PNG",
       "Zentriert, transparenter Hintergrund",
+      "Sprachaudiometrie nach ISO 8253-3",
       "Offene Lizenz (CC BY 4.0)",
     ],
   },
@@ -239,6 +244,7 @@ const ES = {
       "6 idiomas",
       "SVG y PNG",
       "Centrado, fondo transparente",
+      "Logoaudiometría ISO 8253-3",
       "Licencia abierta (CC BY 4.0)",
     ],
   },
@@ -306,6 +312,7 @@ const IT = {
       "6 lingue",
       "SVG e PNG",
       "Centrato, sfondo trasparente",
+      "Audiometria vocale ISO 8253-3",
       "Licenza aperta (CC BY 4.0)",
     ],
   },
@@ -373,6 +380,7 @@ const PT = {
       "6 idiomas",
       "SVG e PNG",
       "Centrado, fundo transparente",
+      "Audiometria vocal ISO 8253-3",
       "Licença aberta (CC BY 4.0)",
     ],
   },
@@ -421,13 +429,154 @@ const PT = {
   ],
 };
 
+/** Speech audiogram table, ISO 8253-3:2022 table C.3, per locale. */
+const SPEECH = {
+  fr: {
+    section: "ISO 8253-3:2022 — audiogramme vocal",
+    note: "Colonne = oreille testée ; Non spécifié = B, écoute binaurale au casque (diotique ou dichotique)",
+    earphones: "Écouteurs",
+    soundField: "Champ libre",
+    quiet: "Sans bruit concurrent",
+    masked: "Masquage controlatéral",
+    noise: "Bruit concurrent",
+    noiseMasked: "Bruit concurrent et masquage controlatéral",
+    sfQuiet: "Sans appareil",
+    sfNoise: "Sans appareil, bruit concurrent",
+    aided1: "Appareil 1, bruit concurrent",
+    aided2: "Appareil 2, bruit concurrent",
+    material: "Appareil 2, bruit concurrent, matériel vocal a, b, c",
+    notes: [
+      "Symboles : ISO 8253-3:2022, tableau C.3 (d’après l’ISO 8253-2).",
+      "Triangle plein : masquage controlatéral ; trait dessous : bruit concurrent ; trait dessus : champ libre.",
+      "Losange : appareil auditif ; à droite, numéro de l’appareil à partir du 2e ; à gauche, lettre du matériel vocal.",
+      "Numéros et lettres sont définis sur l’audiogramme.",
+      "Document non approuvé par l’ISO. La licence couvre ce tableau, pas la norme ISO.",
+    ],
+  },
+  en: {
+    section: "ISO 8253-3:2022 — speech audiogram",
+    note: "Column = test ear; Unspecified = B, binaural listening under earphones (diotic or dichotic)",
+    earphones: "Earphones",
+    soundField: "Sound field",
+    quiet: "Without competing noise",
+    masked: "Contralateral masking",
+    noise: "Competing noise",
+    noiseMasked: "Competing noise and contralateral masking",
+    sfQuiet: "Unaided",
+    sfNoise: "Unaided, competing noise",
+    aided1: "Device 1, competing noise",
+    aided2: "Device 2, competing noise",
+    material: "Device 2, competing noise, speech material a, b, c",
+    notes: [
+      "Symbols: ISO 8253-3:2022, table C.3 (after ISO 8253-2).",
+      "Filled triangle: contralateral masking; line below: competing noise; line above: sound field.",
+      "Diamond: hearing aid; at the right, the device number from the 2nd on; at the left, the speech material letter.",
+      "Numbers and letters are defined on the audiogram.",
+      "Not endorsed by ISO. The license covers this table, not the ISO standard.",
+    ],
+  },
+  de: {
+    section: "ISO 8253-3:2022 — Sprachaudiogramm",
+    note: "Spalte = Prüfohr; Nicht spezifiziert = B, binaurales Hören über Kopfhörer (diotisch oder dichotisch)",
+    earphones: "Kopfhörer",
+    soundField: "Freifeld",
+    quiet: "Ohne Störgeräusch",
+    masked: "Kontralaterale Vertäubung",
+    noise: "Störgeräusch",
+    noiseMasked: "Störgeräusch und kontralaterale Vertäubung",
+    sfQuiet: "Ohne Hörgerät",
+    sfNoise: "Ohne Hörgerät, Störgeräusch",
+    aided1: "Gerät 1, Störgeräusch",
+    aided2: "Gerät 2, Störgeräusch",
+    material: "Gerät 2, Störgeräusch, Sprachmaterial a, b, c",
+    notes: [
+      "Symbole: ISO 8253-3:2022, Tabelle C.3 (nach ISO 8253-2).",
+      "Gefülltes Dreieck: kontralaterale Vertäubung; Strich unten: Störgeräusch; Strich oben: Freifeld.",
+      "Raute: Hörgerät; rechts die Gerätenummer ab dem 2. Gerät; links der Buchstabe des Sprachmaterials.",
+      "Nummern und Buchstaben werden auf dem Audiogramm erklärt.",
+      "Nicht von der ISO genehmigt. Die Lizenz deckt diese Tabelle, nicht die ISO-Norm.",
+    ],
+  },
+  es: {
+    section: "ISO 8253-3:2022 — logoaudiograma",
+    note: "Columna = oído de prueba; No especificado = B, escucha binaural con auriculares (diótica o dicótica)",
+    earphones: "Auriculares",
+    soundField: "Campo libre",
+    quiet: "Sin ruido competitivo",
+    masked: "Enmascaramiento contralateral",
+    noise: "Ruido competitivo",
+    noiseMasked: "Ruido competitivo y enmascaramiento contralateral",
+    sfQuiet: "Sin audífono",
+    sfNoise: "Sin audífono, ruido competitivo",
+    aided1: "Dispositivo 1, ruido competitivo",
+    aided2: "Dispositivo 2, ruido competitivo",
+    material: "Dispositivo 2, ruido competitivo, material verbal a, b, c",
+    notes: [
+      "Símbolos: ISO 8253-3:2022, tabla C.3 (según ISO 8253-2).",
+      "Triángulo relleno: enmascaramiento contralateral; línea debajo: ruido competitivo; línea encima: campo libre.",
+      "Rombo: audífono; a la derecha, número del dispositivo a partir del 2.º; a la izquierda, letra del material verbal.",
+      "Números y letras se definen en el audiograma.",
+      "No aprobado por ISO. La licencia cubre esta tabla, no la norma ISO.",
+    ],
+  },
+  it: {
+    section: "ISO 8253-3:2022 — audiogramma vocale",
+    note: "Colonna = orecchio in esame; Non specificato = B, ascolto binaurale in cuffia (diotico o dicotico)",
+    earphones: "Cuffie",
+    soundField: "Campo libero",
+    quiet: "Senza rumore competitivo",
+    masked: "Mascheramento controlaterale",
+    noise: "Rumore competitivo",
+    noiseMasked: "Rumore competitivo e mascheramento controlaterale",
+    sfQuiet: "Senza apparecchio",
+    sfNoise: "Senza apparecchio, rumore competitivo",
+    aided1: "Dispositivo 1, rumore competitivo",
+    aided2: "Dispositivo 2, rumore competitivo",
+    material: "Dispositivo 2, rumore competitivo, materiale vocale a, b, c",
+    notes: [
+      "Simboli: ISO 8253-3:2022, tabella C.3 (secondo la ISO 8253-2).",
+      "Triangolo pieno: mascheramento controlaterale; linea sotto: rumore competitivo; linea sopra: campo libero.",
+      "Rombo: apparecchio acustico; a destra, numero del dispositivo dal 2° in poi; a sinistra, lettera del materiale vocale.",
+      "Numeri e lettere sono definiti sull’audiogramma.",
+      "Non approvato dall’ISO. La licenza copre questa tabella, non la norma ISO.",
+    ],
+  },
+  pt: {
+    section: "ISO 8253-3:2022 — audiograma vocal",
+    note: "Coluna = ouvido testado; Não especificado = B, escuta binaural com auscultadores (diótica ou dicótica)",
+    earphones: "Auscultadores",
+    soundField: "Campo livre",
+    quiet: "Sem ruído competitivo",
+    masked: "Mascaramento contralateral",
+    noise: "Ruído competitivo",
+    noiseMasked: "Ruído competitivo e mascaramento contralateral",
+    sfQuiet: "Sem aparelho",
+    sfNoise: "Sem aparelho, ruído competitivo",
+    aided1: "Dispositivo 1, ruído competitivo",
+    aided2: "Dispositivo 2, ruído competitivo",
+    material: "Dispositivo 2, ruído competitivo, material vocal a, b, c",
+    notes: [
+      "Símbolos: ISO 8253-3:2022, tabela C.3 (segundo a ISO 8253-2).",
+      "Triângulo cheio: mascaramento contralateral; linha por baixo: ruído competitivo; linha por cima: campo livre.",
+      "Losango: aparelho auditivo; à direita, número do dispositivo a partir do 2.º; à esquerda, letra do material vocal.",
+      "Números e letras são definidos no audiograma.",
+      "Não aprovado pela ISO. A licença cobre esta tabela, não a norma ISO.",
+    ],
+  },
+};
+
 const asha = (left, unspecified, right) =>
   [left, unspecified, right].map((shape) => (shape ? { shape } : null));
 const all = (letter, index) => [0, 1, 2].map(() => ({ letter, index }));
 
 const AID_INDEXES = ["right", "left", "right_cros", "left_cros"];
 
-const rows = (t) => [
+const rows = (t) => [...pureToneRows(t), ...speechRows(SPEECH[t.locale])];
+
+/** Closing notes: pure tones, then speech, then the licence. */
+const tableNotes = (t) => [...t.notes.slice(0, -1), ...SPEECH[t.locale].notes, LIC];
+
+const pureToneRows = (t) => [
   { kind: "section", label: t.ashaSection },
   { kind: "group", label: t.groups.acEarphones },
   { kind: "symbols", label: t.unmasked, cells: asha("ac_left", null, "ac_right") },
@@ -494,6 +643,43 @@ const rows = (t) => [
   })),
 ];
 
+/** Speech cells: the ISO 8253-3 conditions of one row, in every column it defines. */
+const QUIET = {
+  transducer: "earphones",
+  masked: false,
+  competing_noise: false,
+  aided: { right: null, left: null },
+};
+const speech = (fields, binaural = true) =>
+  [true, binaural, true].map((defined) => (defined ? { speech: { ...QUIET, ...fields } } : null));
+const NOISE = { competing_noise: true };
+const SOUND_FIELD = { transducer: "sound_field" };
+const AIDED = { ...SOUND_FIELD, ...NOISE, aided: { right: "hearing_aid", left: "hearing_aid" } };
+
+/** ISO 8253-3:2022, table C.3, in its order; the aided rows need a taller row for the diamond. */
+const speechRows = (s) => [
+  { kind: "section", label: s.section, note: s.note },
+  { kind: "group", label: s.earphones },
+  { kind: "symbols", label: s.quiet, cells: speech({}) },
+  { kind: "symbols", label: s.masked, cells: speech({ masked: true }, false) },
+  { kind: "symbols", label: s.noise, cells: speech(NOISE) },
+  { kind: "symbols", label: s.noiseMasked, cells: speech({ ...NOISE, masked: true }, false) },
+  { kind: "group", label: s.soundField },
+  { kind: "symbols", label: s.sfQuiet, cells: speech(SOUND_FIELD) },
+  { kind: "symbols", label: s.sfNoise, cells: speech({ ...SOUND_FIELD, ...NOISE }) },
+  { kind: "symbols", label: s.aided1, cells: speech(AIDED), tall: true },
+  { kind: "symbols", label: s.aided2, cells: speech({ ...AIDED, device: 2 }), tall: true },
+  {
+    kind: "symbols",
+    label: s.material,
+    // As in table C.3: a right, b binaural, c left.
+    cells: ["c", "b", "a"].map((material) => ({
+      speech: { ...QUIET, ...AIDED, device: 2, material },
+    })),
+    tall: true,
+  },
+];
+
 const COLUMNS = ["left", "unspecified", "right"];
 const SIDES = { left: "left", unspecified: null, right: "right" };
 
@@ -506,15 +692,17 @@ const textWidth = (text, size, weight) =>
   text.length * size * { regular: 0.52, bold: 0.58, caps: 0.7 }[weight];
 const PAD = 16;
 const max = (values) => Math.max(...values);
-const HEIGHTS = { section: 40, group: 26, symbols: 36 };
+const HEIGHTS = { section: 40, group: 30, symbols: 44 };
+/** Rows holding an aided speech symbol, whose diamond spans ±17 units. */
+const TALL_H = 56;
 const HEADER_H = 34;
 const NOTE_H = 16;
 const SCALE = 1.15;
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-/** Symbol of a cell: the column sets the stimulated side, hence colour and arrow. */
-const symbolOf = (cell, column, noResponse) => {
+/** Pure-tone symbol of a cell: the column sets the stimulated side, hence colour and arrow. */
+const toneSymbol = (cell, column, noResponse) => {
   const ear = SIDES[column];
   const common = {
     ear,
@@ -525,6 +713,12 @@ const symbolOf = (cell, column, noResponse) => {
     ? { kind: "asha", shape: cell.shape, ...common }
     : { kind: "extension", letter: cell.letter, aid_index: cell.index ?? null, ...common };
 };
+
+/** Symbol of a cell; for speech, the column sets the test ear. */
+const symbolOf = (cell, column, noResponse) =>
+  "speech" in cell
+    ? speechSymbol({ ...cell.speech, ear: SIDES[column] })
+    : toneSymbol(cell, column, noResponse);
 
 const mark = (t, theme, cell, x, y, column, noResponse) =>
   `<g transform="translate(${x} ${y}) scale(${SCALE})">${symbolSvg(symbolOf(cell, column, noResponse), { locale: t.locale, theme: theme.name })}</g>`;
@@ -644,12 +838,15 @@ const ROW_RENDERERS = {
       body.push(
         `<line x1="${x}" x2="${x}" y1="${y}" y2="${y + h}" stroke="${theme.rule}" stroke-width="0.8"/>`,
       );
-      if (cell) body.push(mark(t, theme, cell, x, y + h / 2 - 2, COLUMNS[i], !!row.noResponse));
+      // Arrows hang below the symbol: raise it a little to centre the pair.
+      const cy = y + h / 2 - (row.tall ? 0 : 2);
+      if (cell) body.push(mark(t, theme, cell, x, cy, COLUMNS[i], !!row.noResponse));
     });
   },
 };
 
-const rowHeight = (row) => HEIGHTS[row.kind] + (row.kind === "section" && row.note ? NOTE_H : 0);
+const rowHeight = (row) =>
+  (row.tall ? TALL_H : HEIGHTS[row.kind]) + (row.kind === "section" && row.note ? NOTE_H : 0);
 
 /** Table rows, each followed by a rule, inside a frame from `top`. */
 const table = (body, ctx, rows, top, y) => {
@@ -719,6 +916,6 @@ for (const t of LANGUAGES)
     for (const theme of THEMES) {
       const name = t.file.replace(/\.svg$/, `${extended ? ".extended" : ""}${theme.suffix}.svg`);
       const out = new URL(`../docs/${name}`, import.meta.url);
-      writeFileSync(out, render(t, theme, extended));
+      writeFileSync(out, render({ ...t, notes: tableNotes(t) }, theme, extended));
       console.log(`wrote ${out.pathname}`);
     }

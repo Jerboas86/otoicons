@@ -14,6 +14,7 @@ import {
   SIDE_COLORS,
   noResponseArrow,
   sideColor,
+  speechSymbol,
   symbolSvg,
 } from "../dist/otoicons.js";
 
@@ -25,6 +26,8 @@ const LETTERS = ["B", "A", "M", "MA", "U", "UA"];
 const AID_INDEXES = ["right", "left", "right_cros", "left_cros"];
 /** Aided letters: the only ones that take a subscript. */
 const AIDED_LETTERS = ["A", "MA", "UA"];
+/** Aided speech symbols: device numbers bundled; others are drawn at runtime. */
+const SPEECH_DEVICES = [1, 2, 3, 4];
 const HALF_W = 24;
 const HALF_H = 20;
 /** PNG scale: one SVG unit becomes this many pixels. */
@@ -80,12 +83,24 @@ const write = (locale, theme, name, symbol) => {
   writeFileSync(new URL(`${path}.svg`, out), file(name, symbol, locale, theme));
   rasterize(`${path}.svg`, SYMBOL_SCALE);
   const { kind, shape, letter, aid_index, ear, color, no_response_arrow } = symbol;
+  const files = { svg: `${path}.svg`, png: `${path}.png`, locale, theme, kind };
+  if (kind === "speech") {
+    const { base, masked, competing_noise, sound_field, aided, device } = symbol;
+    manifest.push({
+      ...files,
+      base,
+      ear,
+      color,
+      masked,
+      competing_noise,
+      sound_field,
+      aided,
+      device,
+    });
+    return;
+  }
   manifest.push({
-    svg: `${path}.svg`,
-    png: `${path}.png`,
-    locale,
-    theme,
-    kind,
+    ...files,
     ...(shape ? { shape } : { letter, aid_index }),
     ear,
     color,
@@ -132,6 +147,42 @@ for (const locale of LOCALES)
           }
       }
   }
+
+/** Speech symbols, ISO 8253-3: every condition the standard defines, without material letter. */
+const SPEECH_SIDES = { right: "right", left: "left", binaural: null };
+const NO_AID = { right: null, left: null };
+const AIDS = { right: "hearing_aid", left: "hearing_aid" };
+const speechConditions = [];
+for (const [side, ear] of Object.entries(SPEECH_SIDES))
+  for (const masked of [false, true])
+    for (const transducer of ["earphones", "sound_field"])
+      for (const competing_noise of [false, true])
+        for (const device of transducer === "sound_field" ? [null, ...SPEECH_DEVICES] : [null]) {
+          const symbol = speechSymbol({
+            ear,
+            masked,
+            transducer,
+            competing_noise,
+            aided: device ? AIDS : NO_AID,
+            device: device ?? 1,
+          });
+          if (!symbol) continue;
+          const aided = device && (device > 1 ? `aided-${device}` : "aided");
+          const name = [
+            "speech",
+            side,
+            masked && "masked",
+            transducer === "sound_field" && "sound-field",
+            competing_noise && "noise",
+            aided,
+          ]
+            .filter(Boolean)
+            .join(".");
+          speechConditions.push([name, symbol]);
+        }
+for (const locale of LOCALES)
+  for (const theme of THEMES)
+    for (const [name, symbol] of speechConditions) write(locale, theme, name, symbol);
 
 await Promise.all(rasters);
 
@@ -191,9 +242,11 @@ writeFileSync(
   new URL("README.md", out),
   `# otoicons — audiometric symbols bundle
 
-One file per pure-tone symbol, in SVG and PNG: the ASHA symbols ("Guidelines
-for Audiometric Symbols", 1990) and their extension to the measurements the
-standard does not cover (aided measurements, MCL, UCL, diotic presentation).
+One file per symbol, in SVG and PNG: for pure tones, the ASHA symbols
+("Guidelines for Audiometric Symbols", 1990) and their extension to the
+measurements the standard does not cover (aided measurements, MCL, UCL,
+diotic presentation); for the speech audiogram, the symbols of
+ISO 8253-3:2022, table C.3.
 
 ![Audiometric symbols](symbols.en.svg)
 
@@ -226,7 +279,10 @@ standard does not cover (aided measurements, MCL, UCL, diotic presentation).
 10. **Ready to place.** Each file is centred on the measurement point, on a
     transparent background; \`manifest.json\` describes every file for
     automated use.
-11. **Open.** Released under CC BY 4.0.
+11. **Speech audiometry.** The speech audiogram symbols of ISO 8253-3:2022:
+    right, left and binaural, contralateral masking, competing noise, sound
+    field and hearing aids, with the same colours as for pure tones.
+12. **Open.** Released under CC BY 4.0.
 
 ## Layout
 
@@ -250,6 +306,7 @@ manifest.json                     description of every file
 |---|---|
 | ASHA symbol | \`<shape>[.no-response]\` — e.g. \`ac_right\`, \`bc_mastoid_left_masked.no-response\` |
 | Extension | \`<letter>.<side>[.aid-<subscript>][.no-response]\` — e.g. \`A.unspecified.aid-right\` |
+| Speech | \`speech.<ear>[.masked][.sound-field][.noise][.aided[-<n>]]\` — e.g. \`speech.left.sound-field.noise.aided-2\` |
 
 - **Side**: \`right\`, \`left\` or \`unspecified\`. This is the stimulated side;
   it sets the colour and the direction of the arrow.
@@ -260,10 +317,17 @@ manifest.json                     description of every file
   aid only; \`aid-right_cros\`/\`aid-left_cros\` for a CROS or BiCROS with the
   receiver on the right/left. No subscript: two hearing aids.
 - **\`.no-response\`**: with the no-response arrow.
+- **Speech** (ISO 8253-3:2022, table C.3): ear \`right\` (O), \`left\` (X) or
+  \`binaural\` (B, diotic or dichotic under earphones); \`.masked\` contralateral
+  masking (filled triangle, never binaural); \`.sound-field\` (line above);
+  \`.noise\` competing noise (line below); \`.aided\` hearing aid (diamond,
+  sound field only), \`.aided-<n>\` device ${SPEECH_DEVICES.slice(1).join(", ")} with its number at the
+  right. Device numbers, and the speech material letter that \`symbolSvg\`
+  draws at the left, are defined on the audiogram.
 
 \`manifest.json\` describes every file (locale, theme, shape or letter,
-subscript, side, colour, no response, SVG and PNG paths): it is the entry
-point for automated use.
+subscript, side, colour, no response, or the speech modifiers; SVG and PNG
+paths): it is the entry point for automated use.
 
 ### ASHA shapes
 
@@ -282,7 +346,8 @@ ${indexLetters}
 - **The measurement point is the centre of the image**: align it with the
   frequency × level intersection.
 - **Size**: the shape fits in about 20 × 20 units of the ${2 * HALF_W} × ${2 * HALF_H} SVG image
-  (${20 * SYMBOL_SCALE} × ${20 * SYMBOL_SCALE} px in PNG); scale it to your grid.
+  (${20 * SYMBOL_SCALE} × ${20 * SYMBOL_SCALE} px in PNG), 34 × 34 for an aided speech symbol; scale it to
+  your grid. On a speech audiogram, the centre is the level × score point.
 - **Transparent background**: nothing hides the grid under the symbol. To
   interrupt the grid lines, as the standard does, mask the area in your
   software.
@@ -313,8 +378,9 @@ The files in this bundle are released under [CC BY 4.0](${LICENSE}):
 © 2026 Benoit Delemps. Every SVG file carries this notice in its metadata.
 
 The license covers the presentation and the extension (letters, subscripts,
-conventions), not the symbols nor the text of the ASHA guidelines, cited as
-the source. This bundle is neither published nor endorsed by ASHA.
+conventions), not the symbols nor the text of the ASHA guidelines or of
+ISO 8253-3, cited as the sources. This bundle is neither published nor
+endorsed by ASHA or ISO.
 `,
 );
 console.log(`wrote ${manifest.length} symbols (SVG + PNG) to ${out.pathname}`);
