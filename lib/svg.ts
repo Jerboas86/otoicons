@@ -120,20 +120,29 @@ const label = (
 const letter = (value: string, color: string, background: string | null): string =>
   `<text y="${LETTER_SIZE * 0.36}" font-size="${LETTER_SIZE}" ${textAttributes(color, background)} text-anchor="middle">${value}</text>`;
 
-/** Speech base and its ISO 8253-3 modifiers. */
-const speechParts = (s: SpeechSymbol, color: string, background: string | null): string[] => {
-  const parts = [
-    s.base === "B"
-      ? letter("B", color, background)
-      : `<path d="${ASHA_SHAPES[s.base === "O" ? "ac_right" : "ac_left"]}"${s.base === "O" && background ? ` fill="${background}"` : ""}/>`,
-  ];
-  if (s.masked && s.base !== "B")
-    parts.push(`<path d="${SPEECH_MARKS[`masked_${s.base}`]}" fill="${color}"/>`);
-  if (s.sound_field) parts.push(`<path d="${SPEECH_MARKS[`sound_field_${s.base}`]}"/>`);
-  if (s.competing_noise) parts.push(`<path d="${SPEECH_MARKS[`noise_${s.base}`]}"/>`);
-  if (s.material) parts.push(label(s, "left", s.material, color, background));
-  return parts;
+/** Speech base: the earphone `O` (closed, filled with the background) or `X`, or the letter `B`. */
+const speechBase = (s: SpeechSymbol, color: string, background: string | null): string => {
+  if (s.base === "B") return letter("B", color, background);
+  const fill = s.base === "O" && background ? ` fill="${background}"` : "";
+  return `<path d="${ASHA_SHAPES[s.base === "O" ? "ac_right" : "ac_left"]}"${fill}/>`;
 };
+
+/** ISO 8253-3 modifiers of a speech symbol; masking never applies to `B`. */
+const speechMarks = (s: SpeechSymbol, color: string): string[] => {
+  const marks: string[] = [];
+  if (s.masked && s.base !== "B")
+    marks.push(`<path d="${SPEECH_MARKS[`masked_${s.base}`]}" fill="${color}"/>`);
+  if (s.sound_field) marks.push(`<path d="${SPEECH_MARKS[`sound_field_${s.base}`]}"/>`);
+  if (s.competing_noise) marks.push(`<path d="${SPEECH_MARKS[`noise_${s.base}`]}"/>`);
+  return marks;
+};
+
+/** Speech base, its modifiers and its material letter. */
+const speechParts = (s: SpeechSymbol, color: string, background: string | null): string[] => [
+  speechBase(s, color, background),
+  ...speechMarks(s, color),
+  ...(s.material ? [label(s, "left", s.material, color, background)] : []),
+];
 
 /** Pure-tone base: ASHA shape or extension letter, with its no-response arrow. */
 const toneParts = (s: AudiogramSymbol, color: string, background: string | null): string[] => {
