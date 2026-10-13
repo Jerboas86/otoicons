@@ -1,7 +1,8 @@
 name: Release
 
 # Push a tag matching the package version (e.g. v0.1.0) to publish to npm and
-# attach the symbol bundle to a GitHub release. Requires the NPM_TOKEN secret.
+# attach the symbol bundle to a GitHub release. npm authenticates this workflow
+# through trusted publishing (OIDC), so no token is stored in the repository.
 on:
   push:
     tags: ["v*"]
@@ -14,11 +15,11 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
           registry-url: https://registry.npmjs.org
       - run: sudo apt-get install -y fonts-liberation
@@ -31,8 +32,6 @@ jobs:
       - run: pnpm bundle
       - run: cd bundle && zip -qr "../otoicons-bundle-$GITHUB_REF_NAME.zip" .
       - run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: gh release create "$GITHUB_REF_NAME" "otoicons-bundle-$GITHUB_REF_NAME.zip" --generate-notes
         env:
           GH_TOKEN: ${{ github.token }}
