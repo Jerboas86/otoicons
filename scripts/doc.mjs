@@ -32,12 +32,11 @@ const FR = {
     items: [
       "Conforme ASHA 1990",
       "Symboles appareillés, MCL, UCL",
-      "Côté appareillé visible",
-      "CROS / BiCROS",
+      "Appareillé : losange ISO 8253-3",
       "Couleur = côté stimulé",
       "Contraste constant 5:1",
       "Thèmes clair et sombre",
-      "6 langues",
+      "Tableaux en 6 langues",
       "SVG et PNG",
       "Centré, fond transparent",
       "Audiométrie vocale ISO 8253-3",
@@ -58,21 +57,19 @@ const FR = {
   contralateral: "Controlatéral",
   ipsilateral: "Ipsilatéral",
   extensionSection: "Extension du système ASHA 1990",
-  extensionNote:
-    "Colonne = côté stimulé. Indice : D/G appareil droit/gauche seul ou côté récepteur ; M émetteur CROS controlatéral",
+  extensionNote: "Colonne = côté stimulé",
   local: {
     B: "Écouteurs, présentation diotique",
     M: "Niveau le plus confortable (MCL)",
-    MA: "MCL avec appareil(s)",
     U: "Seuil d'inconfort (UCL)",
-    UA: "UCL avec appareil(s)",
   },
   aided: {
-    both: "Seuil en champ libre, les deux appareils",
-    right: "Seuil en champ libre, appareil droit seul",
-    left: "Seuil en champ libre, appareil gauche seul",
-    right_cros: "Seuil en champ libre, CROS/BiCROS, récepteur droit",
-    left_cros: "Seuil en champ libre, CROS/BiCROS, récepteur gauche",
+    section: "Appareillé — losange ISO 8253-3",
+    note: "Losange = appareillé ; chiffre = appareil ou réglage, à partir du 2e, défini sur l’audiogramme",
+    threshold: "Seuil en champ libre, appareil 1",
+    threshold2: "Seuil en champ libre, appareil 2",
+    M: "MCL avec appareil",
+    U: "UCL avec appareil",
   },
   noResponseSection: "Absence de réponse — exemples",
   noResponseNote: "Flèche à 45° vers l’extérieur ; verticale si non latéralisé",
@@ -81,7 +78,7 @@ const FR = {
   notes: [
     "Formes : ASHA, « Guidelines for Audiometric Symbols » (1990), tableau 1.",
     "ASHA demande, pour les conditions appareillées, des symboles déterminés localement, distincts",
-    "des autres et légendés sur l’audiogramme : c’est le rôle de l’extension ci-dessus.",
+    "des autres et légendés sur l’audiogramme : le losange de l’ISO 8253-3, comme en vocale.",
     "Couleurs : convention répandue, hors norme (rouge droite, bleu gauche, vert non latéralisé).",
     "Nuances ajustées pour un contraste constant de 5:1 avec le fond (WCAG).",
     "Document non approuvé par l’ASHA. La licence couvre ce tableau et l’extension, pas la norme ASHA.",
@@ -100,12 +97,11 @@ const EN = {
     items: [
       "ASHA 1990 compliant",
       "Aided, MCL, UCL symbols",
-      "Aided side shown",
-      "CROS / BiCROS",
+      "Aided: ISO 8253-3 diamond",
       "Colour = stimulated side",
       "Constant 5:1 contrast",
       "Light and dark themes",
-      "6 languages",
+      "Tables in 6 languages",
       "SVG and PNG",
       "Centred, transparent background",
       "ISO 8253-3 speech audiometry",
@@ -126,21 +122,19 @@ const EN = {
   contralateral: "Contralateral",
   ipsilateral: "Ipsilateral",
   extensionSection: "Extension of the ASHA 1990 system",
-  extensionNote:
-    "Column = stimulated side. Subscript: R/L right/left aid only or receiver side; M contralateral CROS transmitter",
+  extensionNote: "Column = stimulated side",
   local: {
     B: "Earphones, diotic presentation",
     M: "Most comfortable level (MCL)",
-    MA: "Aided MCL",
     U: "Uncomfortable loudness level (UCL)",
-    UA: "Aided UCL",
   },
   aided: {
-    both: "Aided sound field threshold, both aids",
-    right: "Aided sound field threshold, right aid only",
-    left: "Aided sound field threshold, left aid only",
-    right_cros: "Aided sound field threshold, CROS/BiCROS, right receiver",
-    left_cros: "Aided sound field threshold, CROS/BiCROS, left receiver",
+    section: "Aided — ISO 8253-3 diamond",
+    note: "Diamond = aided; number = device or fitting, from the 2nd on, defined on the audiogram",
+    threshold: "Aided sound field threshold, device 1",
+    threshold2: "Aided sound field threshold, device 2",
+    M: "Aided MCL",
+    U: "Aided UCL",
   },
   noResponseSection: "No response — examples",
   noResponseNote: "Arrow at 45° pointing outward; straight down when not lateralised",
@@ -149,7 +143,7 @@ const EN = {
   notes: [
     "Shapes: ASHA, “Guidelines for Audiometric Symbols” (1990), table 1.",
     "For aided conditions, ASHA asks for locally determined symbols, exclusive of any other",
-    "symbols and defined on the audiogram: this is the role of the extension above.",
+    "symbols and defined on the audiogram: the ISO 8253-3 diamond, as for speech.",
     "Colors: widespread convention, not part of the standard (red right, blue left, green not lateralised).",
     "Shades adjusted for a constant 5:1 contrast against the background (WCAG).",
     "Not endorsed by ASHA. The license covers this table and the extension, not the ASHA standard.",
@@ -168,12 +162,11 @@ const DE = {
     items: [
       "ASHA-1990-konform",
       "Symbole für versorgt, MCL, UCL",
-      "Versorgte Seite erkennbar",
-      "CROS / BiCROS",
+      "Versorgt: Raute nach ISO 8253-3",
       "Farbe = stimulierte Seite",
       "Konstanter Kontrast 5:1",
       "Helles und dunkles Design",
-      "6 Sprachen",
+      "Tabellen in 6 Sprachen",
       "SVG und PNG",
       "Zentriert, transparenter Hintergrund",
       "Sprachaudiometrie nach ISO 8253-3",
@@ -194,21 +187,19 @@ const DE = {
   contralateral: "Kontralateral",
   ipsilateral: "Ipsilateral",
   extensionSection: "Erweiterung des Systems ASHA 1990",
-  extensionNote:
-    "Spalte = stimulierte Seite. Index: R/L nur rechtes/linkes Gerät oder Empfängerseite; M kontralateraler CROS-Sender",
+  extensionNote: "Spalte = stimulierte Seite",
   local: {
     B: "Kopfhörer, diotische Darbietung",
     M: "Angenehmster Pegel (MCL)",
-    MA: "MCL mit Hörgerät(en)",
     U: "Unbehaglichkeitsschwelle (UCL)",
-    UA: "UCL mit Hörgerät(en)",
   },
   aided: {
-    both: "Freifeldschwelle, beide Hörgeräte",
-    right: "Freifeldschwelle, nur rechtes Hörgerät",
-    left: "Freifeldschwelle, nur linkes Hörgerät",
-    right_cros: "Freifeldschwelle, CROS/BiCROS, Empfänger rechts",
-    left_cros: "Freifeldschwelle, CROS/BiCROS, Empfänger links",
+    section: "Versorgt — Raute nach ISO 8253-3",
+    note: "Raute = versorgt; Ziffer = Gerät oder Einstellung ab dem 2., auf dem Audiogramm erklärt",
+    threshold: "Freifeldschwelle, Gerät 1",
+    threshold2: "Freifeldschwelle, Gerät 2",
+    M: "MCL mit Hörgerät",
+    U: "UCL mit Hörgerät",
   },
   noResponseSection: "Keine Reaktion — Beispiele",
   noResponseNote: "Pfeil im 45°-Winkel nach außen; senkrecht, wenn nicht lateralisiert",
@@ -217,7 +208,7 @@ const DE = {
   notes: [
     "Formen: ASHA, „Guidelines for Audiometric Symbols“ (1990), Tabelle 1.",
     "Für versorgte Bedingungen verlangt die ASHA lokal festgelegte Symbole, die sich von allen",
-    "anderen unterscheiden und auf dem Audiogramm erklärt werden: Das leistet die obige Erweiterung.",
+    "anderen unterscheiden und auf dem Audiogramm erklärt werden: die Raute nach ISO 8253-3, wie in der Sprachaudiometrie.",
     "Farben: verbreitete Konvention, nicht genormt (rot rechts, blau links, grün nicht lateralisiert).",
     "Farbtöne für einen konstanten Kontrast von 5:1 zum Hintergrund angepasst (WCAG).",
     "Nicht von der ASHA gebilligt. Die Lizenz umfasst diese Tabelle und die Erweiterung, nicht die ASHA-Norm.",
@@ -236,12 +227,11 @@ const ES = {
     items: [
       "Conforme a ASHA 1990",
       "Símbolos con audífono, MCL, UCL",
-      "Lado con audífono visible",
-      "CROS / BiCROS",
+      "Con audífono: rombo ISO 8253-3",
       "Color = lado estimulado",
       "Contraste constante 5:1",
       "Temas claro y oscuro",
-      "6 idiomas",
+      "Tablas en 6 idiomas",
       "SVG y PNG",
       "Centrado, fondo transparente",
       "Logoaudiometría ISO 8253-3",
@@ -262,21 +252,19 @@ const ES = {
   contralateral: "Contralateral",
   ipsilateral: "Ipsilateral",
   extensionSection: "Extensión del sistema ASHA 1990",
-  extensionNote:
-    "Columna = lado estimulado. Subíndice: D/I solo audífono derecho/izquierdo o lado receptor; M transmisor CROS contralateral",
+  extensionNote: "Columna = lado estimulado",
   local: {
     B: "Auriculares, presentación diótica",
     M: "Nivel más confortable (MCL)",
-    MA: "MCL con audífono(s)",
     U: "Umbral de incomodidad (UCL)",
-    UA: "UCL con audífono(s)",
   },
   aided: {
-    both: "Umbral en campo libre, ambos audífonos",
-    right: "Umbral en campo libre, solo audífono derecho",
-    left: "Umbral en campo libre, solo audífono izquierdo",
-    right_cros: "Umbral en campo libre, CROS/BiCROS, receptor derecho",
-    left_cros: "Umbral en campo libre, CROS/BiCROS, receptor izquierdo",
+    section: "Con audífono — rombo ISO 8253-3",
+    note: "Rombo = con audífono; número = dispositivo o ajuste, a partir del 2.º, definido en el audiograma",
+    threshold: "Umbral en campo libre, dispositivo 1",
+    threshold2: "Umbral en campo libre, dispositivo 2",
+    M: "MCL con audífono",
+    U: "UCL con audífono",
   },
   noResponseSection: "Sin respuesta — ejemplos",
   noResponseNote: "Flecha a 45° hacia fuera; vertical si no está lateralizado",
@@ -285,7 +273,7 @@ const ES = {
   notes: [
     "Formas: ASHA, «Guidelines for Audiometric Symbols» (1990), tabla 1.",
     "Para las condiciones con audífono, ASHA pide símbolos determinados localmente, distintos",
-    "de los demás y explicados en el audiograma: ese es el papel de la extensión anterior.",
+    "de los demás y explicados en el audiograma: el rombo de ISO 8253-3, como en logoaudiometría.",
     "Colores: convención extendida, no normalizada (rojo derecho, azul izquierdo, verde no lateralizado).",
     "Tonos ajustados para un contraste constante de 5:1 con el fondo (WCAG).",
     "No aprobado por ASHA. La licencia cubre esta tabla y la extensión, no la norma ASHA.",
@@ -304,12 +292,11 @@ const IT = {
     items: [
       "Conforme ASHA 1990",
       "Simboli protesizzati, MCL, UCL",
-      "Lato protesizzato visibile",
-      "CROS / BiCROS",
+      "Protesizzato: rombo ISO 8253-3",
       "Colore = lato stimolato",
       "Contrasto costante 5:1",
       "Temi chiaro e scuro",
-      "6 lingue",
+      "Tabelle in 6 lingue",
       "SVG e PNG",
       "Centrato, sfondo trasparente",
       "Audiometria vocale ISO 8253-3",
@@ -330,21 +317,19 @@ const IT = {
   contralateral: "Controlaterale",
   ipsilateral: "Ipsilaterale",
   extensionSection: "Estensione del sistema ASHA 1990",
-  extensionNote:
-    "Colonna = lato stimolato. Pedice: D/S solo apparecchio destro/sinistro o lato ricevitore; M trasmettitore CROS controlaterale",
+  extensionNote: "Colonna = lato stimolato",
   local: {
     B: "Cuffie, presentazione diotica",
     M: "Livello più confortevole (MCL)",
-    MA: "MCL con apparecchio/i",
     U: "Soglia di fastidio (UCL)",
-    UA: "UCL con apparecchio/i",
   },
   aided: {
-    both: "Soglia in campo libero, entrambi gli apparecchi",
-    right: "Soglia in campo libero, solo apparecchio destro",
-    left: "Soglia in campo libero, solo apparecchio sinistro",
-    right_cros: "Soglia in campo libero, CROS/BiCROS, ricevitore destro",
-    left_cros: "Soglia in campo libero, CROS/BiCROS, ricevitore sinistro",
+    section: "Protesizzato — rombo ISO 8253-3",
+    note: "Rombo = protesizzato; numero = dispositivo o regolazione, dal 2° in poi, definito sull’audiogramma",
+    threshold: "Soglia in campo libero, dispositivo 1",
+    threshold2: "Soglia in campo libero, dispositivo 2",
+    M: "MCL con apparecchio",
+    U: "UCL con apparecchio",
   },
   noResponseSection: "Nessuna risposta — esempi",
   noResponseNote: "Freccia a 45° verso l’esterno; verticale se non lateralizzato",
@@ -353,7 +338,7 @@ const IT = {
   notes: [
     "Forme: ASHA, «Guidelines for Audiometric Symbols» (1990), tabella 1.",
     "Per le condizioni protesizzate, ASHA chiede simboli definiti localmente, distinti",
-    "dagli altri e spiegati sull’audiogramma: è il ruolo dell’estensione qui sopra.",
+    "dagli altri e spiegati sull’audiogramma: il rombo della ISO 8253-3, come in audiometria vocale.",
     "Colori: convenzione diffusa, non normata (rosso destro, blu sinistro, verde non lateralizzato).",
     "Tonalità regolate per un contrasto costante di 5:1 con lo sfondo (WCAG).",
     "Non approvato dall’ASHA. La licenza copre questa tabella e l’estensione, non la norma ASHA.",
@@ -372,12 +357,11 @@ const PT = {
     items: [
       "Conforme ASHA 1990",
       "Símbolos com aparelho, MCL, UCL",
-      "Lado com aparelho visível",
-      "CROS / BiCROS",
+      "Com aparelho: losango ISO 8253-3",
       "Cor = lado estimulado",
       "Contraste constante 5:1",
       "Temas claro e escuro",
-      "6 idiomas",
+      "Tabelas em 6 idiomas",
       "SVG e PNG",
       "Centrado, fundo transparente",
       "Audiometria vocal ISO 8253-3",
@@ -398,21 +382,19 @@ const PT = {
   contralateral: "Contralateral",
   ipsilateral: "Ipsilateral",
   extensionSection: "Extensão do sistema ASHA 1990",
-  extensionNote:
-    "Coluna = lado estimulado. Índice: D/E só aparelho direito/esquerdo ou lado do recetor; M transmissor CROS contralateral",
+  extensionNote: "Coluna = lado estimulado",
   local: {
     B: "Auscultadores, apresentação diótica",
     M: "Nível mais confortável (MCL)",
-    MA: "MCL com aparelho(s)",
     U: "Limiar de desconforto (UCL)",
-    UA: "UCL com aparelho(s)",
   },
   aided: {
-    both: "Limiar em campo livre, ambos os aparelhos",
-    right: "Limiar em campo livre, só aparelho direito",
-    left: "Limiar em campo livre, só aparelho esquerdo",
-    right_cros: "Limiar em campo livre, CROS/BiCROS, recetor direito",
-    left_cros: "Limiar em campo livre, CROS/BiCROS, recetor esquerdo",
+    section: "Com aparelho — losango ISO 8253-3",
+    note: "Losango = com aparelho; número = dispositivo ou ajuste, a partir do 2.º, definido no audiograma",
+    threshold: "Limiar em campo livre, dispositivo 1",
+    threshold2: "Limiar em campo livre, dispositivo 2",
+    M: "MCL com aparelho",
+    U: "UCL com aparelho",
   },
   noResponseSection: "Sem resposta — exemplos",
   noResponseNote: "Seta a 45° para fora; vertical se não lateralizado",
@@ -421,7 +403,7 @@ const PT = {
   notes: [
     "Formas: ASHA, «Guidelines for Audiometric Symbols» (1990), tabela 1.",
     "Para as condições com aparelho, a ASHA pede símbolos definidos localmente, distintos",
-    "dos outros e explicados no audiograma: é esse o papel da extensão acima.",
+    "dos outros e explicados no audiograma: o losango da ISO 8253-3, como na audiometria vocal.",
     "Cores: convenção difundida, não normalizada (vermelho direito, azul esquerdo, verde não lateralizado).",
     "Tons ajustados para um contraste constante de 5:1 com o fundo (WCAG).",
     "Não aprovado pela ASHA. A licença abrange esta tabela e a extensão, não a norma ASHA.",
@@ -567,9 +549,11 @@ const SPEECH = {
 
 const asha = (left, unspecified, right) =>
   [left, unspecified, right].map((shape) => (shape ? { shape } : null));
-const all = (letter, index) => [0, 1, 2].map(() => ({ letter, index }));
-
-const AID_INDEXES = ["right", "left", "right_cros", "left_cros"];
+const all = (letter) => [0, 1, 2].map(() => ({ letter }));
+/** Aided cells: the same symbols in the ISO 8253-3 diamond, with a device number. */
+const aided = (cells, device = 1) =>
+  cells.map((cell) => cell && { ...cell, aided: true, device: device > 1 ? device : null });
+const SOUND_FIELD_SHAPES = asha("sf_left", "sf_unspecified", "sf_right");
 
 const rows = (t) => [...pureToneRows(t), ...speechRows(SPEECH[t.locale])];
 
@@ -614,12 +598,15 @@ const pureToneRows = (t) => [
   },
   { kind: "section", label: t.extensionSection, note: t.extensionNote },
   { kind: "symbols", label: t.local.B, cells: [null, { letter: "B" }, null] },
-  { kind: "symbols", label: t.aided.both, cells: all("A") },
-  ...AID_INDEXES.map((i) => ({ kind: "symbols", label: t.aided[i], cells: all("A", i) })),
-  ...["M", "MA", "U", "UA"].map((l) => ({
+  ...["M", "U"].map((l) => ({ kind: "symbols", label: t.local[l], cells: all(l) })),
+  { kind: "section", label: t.aided.section, note: t.aided.note },
+  { kind: "symbols", label: t.aided.threshold, cells: aided(SOUND_FIELD_SHAPES), tall: true },
+  { kind: "symbols", label: t.aided.threshold2, cells: aided(SOUND_FIELD_SHAPES, 2), tall: true },
+  ...["M", "U"].map((l) => ({
     kind: "symbols",
-    label: t.local[l],
-    cells: all(l),
+    label: t.aided[l],
+    cells: aided(all(l)),
+    tall: true,
   })),
   { kind: "section", label: t.noResponseSection, note: t.noResponseNote },
   {
@@ -631,16 +618,16 @@ const pureToneRows = (t) => [
   {
     kind: "symbols",
     label: t.noResponseSoundField,
-    cells: asha("sf_left", "sf_unspecified", "sf_right"),
+    cells: SOUND_FIELD_SHAPES,
     noResponse: true,
   },
-  { kind: "symbols", label: t.aided.both, cells: all("A"), noResponse: true },
-  ...AID_INDEXES.map((i) => ({
+  {
     kind: "symbols",
-    label: t.aided[i],
-    cells: all("A", i),
+    label: t.aided.threshold,
+    cells: aided(SOUND_FIELD_SHAPES),
     noResponse: true,
-  })),
+    tall: true,
+  },
 ];
 
 /** Speech cells: the ISO 8253-3 conditions of one row, in every column it defines. */
@@ -693,8 +680,9 @@ const textWidth = (text, size, weight) =>
 const PAD = 16;
 const max = (values) => Math.max(...values);
 const HEIGHTS = { section: 40, group: 30, symbols: 44 };
-/** Rows holding an aided speech symbol, whose diamond spans ±17 units. */
+/** Rows holding an aided symbol, whose diamond spans ±17 units, and its arrow down to 26. */
 const TALL_H = 56;
+const TALL_ARROW_H = 68;
 const HEADER_H = 34;
 const NOTE_H = 16;
 const SCALE = 1.15;
@@ -708,10 +696,12 @@ const toneSymbol = (cell, column, noResponse) => {
     ear,
     color: sideColor(ear),
     no_response_arrow: noResponse ? noResponseArrow(ear) : null,
+    aided: !!cell.aided,
+    device: cell.device ?? null,
   };
   return "shape" in cell
     ? { kind: "asha", shape: cell.shape, ...common }
-    : { kind: "extension", letter: cell.letter, aid_index: cell.index ?? null, ...common };
+    : { kind: "extension", letter: cell.letter, ...common };
 };
 
 /** Symbol of a cell; for speech, the column sets the test ear. */
@@ -720,8 +710,8 @@ const symbolOf = (cell, column, noResponse) =>
     ? speechSymbol({ ...cell.speech, ear: SIDES[column] })
     : toneSymbol(cell, column, noResponse);
 
-const mark = (t, theme, cell, x, y, column, noResponse) =>
-  `<g transform="translate(${x} ${y}) scale(${SCALE})">${symbolSvg(symbolOf(cell, column, noResponse), { locale: t.locale, theme: theme.name })}</g>`;
+const mark = (theme, cell, x, y, column, noResponse) =>
+  `<g transform="translate(${x} ${y}) scale(${SCALE})">${symbolSvg(symbolOf(cell, column, noResponse), { theme: theme.name })}</g>`;
 
 /** Indent of a feature label after its number. */
 const FEATURE_INDENT = 30;
@@ -828,7 +818,7 @@ const ROW_RENDERERS = {
       `<text x="${M + 8}" y="${y + 18}" font-size="11.5" font-weight="700" fill="${theme.ink}">${esc(row.label.toUpperCase())}</text>`,
     );
   },
-  symbols: (body, { t, theme, colX, divider }, row, y, h) => {
+  symbols: (body, { theme, colX, divider }, row, y, h) => {
     body.push(
       `<text x="${M + 22}" y="${y + h / 2 + 4}" font-size="12" fill="${theme.ink}">${esc(row.label)}</text>`,
     );
@@ -839,14 +829,19 @@ const ROW_RENDERERS = {
         `<line x1="${x}" x2="${x}" y1="${y}" y2="${y + h}" stroke="${theme.rule}" stroke-width="0.8"/>`,
       );
       // Arrows hang below the symbol: raise it a little to centre the pair.
-      const cy = y + h / 2 - (row.tall ? 0 : 2);
-      if (cell) body.push(mark(t, theme, cell, x, cy, COLUMNS[i], !!row.noResponse));
+      const cy = y + h / 2 - (row.tall ? (row.noResponse ? 6 : 0) : 2);
+      if (cell) body.push(mark(theme, cell, x, cy, COLUMNS[i], !!row.noResponse));
     });
   },
 };
 
+const symbolsHeight = (row) =>
+  row.tall ? (row.noResponse ? TALL_ARROW_H : TALL_H) : HEIGHTS.symbols;
+
 const rowHeight = (row) =>
-  (row.tall ? TALL_H : HEIGHTS[row.kind]) + (row.kind === "section" && row.note ? NOTE_H : 0);
+  row.kind === "symbols"
+    ? symbolsHeight(row)
+    : HEIGHTS[row.kind] + (row.kind === "section" && row.note ? NOTE_H : 0);
 
 /** Table rows, each followed by a rule, inside a frame from `top`. */
 const table = (body, ctx, rows, top, y) => {

@@ -62,10 +62,11 @@ for (const [label, m] of Object.entries(measurements)) {
     continue;
   }
   // ASHA symbols have a Unicode approximation; extension symbols are letters.
-  const text = symbol.kind === "asha" ? ASHA_GLYPHS[symbol.shape] : symbol.letter;
+  const base = symbol.kind === "asha" ? ASHA_GLYPHS[symbol.shape] : symbol.letter;
+  const text = symbol.aided ? `◇${base}${symbol.device ?? ""}` : base;
   console.log(`${label}: ${text}`, symbol);
 }
 
 // The same symbol as an SVG element, centred on the measurement point.
 const symbol = audiogramSymbol(measurements["Sound field, left hearing aid only"]!);
-if (symbol) console.log(symbolSvg(symbol, { locale: "en", theme: "light" }));
+if (symbol) console.log(symbolSvg(symbol, { theme: "light" }));

@@ -126,7 +126,7 @@ const audiogram = (theme: Theme): string => {
       };
       const symbol = audiogramSymbol(axes);
       if (!symbol) return "";
-      const g = symbolSvg(symbol, { locale: "en", theme });
+      const g = symbolSvg(symbol, { theme });
       return `<g transform="translate(${x(p.frequency)} ${y(p.level)}) scale(${SCALE})">${g}</g>`;
     }),
   );

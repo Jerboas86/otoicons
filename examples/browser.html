@@ -104,22 +104,15 @@
       <input id="masked" type="checkbox" />
       <label for="no_response">No response</label>
       <input id="no_response" type="checkbox" />
-      <label for="locale">Locale</label>
-      <select id="locale">
-        <option value="en">English</option>
-        <option value="fr">Français</option>
-        <option value="de">Deutsch</option>
-        <option value="es">Español</option>
-        <option value="it">Italiano</option>
-        <option value="pt">Português</option>
-      </select>
+      <label for="device">Device number</label>
+      <input id="device" type="number" min="1" step="1" value="1" />
       <label for="theme">Theme</label>
       <select id="theme">
         <option value="light">Light</option>
         <option value="dark">Dark</option>
       </select>
     </form>
-    <svg id="preview" viewBox="-30 -24 60 48" width="180" height="144"></svg>
+    <svg id="preview" viewBox="-30 -30 60 60" width="180" height="180"></svg>
     <p id="result"></p>
     <div id="snippet" hidden>
       <pre><code id="code"></code></pre>
@@ -150,10 +143,11 @@
         masked: checked("masked"),
         no_response: checked("no_response"),
         aided: { right: value("right"), left: value("left") },
+        device: Number(document.getElementById("device").value),
       });
 
       /** Code drawing the chosen symbol, to paste in an application. */
-      const snippet = (m, locale, theme) => {
+      const snippet = (m, theme) => {
         const v = JSON.stringify;
         return `import { audiogramSymbol, symbolSvg } from "otoicons";
 
@@ -164,30 +158,30 @@ const symbol = audiogramSymbol({
   masked: ${m.masked},
   no_response: ${m.no_response},
   aided: { right: ${v(m.aided.right)}, left: ${v(m.aided.left)} },
+  device: ${m.device},
 });
 
 // <g> centred on the measurement point; place it with a
 // transform, e.g. translate(x y) scale(1.3).
-const svg = symbol && symbolSvg(symbol, { locale: ${v(locale)}, theme: ${v(theme)} });
+const svg = symbol && symbolSvg(symbol, { theme: ${v(theme)} });
 `;
       };
 
       const render = () => {
         const m = axes();
         const symbol = audiogramSymbol(m);
-        const locale = value("locale");
         const theme = value("theme");
         const background = THEME_BACKGROUNDS[theme];
         // Frequency line through the measurement point, hidden by the symbol.
-        const line = `<line x1="0" x2="0" y1="-24" y2="24" stroke="#9aa0a6" stroke-width="0.5"/>`;
-        const drawn = symbol ? symbolSvg(symbol, { locale, theme }) : "";
+        const line = `<line x1="0" x2="0" y1="-30" y2="30" stroke="#9aa0a6" stroke-width="0.5"/>`;
+        const drawn = symbol ? symbolSvg(symbol, { theme }) : "";
         document.getElementById("preview").innerHTML =
-          `<rect x="-30" y="-24" width="60" height="48" fill="${background}"/>${line}${drawn}`;
+          `<rect x="-30" y="-30" width="60" height="60" fill="${background}"/>${line}${drawn}`;
         document.getElementById("result").textContent = symbol
           ? ""
           : "No symbol: neither ASHA nor the extension covers this measurement.";
         document.getElementById("snippet").hidden = !symbol;
-        document.getElementById("code").textContent = snippet(m, locale, theme);
+        document.getElementById("code").textContent = snippet(m, theme);
       };
 
       const copy = document.getElementById("copy");

@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 859 2288" width="859" height="2288" font-family="Helvetica, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 859 2108" width="859" height="2108" font-family="Helvetica, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
 <title>Audiometrische Symbole</title>
 <metadata>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#">
 <cc:Work rdf:about=""><dc:title>Audiometrische Symbole</dc:title><dc:creator>Benoit Delemps</dc:creator><dc:date>2026</dc:date><cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/></cc:Work>
 </rdf:RDF>
 </metadata>
-<rect width="859" height="2288" fill="#000000"/>
+<rect width="859" height="2108" fill="#000000"/>
 <g stroke-width="1.4">
 <text x="20" y="38" font-size="17" font-weight="700" fill="#e6e6e6">Audiometrische Symbole</text>
 <line x1="20" x2="839" y1="84" y2="84" stroke="#e6e6e6"/>
@@ -122,7 +122,7 @@
 <line x1="20" x2="839" y1="670" y2="670" stroke="#5f6368" stroke-width="0.6"/>
 <rect x="20" y="670" width="819" height="56" fill="#1f2328"/>
 <text x="28" y="695" font-size="13" font-weight="700" fill="#e6e6e6">Erweiterung des Systems ASHA 1990</text>
-<text x="28" y="711" font-size="10.5" font-style="italic" fill="#e6e6e6">Spalte = stimulierte Seite. Index: R/L nur rechtes/linkes Gerät oder Empfängerseite; M kontralateraler CROS-Sender</text>
+<text x="28" y="711" font-size="10.5" font-style="italic" fill="#e6e6e6">Spalte = stimulierte Seite</text>
 <line x1="20" x2="839" y1="726" y2="726" stroke="#5f6368" stroke-width="0.6"/>
 <text x="42" y="752" font-size="12" fill="#e6e6e6">Kopfhörer, diotische Darbietung</text>
 <line x1="389" x2="389" y1="726" y2="770" stroke="#e6e6e6" stroke-width="0.8"/>
@@ -133,303 +133,230 @@
 <g transform="translate(614 746) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text></g></g>
 <line x1="764" x2="764" y1="726" y2="770" stroke="#5f6368" stroke-width="0.8"/>
 <line x1="20" x2="839" y1="770" y2="770" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="796" font-size="12" fill="#e6e6e6">Freifeldschwelle, beide Hörgeräte</text>
+<text x="42" y="796" font-size="12" fill="#e6e6e6">Angenehmster Pegel (MCL)</text>
 <line x1="389" x2="389" y1="770" y2="814" stroke="#e6e6e6" stroke-width="0.8"/>
 <line x1="539" x2="539" y1="770" y2="814" stroke="#e6e6e6" stroke-width="0.8"/>
 <line x1="689" x2="689" y1="770" y2="814" stroke="#e6e6e6" stroke-width="0.8"/>
 <line x1="464" x2="464" y1="770" y2="814" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 790) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
+<g transform="translate(464 790) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
 <line x1="614" x2="614" y1="770" y2="814" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 790) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
+<g transform="translate(614 790) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
 <line x1="764" x2="764" y1="770" y2="814" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 790) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text></g></g>
+<g transform="translate(764 790) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
 <line x1="20" x2="839" y1="814" y2="814" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="840" font-size="12" fill="#e6e6e6">Freifeldschwelle, nur rechtes Hörgerät</text>
+<text x="42" y="840" font-size="12" fill="#e6e6e6">Unbehaglichkeitsschwelle (UCL)</text>
 <line x1="389" x2="389" y1="814" y2="858" stroke="#e6e6e6" stroke-width="0.8"/>
 <line x1="539" x2="539" y1="814" y2="858" stroke="#e6e6e6" stroke-width="0.8"/>
 <line x1="689" x2="689" y1="814" y2="858" stroke="#e6e6e6" stroke-width="0.8"/>
 <line x1="464" x2="464" y1="814" y2="858" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 834) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke">R</text></g></g>
+<g transform="translate(464 834) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
 <line x1="614" x2="614" y1="814" y2="858" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 834) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke">R</text></g></g>
+<g transform="translate(614 834) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
 <line x1="764" x2="764" y1="814" y2="858" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 834) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke">R</text></g></g>
+<g transform="translate(764 834) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
 <line x1="20" x2="839" y1="858" y2="858" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="884" font-size="12" fill="#e6e6e6">Freifeldschwelle, nur linkes Hörgerät</text>
-<line x1="389" x2="389" y1="858" y2="902" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="858" y2="902" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="858" y2="902" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="858" y2="902" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 878) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke">L</text></g></g>
-<line x1="614" x2="614" y1="858" y2="902" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 878) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke">L</text></g></g>
-<line x1="764" x2="764" y1="858" y2="902" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 878) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke">L</text></g></g>
-<line x1="20" x2="839" y1="902" y2="902" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="928" font-size="12" fill="#e6e6e6">Freifeldschwelle, CROS/BiCROS, Empfänger rechts</text>
-<line x1="389" x2="389" y1="902" y2="946" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="902" y2="946" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="902" y2="946" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="902" y2="946" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 922) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke">RM</text></g></g>
-<line x1="614" x2="614" y1="902" y2="946" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 922) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke">RM</text></g></g>
-<line x1="764" x2="764" y1="902" y2="946" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 922) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke">RM</text></g></g>
-<line x1="20" x2="839" y1="946" y2="946" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="972" font-size="12" fill="#e6e6e6">Freifeldschwelle, CROS/BiCROS, Empfänger links</text>
-<line x1="389" x2="389" y1="946" y2="990" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="946" y2="990" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="946" y2="990" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="946" y2="990" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 966) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke">LM</text></g></g>
-<line x1="614" x2="614" y1="946" y2="990" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 966) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke">LM</text></g></g>
-<line x1="764" x2="764" y1="946" y2="990" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 966) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke">LM</text></g></g>
-<line x1="20" x2="839" y1="990" y2="990" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1016" font-size="12" fill="#e6e6e6">Angenehmster Pegel (MCL)</text>
-<line x1="389" x2="389" y1="990" y2="1034" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="990" y2="1034" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="990" y2="1034" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="990" y2="1034" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1010) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
-<line x1="614" x2="614" y1="990" y2="1034" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1010) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
-<line x1="764" x2="764" y1="990" y2="1034" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1010) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
-<line x1="20" x2="839" y1="1034" y2="1034" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1060" font-size="12" fill="#e6e6e6">MCL mit Hörgerät(en)</text>
-<line x1="389" x2="389" y1="1034" y2="1078" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1034" y2="1078" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1034" y2="1078" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1034" y2="1078" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1054) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
-<line x1="614" x2="614" y1="1034" y2="1078" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1054) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
-<line x1="764" x2="764" y1="1034" y2="1078" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1054) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">MA</text></g></g>
-<line x1="20" x2="839" y1="1078" y2="1078" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1104" font-size="12" fill="#e6e6e6">Unbehaglichkeitsschwelle (UCL)</text>
-<line x1="389" x2="389" y1="1078" y2="1122" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1078" y2="1122" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1078" y2="1122" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1078" y2="1122" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1098) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
-<line x1="614" x2="614" y1="1078" y2="1122" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1098) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
-<line x1="764" x2="764" y1="1078" y2="1122" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1098) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
-<line x1="20" x2="839" y1="1122" y2="1122" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1148" font-size="12" fill="#e6e6e6">UCL mit Hörgerät(en)</text>
-<line x1="389" x2="389" y1="1122" y2="1166" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1122" y2="1166" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1122" y2="1166" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1122" y2="1166" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1142) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
-<line x1="614" x2="614" y1="1122" y2="1166" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1142) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
-<line x1="764" x2="764" y1="1122" y2="1166" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1142) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="3.5999999999999996" font-size="10" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">UA</text></g></g>
-<line x1="20" x2="839" y1="1166" y2="1166" stroke="#5f6368" stroke-width="0.6"/>
-<rect x="20" y="1166" width="819" height="56" fill="#1f2328"/>
-<text x="28" y="1191" font-size="13" font-weight="700" fill="#e6e6e6">Keine Reaktion — Beispiele</text>
-<text x="28" y="1207" font-size="10.5" font-style="italic" fill="#e6e6e6">Pfeil im 45°-Winkel nach außen; senkrecht, wenn nicht lateralisiert</text>
-<line x1="20" x2="839" y1="1222" y2="1222" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1248" font-size="12" fill="#e6e6e6">Kopfhörer; Knochenleitung Mastoid, nicht spezifiziert</text>
-<line x1="389" x2="389" y1="1222" y2="1266" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1222" y2="1266" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1222" y2="1266" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1222" y2="1266" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1242) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M5 5L12 12M12 7.5V12H7.5"/></g></g>
-<line x1="614" x2="614" y1="1222" y2="1266" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1242) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 4L0-4L6 4"/><path d="M0 -4V13M-3.5 9.5L0 13L3.5 9.5"/></g></g>
-<line x1="764" x2="764" y1="1222" y2="1266" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1242) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-4.24 4.24L-11.24 11.24M-11.24 6.74V11.24H-6.74"/></g></g>
-<line x1="20" x2="839" y1="1266" y2="1266" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1292" font-size="12" fill="#e6e6e6">Freifeld ohne Hörgerät</text>
-<line x1="389" x2="389" y1="1266" y2="1310" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1266" y2="1310" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1266" y2="1310" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1266" y2="1310" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1286) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/><path d="M5 5L12 12M12 7.5V12H7.5"/></g></g>
-<line x1="614" x2="614" y1="1266" y2="1310" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1286) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/><path d="M0.75 6.5V15.5M-2.75 12L0.75 15.5L4.25 12"/></g></g>
-<line x1="764" x2="764" y1="1266" y2="1310" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1286) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#000000"/><path d="M-7 7L-14 14M-14 9.5V14H-9.5"/></g></g>
-<line x1="20" x2="839" y1="1310" y2="1310" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1336" font-size="12" fill="#e6e6e6">Freifeldschwelle, beide Hörgeräte</text>
-<line x1="389" x2="389" y1="1310" y2="1354" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1310" y2="1354" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1310" y2="1354" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1310" y2="1354" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1330) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M4.32 4.32L11.32 11.32M11.32 6.82V11.32H6.82"/></g></g>
-<line x1="614" x2="614" y1="1310" y2="1354" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1330) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
-<line x1="764" x2="764" y1="1310" y2="1354" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1330) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
-<line x1="20" x2="839" y1="1354" y2="1354" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1380" font-size="12" fill="#e6e6e6">Freifeldschwelle, nur rechtes Hörgerät</text>
-<line x1="389" x2="389" y1="1354" y2="1398" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1354" y2="1398" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1354" y2="1398" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1354" y2="1398" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1374) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke">R</text><path d="M9.6768 8.16L16.6768 15.16M16.6768 10.66V15.16H12.1768"/></g></g>
-<line x1="614" x2="614" y1="1354" y2="1398" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1374) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke">R</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
-<line x1="764" x2="764" y1="1354" y2="1398" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1374) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke">R</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
-<line x1="20" x2="839" y1="1398" y2="1398" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1424" font-size="12" fill="#e6e6e6">Freifeldschwelle, nur linkes Hörgerät</text>
-<line x1="389" x2="389" y1="1398" y2="1442" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1398" y2="1442" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1398" y2="1442" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1398" y2="1442" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1418) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke">L</text><path d="M9.6768 8.16L16.6768 15.16M16.6768 10.66V15.16H12.1768"/></g></g>
-<line x1="614" x2="614" y1="1398" y2="1442" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1418) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke">L</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
-<line x1="764" x2="764" y1="1398" y2="1442" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1418) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke">L</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
-<line x1="20" x2="839" y1="1442" y2="1442" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1468" font-size="12" fill="#e6e6e6">Freifeldschwelle, CROS/BiCROS, Empfänger rechts</text>
-<line x1="389" x2="389" y1="1442" y2="1486" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1442" y2="1486" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1442" y2="1486" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1442" y2="1486" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1462) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke">RM</text><path d="M15.0336 8.16L22.0336 15.16M22.0336 10.66V15.16H17.5336"/></g></g>
-<line x1="614" x2="614" y1="1442" y2="1486" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1462) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke">RM</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
-<line x1="764" x2="764" y1="1442" y2="1486" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1462) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke">RM</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
-<line x1="20" x2="839" y1="1486" y2="1486" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1512" font-size="12" fill="#e6e6e6">Freifeldschwelle, CROS/BiCROS, Empfänger links</text>
-<line x1="389" x2="389" y1="1486" y2="1530" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1486" y2="1530" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1486" y2="1530" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1486" y2="1530" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1506) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke">LM</text><path d="M15.0336 8.16L22.0336 15.16M22.0336 10.66V15.16H17.5336"/></g></g>
-<line x1="614" x2="614" y1="1486" y2="1530" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1506) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke">LM</text><path d="M0 4.32V13.32M-3.5 9.82L0 13.32L3.5 9.82"/></g></g>
-<line x1="764" x2="764" y1="1486" y2="1530" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1506) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">A</text><text x="4.62" y="8.16" font-size="7.4399999999999995" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke">LM</text><path d="M-4.32 4.32L-11.32 11.32M-11.32 6.82V11.32H-6.82"/></g></g>
-<line x1="20" x2="839" y1="1530" y2="1530" stroke="#5f6368" stroke-width="0.6"/>
-<rect x="20" y="1530" width="819" height="56" fill="#1f2328"/>
-<text x="28" y="1555" font-size="13" font-weight="700" fill="#e6e6e6">ISO 8253-3:2022 — Sprachaudiogramm</text>
-<text x="28" y="1571" font-size="10.5" font-style="italic" fill="#e6e6e6">Spalte = Prüfohr; Nicht spezifiziert = B, binaurales Hören über Kopfhörer (diotisch oder dichotisch)</text>
-<line x1="20" x2="839" y1="1586" y2="1586" stroke="#5f6368" stroke-width="0.6"/>
-<text x="28" y="1604" font-size="11.5" font-weight="700" fill="#e6e6e6">KOPFHÖRER</text>
-<line x1="20" x2="839" y1="1616" y2="1616" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1642" font-size="12" fill="#e6e6e6">Ohne Störgeräusch</text>
-<line x1="389" x2="389" y1="1616" y2="1660" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1616" y2="1660" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1616" y2="1660" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1616" y2="1660" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1636) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/></g></g>
-<line x1="614" x2="614" y1="1616" y2="1660" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1636) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text></g></g>
-<line x1="764" x2="764" y1="1616" y2="1660" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1636) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/></g></g>
-<line x1="20" x2="839" y1="1660" y2="1660" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1686" font-size="12" fill="#e6e6e6">Kontralaterale Vertäubung</text>
-<line x1="389" x2="389" y1="1660" y2="1704" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1660" y2="1704" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1660" y2="1704" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1660" y2="1704" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1680) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5L0 0Z" fill="#457ad5"/></g></g>
-<line x1="614" x2="614" y1="1660" y2="1704" stroke="#5f6368" stroke-width="0.8"/>
-<line x1="764" x2="764" y1="1660" y2="1704" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1680) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-4.24-4.24A6 6 0 0 1 4.24-4.24L0 0Z" fill="#d64e3e"/></g></g>
-<line x1="20" x2="839" y1="1704" y2="1704" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1730" font-size="12" fill="#e6e6e6">Störgeräusch</text>
-<line x1="389" x2="389" y1="1704" y2="1748" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1704" y2="1748" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1704" y2="1748" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1704" y2="1748" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1724) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5 5H5"/></g></g>
-<line x1="614" x2="614" y1="1704" y2="1748" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1724) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5 6.5H5"/></g></g>
-<line x1="764" x2="764" y1="1704" y2="1748" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1724) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6 6H6"/></g></g>
-<line x1="20" x2="839" y1="1748" y2="1748" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1774" font-size="12" fill="#e6e6e6">Störgeräusch und kontralaterale Vertäubung</text>
-<line x1="389" x2="389" y1="1748" y2="1792" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1748" y2="1792" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1748" y2="1792" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1748" y2="1792" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1768) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5L0 0Z" fill="#457ad5"/><path d="M-5 5H5"/></g></g>
-<line x1="614" x2="614" y1="1748" y2="1792" stroke="#5f6368" stroke-width="0.8"/>
-<line x1="764" x2="764" y1="1748" y2="1792" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1768) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-4.24-4.24A6 6 0 0 1 4.24-4.24L0 0Z" fill="#d64e3e"/><path d="M-6 6H6"/></g></g>
-<line x1="20" x2="839" y1="1792" y2="1792" stroke="#5f6368" stroke-width="0.6"/>
-<text x="28" y="1810" font-size="11.5" font-weight="700" fill="#e6e6e6">FREIFELD</text>
-<line x1="20" x2="839" y1="1822" y2="1822" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1848" font-size="12" fill="#e6e6e6">Ohne Hörgerät</text>
-<line x1="389" x2="389" y1="1822" y2="1866" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1822" y2="1866" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1822" y2="1866" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1822" y2="1866" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1842) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/></g></g>
-<line x1="614" x2="614" y1="1822" y2="1866" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1842) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/></g></g>
-<line x1="764" x2="764" y1="1822" y2="1866" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1842) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6-6H6"/></g></g>
-<line x1="20" x2="839" y1="1866" y2="1866" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1892" font-size="12" fill="#e6e6e6">Ohne Hörgerät, Störgeräusch</text>
-<line x1="389" x2="389" y1="1866" y2="1910" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1866" y2="1910" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1866" y2="1910" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1866" y2="1910" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1886) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/></g></g>
-<line x1="614" x2="614" y1="1866" y2="1910" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1886) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/></g></g>
-<line x1="764" x2="764" y1="1866" y2="1910" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1886) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6-6H6"/><path d="M-6 6H6"/></g></g>
-<line x1="20" x2="839" y1="1910" y2="1910" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1942" font-size="12" fill="#e6e6e6">Gerät 1, Störgeräusch</text>
-<line x1="389" x2="389" y1="1910" y2="1966" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1910" y2="1966" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1910" y2="1966" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1910" y2="1966" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1938) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/></g></g>
-<line x1="614" x2="614" y1="1910" y2="1966" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1938) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/></g></g>
-<line x1="764" x2="764" y1="1910" y2="1966" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1938) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6-6H6"/><path d="M-6 6H6"/></g></g>
-<line x1="20" x2="839" y1="1966" y2="1966" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="1998" font-size="12" fill="#e6e6e6">Gerät 2, Störgeräusch</text>
-<line x1="389" x2="389" y1="1966" y2="2022" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="1966" y2="2022" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="1966" y2="2022" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="1966" y2="2022" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 1994) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/><text x="7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="none" text-anchor="start">2</text></g></g>
-<line x1="614" x2="614" y1="1966" y2="2022" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 1994) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/><text x="7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="none" text-anchor="start">2</text></g></g>
-<line x1="764" x2="764" y1="1966" y2="2022" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 1994) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6-6H6"/><path d="M-6 6H6"/><text x="8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="none" text-anchor="start">2</text></g></g>
-<line x1="20" x2="839" y1="2022" y2="2022" stroke="#5f6368" stroke-width="0.6"/>
-<text x="42" y="2054" font-size="12" fill="#e6e6e6">Gerät 2, Störgeräusch, Sprachmaterial a, b, c</text>
-<line x1="389" x2="389" y1="2022" y2="2078" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="539" x2="539" y1="2022" y2="2078" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="689" x2="689" y1="2022" y2="2078" stroke="#e6e6e6" stroke-width="0.8"/>
-<line x1="464" x2="464" y1="2022" y2="2078" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(464 2050) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/><text x="-7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="none" text-anchor="end">c</text><text x="7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="none" text-anchor="start">2</text></g></g>
-<line x1="614" x2="614" y1="2022" y2="2078" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(614 2050) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/><text x="-7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="none" text-anchor="end">b</text><text x="7.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="none" text-anchor="start">2</text></g></g>
-<line x1="764" x2="764" y1="2022" y2="2078" stroke="#5f6368" stroke-width="0.8"/>
-<g transform="translate(764 2050) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6-6H6"/><path d="M-6 6H6"/><text x="-8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="none" text-anchor="end">a</text><text x="8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="none" text-anchor="start">2</text></g></g>
-<line x1="20" x2="839" y1="2078" y2="2078" stroke="#5f6368" stroke-width="0.6"/>
-<rect x="20" y="50" width="819" height="2028" fill="none" stroke="#e6e6e6"/>
-<text x="20" y="2103" font-size="10.5" fill="#e6e6e6">Formen: ASHA, „Guidelines for Audiometric Symbols“ (1990), Tabelle 1.</text>
-<text x="20" y="2118" font-size="10.5" fill="#e6e6e6">Für versorgte Bedingungen verlangt die ASHA lokal festgelegte Symbole, die sich von allen</text>
-<text x="20" y="2133" font-size="10.5" fill="#e6e6e6">anderen unterscheiden und auf dem Audiogramm erklärt werden: Das leistet die obige Erweiterung.</text>
-<text x="20" y="2148" font-size="10.5" fill="#e6e6e6">Farben: verbreitete Konvention, nicht genormt (rot rechts, blau links, grün nicht lateralisiert).</text>
-<text x="20" y="2163" font-size="10.5" fill="#e6e6e6">Farbtöne für einen konstanten Kontrast von 5:1 zum Hintergrund angepasst (WCAG).</text>
-<text x="20" y="2178" font-size="10.5" fill="#e6e6e6">Nicht von der ASHA gebilligt. Die Lizenz umfasst diese Tabelle und die Erweiterung, nicht die ASHA-Norm.</text>
-<text x="20" y="2193" font-size="10.5" fill="#e6e6e6">Symbole: ISO 8253-3:2022, Tabelle C.3 (nach ISO 8253-2).</text>
-<text x="20" y="2208" font-size="10.5" fill="#e6e6e6">Gefülltes Dreieck: kontralaterale Vertäubung; Strich unten: Störgeräusch; Strich oben: Freifeld.</text>
-<text x="20" y="2223" font-size="10.5" fill="#e6e6e6">Raute: Hörgerät; rechts die Gerätenummer ab dem 2. Gerät; links der Buchstabe des Sprachmaterials.</text>
-<text x="20" y="2238" font-size="10.5" fill="#e6e6e6">Nummern und Buchstaben werden auf dem Audiogramm erklärt.</text>
-<text x="20" y="2253" font-size="10.5" fill="#e6e6e6">Nicht von der ISO genehmigt. Die Lizenz deckt diese Tabelle, nicht die ISO-Norm.</text>
-<text x="20" y="2268" font-size="10.5" fill="#e6e6e6">© 2026 Benoit Delemps — CC BY 4.0, https://creativecommons.org/licenses/by/4.0/</text>
+<rect x="20" y="858" width="819" height="56" fill="#1f2328"/>
+<text x="28" y="883" font-size="13" font-weight="700" fill="#e6e6e6">Versorgt — Raute nach ISO 8253-3</text>
+<text x="28" y="899" font-size="10.5" font-style="italic" fill="#e6e6e6">Raute = versorgt; Ziffer = Gerät oder Einstellung ab dem 2., auf dem Audiogramm erklärt</text>
+<line x1="20" x2="839" y1="914" y2="914" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="946" font-size="12" fill="#e6e6e6">Freifeldschwelle, Gerät 1</text>
+<line x1="389" x2="389" y1="914" y2="970" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="914" y2="970" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="914" y2="970" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="914" y2="970" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 942) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/></g></g>
+<line x1="614" x2="614" y1="914" y2="970" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 942) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/></g></g>
+<line x1="764" x2="764" y1="914" y2="970" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 942) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#000000"/></g></g>
+<line x1="20" x2="839" y1="970" y2="970" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1002" font-size="12" fill="#e6e6e6">Freifeldschwelle, Gerät 2</text>
+<line x1="389" x2="389" y1="970" y2="1026" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="970" y2="1026" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="970" y2="1026" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="970" y2="1026" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 998) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/><text x="8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="614" x2="614" y1="970" y2="1026" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 998) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/><text x="8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="764" x2="764" y1="970" y2="1026" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 998) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#000000"/><text x="9" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="20" x2="839" y1="1026" y2="1026" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1058" font-size="12" fill="#e6e6e6">MCL mit Hörgerät</text>
+<line x1="389" x2="389" y1="1026" y2="1082" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1026" y2="1082" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1026" y2="1082" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1026" y2="1082" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1054) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
+<line x1="614" x2="614" y1="1026" y2="1082" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1054) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
+<line x1="764" x2="764" y1="1026" y2="1082" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1054) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">M</text></g></g>
+<line x1="20" x2="839" y1="1082" y2="1082" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1114" font-size="12" fill="#e6e6e6">UCL mit Hörgerät</text>
+<line x1="389" x2="389" y1="1082" y2="1138" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1082" y2="1138" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1082" y2="1138" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1082" y2="1138" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1110) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
+<line x1="614" x2="614" y1="1082" y2="1138" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1110) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
+<line x1="764" x2="764" y1="1082" y2="1138" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1110) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">U</text></g></g>
+<line x1="20" x2="839" y1="1138" y2="1138" stroke="#5f6368" stroke-width="0.6"/>
+<rect x="20" y="1138" width="819" height="56" fill="#1f2328"/>
+<text x="28" y="1163" font-size="13" font-weight="700" fill="#e6e6e6">Keine Reaktion — Beispiele</text>
+<text x="28" y="1179" font-size="10.5" font-style="italic" fill="#e6e6e6">Pfeil im 45°-Winkel nach außen; senkrecht, wenn nicht lateralisiert</text>
+<line x1="20" x2="839" y1="1194" y2="1194" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1220" font-size="12" fill="#e6e6e6">Kopfhörer; Knochenleitung Mastoid, nicht spezifiziert</text>
+<line x1="389" x2="389" y1="1194" y2="1238" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1194" y2="1238" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1194" y2="1238" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1194" y2="1238" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1214) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M5 5L12 12M12 7.5V12H7.5"/></g></g>
+<line x1="614" x2="614" y1="1194" y2="1238" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1214) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 4L0-4L6 4"/><path d="M0 -4V13M-3.5 9.5L0 13L3.5 9.5"/></g></g>
+<line x1="764" x2="764" y1="1194" y2="1238" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1214) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-4.24 4.24L-11.24 11.24M-11.24 6.74V11.24H-6.74"/></g></g>
+<line x1="20" x2="839" y1="1238" y2="1238" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1264" font-size="12" fill="#e6e6e6">Freifeld ohne Hörgerät</text>
+<line x1="389" x2="389" y1="1238" y2="1282" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1238" y2="1282" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1238" y2="1282" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1238" y2="1282" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1258) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/><path d="M5 5L12 12M12 7.5V12H7.5"/></g></g>
+<line x1="614" x2="614" y1="1238" y2="1282" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1258) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/><path d="M0.75 6.5V15.5M-2.75 12L0.75 15.5L4.25 12"/></g></g>
+<line x1="764" x2="764" y1="1238" y2="1282" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1258) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#000000"/><path d="M-7 7L-14 14M-14 9.5V14H-9.5"/></g></g>
+<line x1="20" x2="839" y1="1282" y2="1282" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1320" font-size="12" fill="#e6e6e6">Freifeldschwelle, Gerät 1</text>
+<line x1="389" x2="389" y1="1282" y2="1350" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1282" y2="1350" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1282" y2="1350" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1282" y2="1350" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1310) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M-5-5L5 5M-5 5L5-5M5 1.5L1.5 5M-1.5-5L-5-1.5"/><path d="M8.5 8.5L15.5 15.5M15.5 11V15.5H11"/></g></g>
+<line x1="614" x2="614" y1="1282" y2="1350" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1310) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M5-4C3-8-5-7-5-3C-5 1 5-1 5 3C5 7-3 8-5 4"/><path d="M0 17V26M-3.5 22.5L0 26L3.5 22.5"/></g></g>
+<line x1="764" x2="764" y1="1282" y2="1350" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1310) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0M-7 7L7-7" fill="#000000"/><path d="M-8.5 8.5L-15.5 15.5M-15.5 11V15.5H-11"/></g></g>
+<line x1="20" x2="839" y1="1350" y2="1350" stroke="#5f6368" stroke-width="0.6"/>
+<rect x="20" y="1350" width="819" height="56" fill="#1f2328"/>
+<text x="28" y="1375" font-size="13" font-weight="700" fill="#e6e6e6">ISO 8253-3:2022 — Sprachaudiogramm</text>
+<text x="28" y="1391" font-size="10.5" font-style="italic" fill="#e6e6e6">Spalte = Prüfohr; Nicht spezifiziert = B, binaurales Hören über Kopfhörer (diotisch oder dichotisch)</text>
+<line x1="20" x2="839" y1="1406" y2="1406" stroke="#5f6368" stroke-width="0.6"/>
+<text x="28" y="1424" font-size="11.5" font-weight="700" fill="#e6e6e6">KOPFHÖRER</text>
+<line x1="20" x2="839" y1="1436" y2="1436" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1462" font-size="12" fill="#e6e6e6">Ohne Störgeräusch</text>
+<line x1="389" x2="389" y1="1436" y2="1480" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1436" y2="1480" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1436" y2="1480" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1436" y2="1480" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1456) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/></g></g>
+<line x1="614" x2="614" y1="1436" y2="1480" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1456) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text></g></g>
+<line x1="764" x2="764" y1="1436" y2="1480" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1456) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/></g></g>
+<line x1="20" x2="839" y1="1480" y2="1480" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1506" font-size="12" fill="#e6e6e6">Kontralaterale Vertäubung</text>
+<line x1="389" x2="389" y1="1480" y2="1524" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1480" y2="1524" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1480" y2="1524" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1480" y2="1524" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1500) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5L0 0Z" fill="#457ad5"/></g></g>
+<line x1="614" x2="614" y1="1480" y2="1524" stroke="#5f6368" stroke-width="0.8"/>
+<line x1="764" x2="764" y1="1480" y2="1524" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1500) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-4.24-4.24A6 6 0 0 1 4.24-4.24L0 0Z" fill="#d64e3e"/></g></g>
+<line x1="20" x2="839" y1="1524" y2="1524" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1550" font-size="12" fill="#e6e6e6">Störgeräusch</text>
+<line x1="389" x2="389" y1="1524" y2="1568" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1524" y2="1568" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1524" y2="1568" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1524" y2="1568" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1544) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5 5H5"/></g></g>
+<line x1="614" x2="614" y1="1524" y2="1568" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1544) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5 6.5H5"/></g></g>
+<line x1="764" x2="764" y1="1524" y2="1568" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1544) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6 6H6"/></g></g>
+<line x1="20" x2="839" y1="1568" y2="1568" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1594" font-size="12" fill="#e6e6e6">Störgeräusch und kontralaterale Vertäubung</text>
+<line x1="389" x2="389" y1="1568" y2="1612" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1568" y2="1612" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1568" y2="1612" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1568" y2="1612" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1588) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5L0 0Z" fill="#457ad5"/><path d="M-5 5H5"/></g></g>
+<line x1="614" x2="614" y1="1568" y2="1612" stroke="#5f6368" stroke-width="0.8"/>
+<line x1="764" x2="764" y1="1568" y2="1612" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1588) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-4.24-4.24A6 6 0 0 1 4.24-4.24L0 0Z" fill="#d64e3e"/><path d="M-6 6H6"/></g></g>
+<line x1="20" x2="839" y1="1612" y2="1612" stroke="#5f6368" stroke-width="0.6"/>
+<text x="28" y="1630" font-size="11.5" font-weight="700" fill="#e6e6e6">FREIFELD</text>
+<line x1="20" x2="839" y1="1642" y2="1642" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1668" font-size="12" fill="#e6e6e6">Ohne Hörgerät</text>
+<line x1="389" x2="389" y1="1642" y2="1686" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1642" y2="1686" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1642" y2="1686" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1642" y2="1686" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1662) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/></g></g>
+<line x1="614" x2="614" y1="1642" y2="1686" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1662) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/></g></g>
+<line x1="764" x2="764" y1="1642" y2="1686" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1662) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6-6H6"/></g></g>
+<line x1="20" x2="839" y1="1686" y2="1686" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1712" font-size="12" fill="#e6e6e6">Ohne Hörgerät, Störgeräusch</text>
+<line x1="389" x2="389" y1="1686" y2="1730" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1686" y2="1730" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1686" y2="1730" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1686" y2="1730" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1706) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/></g></g>
+<line x1="614" x2="614" y1="1686" y2="1730" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1706) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/></g></g>
+<line x1="764" x2="764" y1="1686" y2="1730" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1706) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6-6H6"/><path d="M-6 6H6"/></g></g>
+<line x1="20" x2="839" y1="1730" y2="1730" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1762" font-size="12" fill="#e6e6e6">Gerät 1, Störgeräusch</text>
+<line x1="389" x2="389" y1="1730" y2="1786" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1730" y2="1786" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1730" y2="1786" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1730" y2="1786" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1758) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/></g></g>
+<line x1="614" x2="614" y1="1730" y2="1786" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1758) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/></g></g>
+<line x1="764" x2="764" y1="1730" y2="1786" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1758) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6-6H6"/><path d="M-6 6H6"/></g></g>
+<line x1="20" x2="839" y1="1786" y2="1786" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1818" font-size="12" fill="#e6e6e6">Gerät 2, Störgeräusch</text>
+<line x1="389" x2="389" y1="1786" y2="1842" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1786" y2="1842" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1786" y2="1842" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1786" y2="1842" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1814) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/><text x="8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="614" x2="614" y1="1786" y2="1842" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1814) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/><text x="8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="764" x2="764" y1="1786" y2="1842" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1814) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6-6H6"/><path d="M-6 6H6"/><text x="9" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="20" x2="839" y1="1842" y2="1842" stroke="#5f6368" stroke-width="0.6"/>
+<text x="42" y="1874" font-size="12" fill="#e6e6e6">Gerät 2, Störgeräusch, Sprachmaterial a, b, c</text>
+<line x1="389" x2="389" y1="1842" y2="1898" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="539" x2="539" y1="1842" y2="1898" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="689" x2="689" y1="1842" y2="1898" stroke="#e6e6e6" stroke-width="0.8"/>
+<line x1="464" x2="464" y1="1842" y2="1898" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(464 1870) scale(1.15)"><g stroke="#457ad5" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M-5-5L5 5M-5 5L5-5"/><path d="M-5-5H5"/><path d="M-5 5H5"/><text x="-8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="none" text-anchor="end">c</text><text x="8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#457ad5" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="614" x2="614" y1="1842" y2="1898" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(614 1870) scale(1.15)"><g stroke="#228d4c" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><text y="4.32" font-size="12" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="#000000" stroke-width="3" paint-order="stroke" text-anchor="middle">B</text><path d="M-5-6.5H5"/><path d="M-5 6.5H5"/><text x="-8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="none" text-anchor="end">b</text><text x="8.5" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#228d4c" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="764" x2="764" y1="1842" y2="1898" stroke="#5f6368" stroke-width="0.8"/>
+<g transform="translate(764 1870) scale(1.15)"><g stroke="#d64e3e" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17L17 0L0 17L-17 0Z" fill="#000000"/><path d="M6 0A6 6 0 1 0-6 0A6 6 0 1 0 6 0" fill="#000000"/><path d="M-6-6H6"/><path d="M-6 6H6"/><text x="-9" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="none" text-anchor="end">a</text><text x="9" y="2.34" font-size="6.5" font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#d64e3e" stroke="none" text-anchor="start">2</text></g></g>
+<line x1="20" x2="839" y1="1898" y2="1898" stroke="#5f6368" stroke-width="0.6"/>
+<rect x="20" y="50" width="819" height="1848" fill="none" stroke="#e6e6e6"/>
+<text x="20" y="1923" font-size="10.5" fill="#e6e6e6">Formen: ASHA, „Guidelines for Audiometric Symbols“ (1990), Tabelle 1.</text>
+<text x="20" y="1938" font-size="10.5" fill="#e6e6e6">Für versorgte Bedingungen verlangt die ASHA lokal festgelegte Symbole, die sich von allen</text>
+<text x="20" y="1953" font-size="10.5" fill="#e6e6e6">anderen unterscheiden und auf dem Audiogramm erklärt werden: die Raute nach ISO 8253-3, wie in der Sprachaudiometrie.</text>
+<text x="20" y="1968" font-size="10.5" fill="#e6e6e6">Farben: verbreitete Konvention, nicht genormt (rot rechts, blau links, grün nicht lateralisiert).</text>
+<text x="20" y="1983" font-size="10.5" fill="#e6e6e6">Farbtöne für einen konstanten Kontrast von 5:1 zum Hintergrund angepasst (WCAG).</text>
+<text x="20" y="1998" font-size="10.5" fill="#e6e6e6">Nicht von der ASHA gebilligt. Die Lizenz umfasst diese Tabelle und die Erweiterung, nicht die ASHA-Norm.</text>
+<text x="20" y="2013" font-size="10.5" fill="#e6e6e6">Symbole: ISO 8253-3:2022, Tabelle C.3 (nach ISO 8253-2).</text>
+<text x="20" y="2028" font-size="10.5" fill="#e6e6e6">Gefülltes Dreieck: kontralaterale Vertäubung; Strich unten: Störgeräusch; Strich oben: Freifeld.</text>
+<text x="20" y="2043" font-size="10.5" fill="#e6e6e6">Raute: Hörgerät; rechts die Gerätenummer ab dem 2. Gerät; links der Buchstabe des Sprachmaterials.</text>
+<text x="20" y="2058" font-size="10.5" fill="#e6e6e6">Nummern und Buchstaben werden auf dem Audiogramm erklärt.</text>
+<text x="20" y="2073" font-size="10.5" fill="#e6e6e6">Nicht von der ISO genehmigt. Die Lizenz deckt diese Tabelle, nicht die ISO-Norm.</text>
+<text x="20" y="2088" font-size="10.5" fill="#e6e6e6">© 2026 Benoit Delemps — CC BY 4.0, https://creativecommons.org/licenses/by/4.0/</text>
 </g>
 </svg>

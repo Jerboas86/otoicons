@@ -1,10 +1,9 @@
 {
   "name": "otoicons",
-  "version": "0.1.0",
-  "description": "Audiometric symbols: ASHA 1990 and an extension for aided measurements, MCL, UCL and CROS, plus ISO 8253-3 speech audiometry, in SVG and PNG",
+  "version": "0.2.0",
+  "description": "Audiometric symbols: ASHA 1990 and ISO 8253-3 speech audiometry, with one aided marking for both, in SVG and PNG",
   "keywords": [
     "ASHA",
-    "CROS",
     "ISO 8253-3",
     "audiogram",
     "audiology",

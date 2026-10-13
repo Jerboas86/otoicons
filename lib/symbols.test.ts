@@ -77,19 +77,57 @@ describe("ashaSymbol", () => {
 });
 
 describe("audiogramSymbol", () => {
-  it("uses the ASHA symbol when there is one", () => {
-    expect(audiogramSymbol(axes())).toMatchObject({ kind: "asha", shape: "ac_right" });
+  it("uses the ASHA symbol when there is one, unaided", () => {
+    expect(audiogramSymbol(axes())).toMatchObject({
+      kind: "asha",
+      shape: "ac_right",
+      aided: false,
+      device: null,
+    });
   });
 
   it.each([
     ["diotic earphones", { ear: null }, "B"],
-    ["aided threshold", { ...soundField, aided: { right: aid, left: aid } }, "A"],
     ["MCL", { measure: "mcl" }, "M"],
-    ["aided MCL", { measure: "mcl", ...soundField, aided: { right: null, left: aid } }, "MA"],
+    ["aided MCL", { measure: "mcl", ...soundField, aided: { right: null, left: aid } }, "M"],
     ["UCL", { measure: "ucl", ear: "left" }, "U"],
-    ["aided UCL", { measure: "ucl", ...soundField, aided: { right: aid, left: null } }, "UA"],
+    ["aided UCL", { measure: "ucl", ...soundField, aided: { right: aid, left: null } }, "U"],
   ] as const)("%s → %s", (_, fields, letter) => {
     expect(audiogramSymbol(axes(fields))).toMatchObject({ kind: "extension", letter });
+  });
+
+  it.each([
+    [null, "sf_unspecified"],
+    ["right", "sf_right"],
+    ["left", "sf_left"],
+  ] as const)("draws an aided threshold, ear %s, as %s in a diamond", (ear, shape) => {
+    expect(
+      audiogramSymbol(axes({ ...soundField, ear, aided: { right: aid, left: aid } })),
+    ).toMatchObject({ kind: "asha", shape, aided: true, device: null });
+  });
+
+  it("marks aided MCL and UCL like aided thresholds", () => {
+    expect(
+      audiogramSymbol(axes({ measure: "mcl", ...soundField, aided: { right: aid, left: null } })),
+    ).toMatchObject({ aided: true });
+    expect(audiogramSymbol(axes({ measure: "mcl" }))).toMatchObject({ aided: false });
+  });
+
+  it("numbers the device from the second one on", () => {
+    const aided = (device?: number) =>
+      audiogramSymbol(axes({ ...soundField, aided: { right: aid, left: null }, device }));
+    expect(aided()?.device).toBeNull();
+    expect(aided(1)?.device).toBeNull();
+    expect(aided(3)?.device).toBe(3);
+    expect(audiogramSymbol(axes({ device: 2 }))?.device).toBeNull();
+  });
+
+  it.each([
+    ["aided under earphones", { aided: { right: aid, left: null } }],
+    ["device 0", { ...soundField, aided: { right: aid, left: null }, device: 0 }],
+    ["fractional device", { ...soundField, aided: { right: aid, left: null }, device: 2.5 }],
+  ] as const)("has no symbol for %s", (_, fields) => {
+    expect(audiogramSymbol(axes(fields))).toBeNull();
   });
 
   it("takes colour and arrow from the stimulated ear, not the aids worn", () => {
@@ -99,15 +137,5 @@ describe("audiogramSymbol", () => {
       );
     expect(aided(null)).toMatchObject({ ear: null, color: "green", no_response_arrow: "down" });
     expect(aided("left")).toMatchObject({ color: "blue", no_response_arrow: "down_right" });
-  });
-
-  it.each([
-    [{ right: aid, left: null }, "right"],
-    [{ right: null, left: aid }, "left"],
-    [{ right: aid, left: aid }, null],
-    [{ right: "cros_transmitter", left: "cros_receiver" }, "left_cros"],
-    [{ right: aid, left: "cros_transmitter" }, "right_cros"],
-  ] as const)("indexes aids %o as %s", (aided, index) => {
-    expect(audiogramSymbol(axes({ ...soundField, aided }))).toMatchObject({ aid_index: index });
   });
 });

@@ -1,15 +1,14 @@
-// Builds bundle/, organised by locale. Run with `pnpm bundle` (builds
-// dist/otoicons.js and the docs/ tables first).
+// Builds bundle/. Run with `pnpm bundle` (builds dist/otoicons.js and the
+// docs/ tables first).
 //
 // - bundle/README.md: how to use the bundle
 // - bundle/manifest.json: description of every file
 // - bundle/symbols.<locale>[.extended][.dark].{svg,png}: the docs/ tables
-// - bundle/<locale>/<theme>/<name>.{svg,png}: one file per symbol
+// - bundle/<theme>/<name>.{svg,png}: one file per symbol
 import { copyFileSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 import {
-  AID_INDEX_LETTERS,
   ASHA_SHAPES,
   SIDE_COLORS,
   noResponseArrow,
@@ -22,14 +21,16 @@ const LICENSE = "https://creativecommons.org/licenses/by/4.0/";
 const SIDES = { right: "right", left: "left", unspecified: null };
 const LOCALES = ["fr", "en", "de", "es", "it", "pt"];
 const THEMES = ["light", "dark"];
-const LETTERS = ["B", "A", "M", "MA", "U", "UA"];
-const AID_INDEXES = ["right", "left", "right_cros", "left_cros"];
-/** Aided letters: the only ones that take a subscript. */
-const AIDED_LETTERS = ["A", "MA", "UA"];
-/** Aided speech symbols: device numbers bundled; others are drawn at runtime. */
-const SPEECH_DEVICES = [1, 2, 3, 4];
+const LETTERS = ["B", "M", "U"];
+/** Letters that can be aided: MCL and UCL; diotic presentation never is. */
+const AIDED_LETTERS = ["M", "U"];
+/** Sound-field shapes: the only ASHA shapes that can be aided. */
+const AIDED_SHAPES = ["sf_right", "sf_left", "sf_unspecified"];
+/** Device numbers bundled for aided symbols; others are drawn at runtime. */
+const DEVICES = [1, 2, 3, 4];
+/** Canvas: the diamond (±17) and its arrow (down to 26) fit. */
 const HALF_W = 24;
-const HALF_H = 20;
+const HALF_H = 28;
 /** PNG scale: one SVG unit becomes this many pixels. */
 const SYMBOL_SCALE = 4;
 const TABLE_SCALE = 2;
@@ -58,7 +59,7 @@ for (const table of TABLES) {
   rasterize(table, TABLE_SCALE);
 }
 
-const file = (title, symbol, locale, theme) =>
+const file = (title, symbol, theme) =>
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${-HALF_W} ${-HALF_H} ${2 * HALF_W} ${2 * HALF_H}" width="${2 * HALF_W}" height="${2 * HALF_H}">
 <title>${title}</title>
 <metadata>
@@ -66,26 +67,32 @@ const file = (title, symbol, locale, theme) =>
 <cc:Work rdf:about=""><dc:title>${title}</dc:title><dc:creator>Benoit Delemps</dc:creator><dc:date>2026</dc:date><cc:license rdf:resource="${LICENSE}"/></cc:Work>
 </rdf:RDF>
 </metadata>
-${symbolSvg(symbol, { locale, theme, background: null })}
+${symbolSvg(symbol, { theme, background: null })}
 </svg>
 `;
 
-const common = (ear, noResponse) => ({
+const common = (ear, noResponse, device = null) => ({
   ear,
   color: sideColor(ear),
   no_response_arrow: noResponse ? noResponseArrow(ear) : null,
+  aided: device !== null,
+  device: device > 1 ? device : null,
 });
 
+/** Name part of an aided symbol: `aided` for device 1, `aided-<n>` from 2 on. */
+const aidedName = (device) => device && (device > 1 ? `aided-${device}` : "aided");
+const fileName = (...parts) => parts.filter(Boolean).join(".");
+
 const manifest = [];
-const write = (locale, theme, name, symbol) => {
-  const path = `${locale}/${theme}/${name}`;
-  mkdirSync(new URL(`${locale}/${theme}/`, out), { recursive: true });
-  writeFileSync(new URL(`${path}.svg`, out), file(name, symbol, locale, theme));
+const write = (theme, name, symbol) => {
+  const path = `${theme}/${name}`;
+  mkdirSync(new URL(`${theme}/`, out), { recursive: true });
+  writeFileSync(new URL(`${path}.svg`, out), file(name, symbol, theme));
   rasterize(`${path}.svg`, SYMBOL_SCALE);
-  const { kind, shape, letter, aid_index, ear, color, no_response_arrow } = symbol;
-  const files = { svg: `${path}.svg`, png: `${path}.png`, locale, theme, kind };
+  const { kind, shape, letter, ear, color, no_response_arrow, aided, device } = symbol;
+  const files = { svg: `${path}.svg`, png: `${path}.png`, theme, kind };
   if (kind === "speech") {
-    const { base, masked, competing_noise, sound_field, aided, device } = symbol;
+    const { base, masked, competing_noise, sound_field } = symbol;
     manifest.push({
       ...files,
       base,
@@ -101,10 +108,12 @@ const write = (locale, theme, name, symbol) => {
   }
   manifest.push({
     ...files,
-    ...(shape ? { shape } : { letter, aid_index }),
+    ...(shape ? { shape } : { letter }),
     ear,
     color,
     no_response: no_response_arrow !== null,
+    aided,
+    device,
   });
 };
 
@@ -112,41 +121,31 @@ const write = (locale, theme, name, symbol) => {
 const shapeEar = (shape) =>
   shape.includes("_right") ? "right" : shape.includes("_left") ? "left" : null;
 
-for (const locale of LOCALES)
-  for (const theme of THEMES) {
-    // ASHA shapes do not depend on the locale: every locale gets the full set.
-    for (const shape of Object.keys(ASHA_SHAPES))
-      for (const noResponse of [false, true])
-        write(locale, theme, [shape, noResponse && "no-response"].filter(Boolean).join("."), {
-          kind: "asha",
-          shape,
-          ...common(shapeEar(shape), noResponse),
-        });
-
-    for (const [side, ear] of Object.entries(SIDES))
-      for (const letter of LETTERS) {
-        // Diotic presentation is never lateralised.
-        if (letter === "B" && ear !== null) continue;
-        const indexes = AIDED_LETTERS.includes(letter) ? [null, ...AID_INDEXES] : [null];
-        for (const aid_index of indexes)
-          for (const noResponse of [false, true]) {
-            const name = [
-              letter,
-              side,
-              aid_index && `aid-${aid_index}`,
-              noResponse && "no-response",
-            ]
-              .filter(Boolean)
-              .join(".");
-            write(locale, theme, name, {
-              kind: "extension",
-              letter,
-              aid_index,
-              ...common(ear, noResponse),
-            });
-          }
-      }
+/** Pure-tone symbols: [name, symbol], unaided then aided (device numbers 1 to 4). */
+const toneSymbols = [];
+for (const noResponse of [false, true]) {
+  const nr = noResponse && "no-response";
+  for (const shape of Object.keys(ASHA_SHAPES)) {
+    const ear = shapeEar(shape);
+    const devices = AIDED_SHAPES.includes(shape) ? [null, ...DEVICES] : [null];
+    for (const device of devices)
+      toneSymbols.push([
+        fileName(shape, aidedName(device), nr),
+        { kind: "asha", shape, ...common(ear, noResponse, device) },
+      ]);
   }
+  for (const [side, ear] of Object.entries(SIDES))
+    for (const letter of LETTERS) {
+      // Diotic presentation is never lateralised.
+      if (letter === "B" && ear !== null) continue;
+      const devices = AIDED_LETTERS.includes(letter) ? [null, ...DEVICES] : [null];
+      for (const device of devices)
+        toneSymbols.push([
+          fileName(letter, side, aidedName(device), nr),
+          { kind: "extension", letter, ...common(ear, noResponse, device) },
+        ]);
+    }
+}
 
 /** Speech symbols, ISO 8253-3: every condition the standard defines, without material letter. */
 const SPEECH_SIDES = { right: "right", left: "left", binaural: null };
@@ -157,7 +156,7 @@ for (const [side, ear] of Object.entries(SPEECH_SIDES))
   for (const masked of [false, true])
     for (const transducer of ["earphones", "sound_field"])
       for (const competing_noise of [false, true])
-        for (const device of transducer === "sound_field" ? [null, ...SPEECH_DEVICES] : [null]) {
+        for (const device of transducer === "sound_field" ? [null, ...DEVICES] : [null]) {
           const symbol = speechSymbol({
             ear,
             masked,
@@ -167,22 +166,18 @@ for (const [side, ear] of Object.entries(SPEECH_SIDES))
             device: device ?? 1,
           });
           if (!symbol) continue;
-          const aided = device && (device > 1 ? `aided-${device}` : "aided");
-          const name = [
+          const name = fileName(
             "speech",
             side,
             masked && "masked",
             transducer === "sound_field" && "sound-field",
             competing_noise && "noise",
-            aided,
-          ]
-            .filter(Boolean)
-            .join(".");
+            aidedName(device),
+          );
           speechConditions.push([name, symbol]);
         }
-for (const locale of LOCALES)
-  for (const theme of THEMES)
-    for (const [name, symbol] of speechConditions) write(locale, theme, name, symbol);
+for (const theme of THEMES)
+  for (const [name, symbol] of [...toneSymbols, ...speechConditions]) write(theme, name, symbol);
 
 await Promise.all(rasters);
 
@@ -225,10 +220,6 @@ const SHAPE_LABELS = {
 const shapes = Object.keys(ASHA_SHAPES)
   .map((shape) => `| \`${shape}\` | ${SHAPE_LABELS[shape]} |`)
   .join("\n");
-const indexLetters = LOCALES.map((locale) => {
-  const l = AID_INDEX_LETTERS[locale];
-  return `| \`${locale}\` | ${l.right} | ${l.left} | ${l.right_cros} | ${l.left_cros} |`;
-}).join("\n");
 const palette = THEMES.map(
   (theme) =>
     `| \`${theme}\` | \`${SIDE_COLORS[theme].red}\` | \`${SIDE_COLORS[theme].blue}\` | \`${SIDE_COLORS[theme].green}\` |`,
@@ -246,7 +237,8 @@ One file per symbol, in SVG and PNG: for pure tones, the ASHA symbols
 ("Guidelines for Audiometric Symbols", 1990) and their extension to the
 measurements the standard does not cover (aided measurements, MCL, UCL,
 diotic presentation); for the speech audiogram, the symbols of
-ISO 8253-3:2022, table C.3.
+ISO 8253-3:2022, table C.3. Aided symbols follow one rule on both
+audiograms: the ISO 8253-3 diamond, with a device number.
 
 ![Audiometric symbols](symbols.en.svg)
 
@@ -258,43 +250,42 @@ ISO 8253-3:2022, table C.3.
    no-response arrow.
 2. **Completes ASHA the way ASHA asks.** The standard leaves aided conditions
    to "locally determined symbols", distinct from all others and defined on
-   the audiogram. The extension provides them, together with MCL, UCL and
-   diotic presentation, and documents them in every table.
-3. **Aided side at a glance.** A subscript tells whether the right aid, the
-   left aid or both were worn.
-4. **CROS and BiCROS.** The subscript names the receiver side and marks the
-   contralateral transmitter's microphone.
-5. **One colour, one rule.** Colour always means the stimulated side — red
+   the audiogram. The extension takes them from ISO 8253-3, and adds MCL, UCL
+   and diotic presentation.
+3. **One aided rule.** On the pure-tone and the speech audiogram alike, a
+   diamond around the symbol means aided; from the second device or fitting
+   on, its number stands at the right, defined in the legend.
+4. **One colour, one rule.** Colour always means the stimulated side — red
    right, blue left, green not lateralised — aided or not, so it reads the
    same everywhere on the audiogram.
-6. **Constant contrast.** Each colour is tuned to the same 5:1 WCAG contrast
+5. **Constant contrast.** Each colour is tuned to the same 5:1 WCAG contrast
    against its background: no side outweighs another, and legibility does
    not depend on the theme.
-7. **Light and dark themes.** Identical shapes, a palette for each background.
-8. **Multilingual.** ${LOCALES.length} locales (${LOCALES.map((l) => `\`${l}\``).join(", ")}). Symbols and
-   letters are shared; only the subscript initials follow the language, and
-   every locale has its own illustrative table.
-9. **Vector and raster.** SVG for any size, PNG at ${SYMBOL_SCALE}× for tools that need
+6. **Light and dark themes.** Identical shapes, a palette for each background.
+7. **Language-free symbols, translated tables.** No symbol depends on the
+   language; the illustrative tables come in ${LOCALES.length} locales
+   (${LOCALES.map((l) => `\`${l}\``).join(", ")}).
+8. **Vector and raster.** SVG for any size, PNG at ${SYMBOL_SCALE}× for tools that need
    images; symbols and tables alike.
-10. **Ready to place.** Each file is centred on the measurement point, on a
+9. **Ready to place.** Each file is centred on the measurement point, on a
     transparent background; \`manifest.json\` describes every file for
     automated use.
-11. **Speech audiometry.** The speech audiogram symbols of ISO 8253-3:2022:
+10. **Speech audiometry.** The speech audiogram symbols of ISO 8253-3:2022:
     right, left and binaural, contralateral masking, competing noise, sound
     field and hearing aids, with the same colours as for pure tones.
-12. **Open.** Released under CC BY 4.0.
+11. **Open.** Released under CC BY 4.0.
 
 ## Layout
 
 \`\`\`
-<locale>/<theme>/<name>.svg       one symbol, vector
-<locale>/<theme>/<name>.png       the same symbol, raster
+<theme>/<name>.svg                one symbol, vector
+<theme>/<name>.png                the same symbol, raster
 symbols.<locale>[.extended][.dark].svg|png   illustrative tables
 manifest.json                     description of every file
 \`\`\`
 
-- **Locales**: ${LOCALES.map((l) => `\`${l}\``).join(", ")}. Only the subscript
-  letters change from one locale to another; every folder holds the full set.
+- **Locales**: the tables only (${LOCALES.map((l) => `\`${l}\``).join(", ")}); symbols are
+  the same in every language.
 - **Themes**: \`light\` for a light background, \`dark\` for a dark one. Shapes
   are identical; only the palette changes.
 - **Formats**: SVG for any size; PNG at ${SYMBOL_SCALE}× (${2 * HALF_W * SYMBOL_SCALE} × ${2 * HALF_H * SYMBOL_SCALE} px)
@@ -304,30 +295,30 @@ manifest.json                     description of every file
 
 | Symbol | File name |
 |---|---|
-| ASHA symbol | \`<shape>[.no-response]\` — e.g. \`ac_right\`, \`bc_mastoid_left_masked.no-response\` |
-| Extension | \`<letter>.<side>[.aid-<subscript>][.no-response]\` — e.g. \`A.unspecified.aid-right\` |
+| ASHA symbol | \`<shape>[.aided[-<n>]][.no-response]\` — e.g. \`ac_right\`, \`sf_unspecified.aided-2\` |
+| Extension | \`<letter>.<side>[.aided[-<n>]][.no-response]\` — e.g. \`M.left.aided\` |
 | Speech | \`speech.<ear>[.masked][.sound-field][.noise][.aided[-<n>]]\` — e.g. \`speech.left.sound-field.noise.aided-2\` |
 
 - **Side**: \`right\`, \`left\` or \`unspecified\`. This is the stimulated side;
   it sets the colour and the direction of the arrow.
-- **Extension letters**: \`A\` aided threshold, \`M\`/\`MA\` unaided/aided MCL,
-  \`U\`/\`UA\` unaided/aided UCL, \`B\` diotic presentation under earphones
-  (always \`unspecified\`).
-- **Subscript** (\`A\`, \`MA\`, \`UA\` only): \`aid-right\`/\`aid-left\` for a right/left
-  aid only; \`aid-right_cros\`/\`aid-left_cros\` for a CROS or BiCROS with the
-  receiver on the right/left. No subscript: two hearing aids.
+- **Extension letters**: \`M\` MCL, \`U\` UCL, \`B\` diotic presentation under
+  earphones (always \`unspecified\`).
+- **Aided** (ISO 8253-3 diamond): \`.aided\` for the first device or fitting,
+  \`.aided-<n>\` for device ${DEVICES.slice(1).join(", ")}, with its number at the right; define
+  the numbers on the audiogram. An aided threshold is the sound-field shape
+  of the ear (\`sf_right\`, \`sf_left\`, \`sf_unspecified\`) in the diamond; aided
+  MCL and UCL are \`M\` and \`U\` in the diamond.
 - **\`.no-response\`**: with the no-response arrow.
 - **Speech** (ISO 8253-3:2022, table C.3): ear \`right\` (O), \`left\` (X) or
   \`binaural\` (B, diotic or dichotic under earphones); \`.masked\` contralateral
   masking (filled triangle, never binaural); \`.sound-field\` (line above);
-  \`.noise\` competing noise (line below); \`.aided\` hearing aid (diamond,
-  sound field only), \`.aided-<n>\` device ${SPEECH_DEVICES.slice(1).join(", ")} with its number at the
-  right. Device numbers, and the speech material letter that \`symbolSvg\`
-  draws at the left, are defined on the audiogram.
+  \`.noise\` competing noise (line below); \`.aided[-<n>]\` as above (sound
+  field only). The speech material letter, drawn at the left by \`symbolSvg\`,
+  is not bundled.
 
-\`manifest.json\` describes every file (locale, theme, shape or letter,
-subscript, side, colour, no response, or the speech modifiers; SVG and PNG
-paths): it is the entry point for automated use.
+\`manifest.json\` describes every file (theme, shape, letter or speech base,
+side, colour, aided and device number, no response or the speech modifiers;
+SVG and PNG paths): it is the entry point for automated use.
 
 ### ASHA shapes
 
@@ -335,19 +326,13 @@ paths): it is the entry point for automated use.
 |---|---|
 ${shapes}
 
-### Subscript letters per locale
-
-| Locale | Right aid only | Left aid only | CROS, right receiver | CROS, left receiver |
-|---|---|---|---|---|
-${indexLetters}
-
 ## Placing a symbol
 
 - **The measurement point is the centre of the image**: align it with the
   frequency × level intersection.
 - **Size**: the shape fits in about 20 × 20 units of the ${2 * HALF_W} × ${2 * HALF_H} SVG image
-  (${20 * SYMBOL_SCALE} × ${20 * SYMBOL_SCALE} px in PNG), 34 × 34 for an aided speech symbol; scale it to
-  your grid. On a speech audiogram, the centre is the level × score point.
+  (${20 * SYMBOL_SCALE} × ${20 * SYMBOL_SCALE} px in PNG), 34 × 34 with the aided diamond; scale it
+  to your grid. On a speech audiogram, the centre is the level × score point.
 - **Transparent background**: nothing hides the grid under the symbol. To
   interrupt the grid lines, as the standard does, mask the area in your
   software.
@@ -377,8 +362,8 @@ ${tables}
 The files in this bundle are released under [CC BY 4.0](${LICENSE}):
 © 2026 Benoit Delemps. Every SVG file carries this notice in its metadata.
 
-The license covers the presentation and the extension (letters, subscripts,
-conventions), not the symbols nor the text of the ASHA guidelines or of
+The license covers the presentation and the extension (letters, aided
+marking, conventions), not the symbols nor the text of the ASHA guidelines or of
 ISO 8253-3, cited as the sources. This bundle is neither published nor
 endorsed by ASHA or ISO.
 `,

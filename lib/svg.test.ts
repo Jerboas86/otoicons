@@ -1,4 +1,6 @@
 import {
+  AIDED_DIAMOND,
+  ASHA_SHAPES,
   SIDE_COLORS,
   THEME_BACKGROUNDS,
   audiogramSymbol,
@@ -7,6 +9,7 @@ import {
   type Theme,
 } from "./index.js";
 
+const unaided = { right: null, left: null };
 const aidedLeft: SymbolAxes = {
   measure: "threshold",
   transducer: "sound_field",
@@ -32,12 +35,19 @@ describe("symbolSvg", () => {
     expect(svg).toContain('fill="#000"');
   });
 
-  it("writes the aid subscript in the requested language, with the no-response arrow", () => {
-    const symbol = audiogramSymbol(aidedLeft)!;
-    expect(symbolSvg(symbol)).toContain(">G</text>");
-    expect(symbolSvg(symbol, { locale: "en" })).toContain(">L</text>");
-    expect(symbolSvg(symbol, { locale: "it" })).toContain(">S</text>");
-    expect(symbolSvg(symbol).match(/<path /g)).toHaveLength(1);
+  it("surrounds an aided symbol with the diamond, number and arrow from its edge", () => {
+    const svg = symbolSvg(audiogramSymbol({ ...aidedLeft, device: 2 })!);
+    expect(svg).toContain(`d="${AIDED_DIAMOND}" fill="${THEME_BACKGROUNDS.light}"`);
+    expect(svg).toContain(`d="${ASHA_SHAPES.sf_left}"`);
+    expect(svg).toMatch(/text-anchor="start">2<\/text>/);
+    expect(svg).not.toContain("paint-order");
+    expect(svg).toContain('d="M8.5 8.5L15.5 15.5');
+  });
+
+  it("draws the extension letters with their halo and arrow", () => {
+    const svg = symbolSvg(audiogramSymbol({ ...aidedLeft, measure: "ucl", aided: unaided })!);
+    expect(svg).toMatch(/paint-order="stroke"[^>]*>U<\/text>/);
+    expect(svg).toContain('d="M4.32 4.32L11.32 11.32');
   });
 
   it("leaves the symbol transparent without a background", () => {
@@ -51,9 +61,12 @@ describe("symbolSvg", () => {
       })!,
       { background: null },
     );
-    const letter = symbolSvg(audiogramSymbol(aidedLeft)!, { background: null });
+    const aided = symbolSvg(audiogramSymbol({ ...aidedLeft, measure: "mcl" })!, {
+      background: null,
+    });
     expect(closed).not.toContain('fill="#');
-    expect(letter).not.toContain("paint-order");
+    expect(aided).not.toContain(`fill="${THEME_BACKGROUNDS.light}"`);
+    expect(aided).not.toContain("paint-order");
   });
 
   it("takes the palette and the default background from the theme", () => {

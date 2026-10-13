@@ -1,4 +1,11 @@
-import { SPEECH_MARKS, SIDE_COLORS, speechSymbol, symbolSvg, type SpeechAxes } from "./index.js";
+import {
+  AIDED_DIAMOND,
+  SPEECH_MARKS,
+  SIDE_COLORS,
+  speechSymbol,
+  symbolSvg,
+  type SpeechAxes,
+} from "./index.js";
 
 const axes = (fields: Partial<SpeechAxes> = {}): SpeechAxes => ({
   transducer: "earphones",
@@ -83,7 +90,7 @@ describe("symbolSvg, speech", () => {
     expect(svg({ ear: null, transducer: "sound_field" })).toContain(
       `d="${SPEECH_MARKS.sound_field_B}"`,
     );
-    expect(svg({ ...aidedSoundField }, "#000")).toContain(`d="${SPEECH_MARKS.aided}" fill="#000"`);
+    expect(svg({ ...aidedSoundField }, "#000")).toContain(`d="${AIDED_DIAMOND}" fill="#000"`);
   });
 
   it("writes the device number at the right and the material letter at the left", () => {
